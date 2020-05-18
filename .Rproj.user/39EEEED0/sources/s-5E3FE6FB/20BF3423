@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2742372195",
+    "hash" : "0",
     "id" : "20BF3423",
-    "lastKnownWriteTime" : 1589836864,
-    "last_content_update" : 1589836864120,
+    "lastKnownWriteTime" : 1589839512,
+    "last_content_update" : 1589839512680,
     "path" : "~/Documents/dewlap/analyses/07-ANOVA/ANOVA.R",
     "project_path" : "analyses/07-ANOVA/ANOVA.R",
     "properties" : {
-        "cursorPosition" : "237,0",
-        "scrollLine" : "227"
+        "cursorPosition" : "244,0",
+        "scrollLine" : "224"
     },
     "relative_order" : 1,
     "source_on_save" : false,

@@ -128,9 +128,17 @@ p <- data %>%
 # 3.2. Add ANOVA P-values
 
 # Prepare P-value dataset
-p_anova <- res_anova$res %>%
-  rename(island = "nesting") %>%
-  mutate(plabel = round(pvalue, 4) %>% paste("P =", .)) %>%
+p_anova <- res_anova$res %>% rename(island = "nesting")
+
+# Replace with KW where applicable
+p_kw <- t3 %>% select(island, variable, pvalue)
+
+p_anova <- p_anova %>%
+  full_join(p_kw %>% group_by(island, variable) %>% nest()) %>%
+  mutate(pvalue = map2_dbl(pvalue, data, ~ if (is.null(.y)) .x else .y$pvalue)) %>%
+  select(-data)
+
+p_anova <- p_anova %>% mutate(plabel = round(pvalue, 4) %>% paste("P =", .)) %>%
   mutate(plabel = ifelse(pvalue < 0.0001, "P < 0.0001", plabel)) %>%
   mutate(plabel = ifelse(pvalue < 0.05, str_replace(plabel, "$", "*"), plabel))
 
