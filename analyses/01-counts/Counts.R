@@ -2,9 +2,9 @@
 
 rm(list = ls())
 
-library(knitr)
+library(dewlap)
 
 data <- read.csv("data/reflectance.csv", header = TRUE)
 tab <- table(data$island, data$habitat)
 
-save_table(tab, "table_counts")
+save_table(tab, "analyses/01-counts/table_counts")
