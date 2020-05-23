@@ -12,7 +12,6 @@ RoxygenNote: 7.1.0
 Roxygen: list(markdown = TRUE)
 Imports:
   knitr
-Suggests:
   dplyr,
   tidyr,
   ggplot2,
@@ -22,6 +21,7 @@ Suggests:
   GGally,
   MANOVA.RM,
   heplots,
+Suggests:
   RColorBrewer
 Remotes:
   rscherrer/nmgc
