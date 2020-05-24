@@ -3,7 +3,6 @@ rm(list = ls())
 library(nmgc)
 library(tidyverse)
 library(cowplot)
-library(knitr)
 
 data <- read.csv("data/reflectance.csv", header = TRUE)
 
@@ -44,19 +43,12 @@ p <- plot_classif(res, facets = "island")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
 ggsave("classif_svm_pca.png", height = 6, width = 9, dpi = 300)
 
-write.csv(res$mean, "table_classif_svm_pca.csv", row.names = FALSE)
+fname <- "analyses/04-machine learning/table_classif_%s"
+colnames <- c("Island", "Accuracy", "N", "$p_{\\mbox{test}}$", "$n_{\\mbox{test}}$", "$P$", "")
 
-# Latex table
-latex <- res$mean
-head(latex)
-latex <- latex %>%
-  mutate(signif = ifelse(pvalue < 0.05, "*", "")) %>%
-  mutate(signif = ifelse(pvalue < 0.01, "**", signif))
-colnames(latex)[colnames(latex) == "signif"] <- ""
-latex <- kable(latex, digits = c(0, 3, 0, 1, 0, 4), format = "latex")
-texfile <- file("table_classif_svm_pca.tex")
-writeLines(latex, texfile)
-close(texfile)
+t1 <- res$mean
+t1_fname <- sprintf(fname, "svm_pca")
+save_table(t1, t1_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -82,19 +74,9 @@ p <- plot_classif(res, facets = "island", fill = "coral")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
 ggsave("classif_lda_pca.png", height = 6, width = 9, dpi = 300)
 
-write.csv(res$mean, "table_classif_lda_pca.csv", row.names = FALSE)
-
-# Latex table
-latex <- res$mean
-head(latex)
-latex <- latex %>%
-  add_signif() %>%
-  mutate(pvalue = ifelse(pvalue < 0.0001, "< 0.0001", pvalue))
-colnames(latex)[colnames(latex) == "signif"] <- ""
-latex <- kable(latex, digits = c(0, 3, 0, 1, 0, 4), format = "latex")
-texfile <- file("table_classif_lda_pca.tex")
-writeLines(latex, texfile)
-close(texfile)
+t2 <- res$mean
+t2_fname <- sprintf(fname, "lda_pca")
+save_table(t2, t2_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -123,20 +105,9 @@ p <- plot_classif(res, facets = "island")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
 ggsave("classif_svm_refl.png", height = 6, width = 9, dpi = 300)
 
-write.csv(res$mean, "table_classif_svm_refl.csv", row.names = FALSE)
-
-# Latex table
-latex <- res$mean
-head(latex)
-latex <- latex %>%
-  add_signif() %>%
-  mutate(pvalue = ifelse(pvalue < 0.0001, "< 0.0001", pvalue))
-colnames(latex)[colnames(latex) == "signif"] <- ""
-latex <- kable(latex, digits = c(0, 3, 0, 1, 0, 4), format = "latex")
-texfile <- file("table_classif_svm_refl.tex")
-writeLines(latex, texfile)
-close(texfile)
-
+t3 <- res$mean
+t3_fname <- sprintf(fname, "svm_refl")
+save_table(t3, t3_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -164,19 +135,9 @@ p <- plot_classif(res, facets = "island", fill = "coral")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
 ggsave("classif_lda_refl.png", height = 6, width = 9, dpi = 300)
 
-write.csv(res$mean, "table_classif_lda_refl.csv", row.names = FALSE)
-
-# Latex table
-latex <- res$mean
-head(latex)
-latex <- latex %>%
-  add_signif() %>%
-  mutate(pvalue = ifelse(pvalue < 0.0001, "< 0.0001", pvalue))
-colnames(latex)[colnames(latex) == "signif"] <- ""
-latex <- kable(latex, digits = c(0, 3, 0, 1, 0, 4), format = "latex")
-texfile <- file("table_classif_lda_refl.tex")
-writeLines(latex, texfile)
-close(texfile)
+t4 <- res$mean
+t4_fname <- sprintf(fname, "lda_refl")
+save_table(t4, t4_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -214,7 +175,9 @@ confplot <- plot_classif(res, type = "confusion") +
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
 ggsave("classif_svm_pca_pooled.png", height = 3, width = 6, dpi = 300)
 
-write.csv(res$mean, "table_classif_svm_pca_pooled.csv", row.names = FALSE)
+t5 <- res$mean
+t5_fname <- sprintf(fname, "svm_pca_pooled")
+save_table(t5, t5_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -243,7 +206,9 @@ confplot <- plot_classif(res, type = "confusion") +
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
 ggsave("classif_lda_pca_pooled.png", height = 3, width = 6, dpi = 300)
 
-write.csv(res$mean, "table_classif_lda_pca_pooled.csv", row.names = FALSE)
+t6 <- res$mean
+t6_fname <- sprintf(fname, "lda_pca_pooled")
+save_table(t6, t6_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -275,7 +240,9 @@ confplot <- plot_classif(res, type = "confusion") +
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
 ggsave("classif_svm_refl_pooled.png", height = 3, width = 6, dpi = 300)
 
-write.csv(res$mean, "table_classif_svm_refl_pooled.csv", row.names = FALSE)
+t7 <- res$mean
+t7_fname <- sprintf(fname, "svm_refl_pooled")
+save_table(t7, t7_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%
@@ -304,7 +271,9 @@ confplot <- plot_classif(res, type = "confusion") +
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
 ggsave("classif_lda_refl_pooled.png", height = 3, width = 6, dpi = 300)
 
-write.csv(res$mean, "table_classif_lda_refl_pooled.csv", row.names = FALSE)
+t8 <- res$mean
+t8_fname <- sprintf(fname, "lda_refl_pooled")
+save_table(t8, t8_fname, digits = c(0, 3, 0, 1, 0, 4, 0), col.names = colnames)
 
 res$imp %>%
   gather_("variable", "importance", variables) %>%

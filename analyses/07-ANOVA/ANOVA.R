@@ -44,7 +44,9 @@ res_smanova <- nanova(
 )
 
 t1 <- res_smanova$res
-save_table(t1, "table_smanova", digits = c(0, 1, 4, 0))
+t1_fname <- "analyses/07-ANOVA/table_smanova"
+t1_names <- c("Island", "MATS", "$P$", "")
+save_table(t1, t1_fname, digits = c(0, 1, 4, 0), col.names = t1_names)
 
 #### 2. Multiple ANOVAs on significant islands ####
 
@@ -64,10 +66,17 @@ res_anova <- nanova(
 # colinear with our grouping variable
 
 t2 <- res_anova$res
-save_table(t2, "table_anova", digits = c(0, 0, 0, 0, 1, 1, 3, 0, 1, 2, 4, 0))
+t2_fname <- "analyses/07-ANOVA/table_anova"
+t2_names <- c(
+  "Island", "Variable", "Best fit", "df", "AICc", "$\\Delta$AICc", "AICcw",
+  "df$_{\\mbox{LRT}}$", "Log-lik.", "$\\chi^2$", "$P$", ""
+)
+save_table(t2, t2_fname, digits = c(0, 0, 0, 0, 1, 1, 3, 0, 1, 2, 4, 0), col.names = t2_names)
 
 t2. <- res_anova$ph
-save_table(t2., "table_posthoc", digits = c(0, 0, 0, 0, 0, 2, 4, 0))
+t2._fname <- "analyses/07-ANOVA/table_posthoc"
+t2._names <- c("Island", "Variable", "Test", "Contrast", "", "Statistic", "$P$", "")
+save_table(t2., t2._fname, digits = c(0, 0, 0, 0, 0, 2, 4, 0), col.names = t2._names)
 
 # 2.2. Kruskal-Wallis tests wherever normality is not met
 
@@ -92,7 +101,9 @@ t3 <- res_kw$res %>%
   select(-dev) %>%
   drop_na()
 
-save_table(t3, "table_kw", digits = c(0, 0, 2, 0, 4, 0))
+t3_fname <- "analyses/07-ANOVA/table_kw"
+t3_names <- c("Island", "Variable", "$\\chi^2$", "df", "$P$", "")
+save_table(t3, t3_fname, digits = c(0, 0, 2, 0, 4, 0), col.names = t3_names)
 
 t3. <- res_kw$ph %>%
   rename(island = "nesting") %>%
@@ -101,7 +112,9 @@ t3. <- res_kw$ph %>%
   select(-dev) %>%
   drop_na()
 
-save_table(t3., "table_postkw", digits = c(0, 0, 0, 0, 0, 2, 4, 0))
+t3._fname <- "analyses/07-ANOVA/table_postkw"
+t3._names <- c("Island", "Variable", "Test", "Contrast", "", "Statistic", "$P$", "")
+save_table(t3., t3._fname, digits = c(0, 0, 0, 0, 0, 2, 4, 0), col.names = t3._names)
 
 #### 3. Plot the results ####
 

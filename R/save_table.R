@@ -16,7 +16,6 @@ save_table <- function(tab, nm, ...) {
   write.csv(tab, paste0(nm, ".csv"), row.names = FALSE)
 
   # Save LaTeX table
-  if (is.null(col_names)) col_names <- NA
   tab <- knitr::kable(
     tab, "latex", booktabs = TRUE, linesep = "", escape = FALSE, ...
   )

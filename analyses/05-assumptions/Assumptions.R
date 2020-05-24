@@ -67,10 +67,12 @@ t7 <- t7 %>%
   nest() %>%
   right_join(t5) %>%
   filter(pvalue < 0.05) %>%
-  select(island, habitat, data) %>%
+  dplyr::select(island, habitat, data) %>%
   unnest(cols = c(data))
 
-save_table(t7, "table_normality", digits = c(0, 0, 0, 3, 4, 0))
+t7_names <- c("Island", "Habitat", "Variable", "$W$", "$P$", "")
+t7_fname <- sprintf(fname, "normality")
+save_table(t7, t7_fname, digits = c(0, 0, 0, 3, 4, 0), col.names = t7_names)
 
 # 2.4. Heterogeneity of variances
 t8 <- test_covariance(data, variables, grouping = "habitat", nesting = "island", univariate = TRUE)
@@ -82,10 +84,12 @@ t8 <- t8 %>%
   nest() %>%
   right_join(t6) %>%
   filter(pvalue < 0.05) %>%
-  select(island, data) %>%
+  dplyr::select(island, data) %>%
   unnest(cols = c(data))
 
-save_table(t8, "table_homoskedasticity", digits = c(0, 0, 3, 0, 4, 0))
+t8_names <- c("Island", "Variable", "$K^2$", "df", "$P$", "")
+t8_fname <- sprintf(fname, "homoskedasticity")
+save_table(t8, t8_fname, digits = c(0, 0, 0, 3, 4, 0), col.names = t8_names)
 
 # 3. Outliers
 

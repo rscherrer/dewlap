@@ -4,14 +4,14 @@
 \alias{save_table}
 \title{Save tables for this study}
 \usage{
-save_table(tab, nm, digits = 0, col_names = NULL)
+save_table(tab, nm, ...)
 }
 \arguments{
 \item{tab}{The table}
 
 \item{nm}{File name (without the extension)}
 
-\item{digits, col_names}{Parameters for `knitr::kable`}
+\item{...}{Extra parameters for \code{knitr::kable}}
 }
 \value{
 Nothing. Just saves.

@@ -16,12 +16,12 @@ res_cortest <- nspcortest(
 # Save table
 t1 <- res_cortest$res
 t1 <- t1 %>% add_signif()
-save_table(t1, "table_spatial", digits = c(0, 3, 3, 0))
+t1_fname <- "analyses/08-spatial correlation/table_spatial"
+t1_names <- c("Island", "$r^2$", "$P$", "N", "")
+save_table(t1, t1_fname, digits = c(0, 3, 3, 0), col.names = t1_names)
 
 # Table with multivariate means per site
-res_cortest$sites
-write.csv(res_cortest$sites, "table_sites.csv", row.names = FALSE)
-
-# Make a Latex table
 t2 <- res_cortest$sites
-save_table(t2, "table_sites", digits = c(0, 4, 4, 0, 4, 4, 4, 4))
+t2_fname <- "analyses/08-spatial correlation/table_sites"
+t2_names <- c("Island", "Longitude", "Latitude", "Habitat", "PC1", "PC2", "PC3", "PC4")
+save_table(t2, t2_fname, digits = c(0, 4, 4, 0, 4, 4, 4, 4), col.names = t2_names)

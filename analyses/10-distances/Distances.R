@@ -1,16 +1,16 @@
-# Welcome to hell...
-
 rm(list = ls())
 
 # Here we explore the distances at which differences between sites are detected
 
 library(tidyverse)
 library(nmgc)
+library(RColorBrewer)
 
 data <- read.csv("data/reflectance.csv", header = TRUE)
 wl <- paste0("wl", 300:700)
 variables <- paste0("PC", 1:4)
 data <- cbind(data, npcomp(data, wl, nesting = "island", reduce = 1:4)$x)
+data <- data[, -grep("island", colnames(data))[2]]
 
 # Kepp only the most significant islands
 keep <- c("Abaco", "Bimini", "Cayman Brac", "Little Cayman", "Long Island")
@@ -141,4 +141,6 @@ label <- sprintf(label, res_spearman$rho, res_spearman$pvalue)
 t1 <- res_wilcox %>% select(-U, -pvalue)
 t1 <- t1 %>% bind_cols(res_wilcox %>% ungroup %>% select(U, pvalue))
 t1 <- t1 %>% add_signif()
-save_table(t1, "table_wilcoxon", digits = c(0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 4))
+t1_fname <- "analyses/10-distances/table_wilcoxon"
+t1_names <- c("Island", "Variable", "Contrast", "", "Lon. 1", "Lat. 1", "Lon. 2", "Lat. 2", "Distance (m)", "$U$", "$P$", "")
+save_table(t1, t1_fname, digits = c(0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 4), col.names = t1_names)

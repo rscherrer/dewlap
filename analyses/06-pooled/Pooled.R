@@ -13,7 +13,6 @@ wl <- paste0("wl", 300:700)
 variables <- paste0("PC", 1:4)
 
 data <- cbind(data, data.frame(npcomp(data, wl)$x)[, variables])
-data <- cbind(data, pca)
 
 #### 1. Eyeball ####
 
@@ -74,10 +73,10 @@ etasq(res_manova)
 # 2.3. Semi-parametric MANOVA
 
 # We know, however that there are deviations from multivariate normality...
-read.csv("analyses/assumptions/table_multinorm_pooled.csv", header = TRUE)
+read.csv("analyses/05-assumptions/table_multinorm_pooled.csv", header = TRUE)
 
 # and homogeneity of covariance matrices
-read.csv("analyses/assumptions/table_covariance_pooled.csv", header = TRUE)
+read.csv("analyses/05-assumptions/table_covariance_pooled.csv", header = TRUE)
 
 # So we repeat the analysis with a semi-parametric MANOVA
 
@@ -93,10 +92,10 @@ res_manova2
 # But first we assess normality and homogeneity of variances
 
 # There is evidence for non-normality for all variables ...
-read.csv("analyses/assumptions/table_normality_pooled.csv", header = TRUE)
+read.csv("analyses/05-assumptions/table_normality_pooled.csv", header = TRUE)
 
 # and no evidence for heterogeneity of variance
-read.csv("analyses/assumptions/table_variance_pooled.csv", header = TRUE)
+read.csv("analyses/05-assumptions/table_variance_pooled.csv", header = TRUE)
 
 # 3.1 Univariate ANOVAs
 
@@ -107,14 +106,21 @@ res_nanova <- nanova(
   parametric = TRUE
 )
 t1 <- res_nanova$res[, -1]
-save_table(t1, "table_anova_pooled", digits = c(0, 0, 0, 1, 1, 3, 0, 1, 2, 4, 0))
+t1_fname <- "analyses/06-pooled/table_anova_pooled"
+t1_names <- c(
+  "Variable", "Best fit", "df", "AICc", "$\\Delta$AICc", "AICcw",
+  "df$_{\\mbox{LRT}}$", "Log-lik.", "$\\chi^2$", "$P$", ""
+)
+save_table(t1, t1_fname, digits = c(0, 0, 0, 1, 1, 3, 0, 1, 2, 4, 0), col.names = t1_names)
 
 # Mixed models were always the best fit. They indicate significant differences,
 # after accounting for the effect of islands, along PC1, 2 and 3
 # But the differences are so small that posthoc tests could not identify what
 # groups differ
 t2 <- res_nanova$ph[, -1]
-save_table(t2, "table_posthoc_pooled", digits = c(0, 0, 0, 0, 3, 4, 0))
+t2_fname <- "analyses/06-pooled/table_posthoc_pooled"
+t2_names <- c("Variable", "Test", "Contrast", "", "Statistic", "$P$", "")
+save_table(t2, t2_fname, digits = c(0, 0, 0, 0, 3, 4, 0), col.names = t2_names)
 
 # 3.2. Kruskal-Wallis tests
 
@@ -126,10 +132,14 @@ res_kw <- nanova(
 res_kw
 
 t3 <- res_kw$res[, -1]
-save_table(t3, "table_kw_pooled", digits = c(0, 2, 0, 4, 0))
+t3_fname <- "analyses/06-pooled/table_kw_pooled"
+t3_names <- c("Variable", "$\\chi^2$", "df", "$P$", "")
+save_table(t3, t3_fname, digits = c(0, 2, 0, 4, 0), col.names = t3_names)
 
 t4 <- res_kw$ph[, -1]
-save_table(t4, "table_postkw_pooled", digits = c(0, 0, 0, 0, 2, 4, 0))
+t4_fname <- "analyses/06-pooled/table_postkw_pooled"
+t4_names <- c("Variable", "Test", "Contrast", "", "Statistic", "$P$", "")
+save_table(t4, t4_fname, digits = c(0, 0, 0, 0, 2, 4, 0), col.names = t4_names)
 
 # There seems indeed to be small differences along PC2, and this seems to
 # be due to mangroves having higher scores than coastal
