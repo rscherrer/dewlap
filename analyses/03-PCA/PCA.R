@@ -2,6 +2,7 @@ rm(list = ls())
 
 # Exploration of the principal component analysis
 
+library(dewlap)
 library(nmgc)
 library(tidyverse)
 
@@ -52,7 +53,7 @@ t1 <- res_cor
 t1 <- t1 %>%
   add_signif() %>%
   mutate(pvalue = ifelse(pvalue < 0.0001, "< 0.0001", pvalue))
-col.names <- c("Island", "$R^2$", "$P$", "")
+col.names <- c("Island", "$r^2$", "$P$", "")
 save_table(
   t1, "analyses/03-PCA/table_brightness", digits = c(0, 3, 0),
   col.names = col.names, align = "lrrl"
@@ -76,7 +77,7 @@ res_cor <- res_cor %>%
   mutate(plabel = ifelse(pvalue < 0.05, str_replace(plabel, "$", "*"), plabel))
 p + geom_text(
   data = res_cor %>% filter(island != "Archipelago"),
-  aes(label = paste0("R\U000B2 = ", r2, "\n", plabel)), x = 40, y = -25, hjust = 1
+  aes(label = paste0("r\U000B2 = ", r2, "\n", plabel)), x = 40, y = -25, hjust = 1
 )
 
 ggsave("figure_brightness.png", width = 6, height = 6, dpi = 300)
@@ -90,7 +91,7 @@ data %>%
   xlab("Brightness (mean reflectance, %)") +
   geom_text(
     data = res_cor %>% filter(island == "Archipelago"),
-    aes(label = paste0("R\U000B2 = ", r2, "\n", plabel)), x = 40, y = -25, hjust = 1
+    aes(label = paste0("r\U000B2 = ", r2, "\n", plabel)), x = 40, y = -25, hjust = 1
   )
 
 ggsave("figure_brightness_pooled.png", width = 4, height = 4, dpi = 300)

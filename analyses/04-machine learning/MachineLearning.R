@@ -1,5 +1,6 @@
 rm(list = ls())
 
+library(dewlap)
 library(nmgc)
 library(tidyverse)
 library(cowplot)
@@ -44,7 +45,7 @@ plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths =
 ggsave("classif_svm_pca.png", height = 6, width = 9, dpi = 300)
 
 fname <- "analyses/04-machine learning/table_classif_%s"
-colnames <- c("Island", "Accuracy", "N", "$p_{\\mbox{test}}$", "$n_{\\mbox{test}}$", "$P$", "")
+colnames <- c("Island", "Accuracy", "$N$", "$p_{\\mbox{test}}$", "$n_{\\mbox{test}}$", "$P$", "")
 
 t1 <- res$mean
 t1_fname <- sprintf(fname, "svm_pca")

@@ -2,6 +2,7 @@
 
 rm(list = ls())
 
+library(dewlap)
 library(tidyverse)
 library(nmgc)
 
@@ -17,7 +18,7 @@ res_cortest <- nspcortest(
 t1 <- res_cortest$res
 t1 <- t1 %>% add_signif()
 t1_fname <- "analyses/08-spatial correlation/table_spatial"
-t1_names <- c("Island", "$r^2$", "$P$", "N", "")
+t1_names <- c("Island", "$r$", "$P$", "$N$", "")
 save_table(t1, t1_fname, digits = c(0, 3, 3, 0), col.names = t1_names)
 
 # Table with multivariate means per site

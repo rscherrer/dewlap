@@ -2,6 +2,7 @@ rm(list = ls())
 
 # Here we explore the distances at which differences between sites are detected
 
+library(dewlap)
 library(tidyverse)
 library(nmgc)
 library(RColorBrewer)

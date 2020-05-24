@@ -1,6 +1,6 @@
 \begin{table}
 	\label{suptab:counts}	
-	\caption{}
+	\caption{Number of lizards sampled in each habitat on each island.}
 	\centering
 	\input{"../analyses/01-counts/table_counts.tex"}
 \end{table}
@@ -21,56 +21,56 @@
 
 \begin{table}
 	\label{suptab:brightness}
-	\caption{}
+	\caption{Pearson's correlation test between dewlap brightness, as measured by the average reflectance between 300 and 700nm in wavelength, and PC1 scores, for all islands and across the whole archipelago. ***, P < 0.001.}
 	\centering
 	\input{"../analyses/03-PCA/table_brightness.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:multinorm}
-	\caption{Results of Henze-Zirkler's test of multivariate normality, performed on principal components in each habitat and on each island. HZ, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
+	\caption{Henze-Zirkler's test of multivariate normality, performed on principal components in each habitat and on each island. HZ, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
 	\centering
 	\input{"../analyses/05-assumptions/table_multinorm.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:covariance}
-	\caption{Results of Box's M-test of homogeneity of covariance matrices across habitats on each island. $\chi^2$, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
+	\caption{Box's M-test of homogeneity of covariance matrices across habitats on each island. $\chi^2$, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
 	\centering
 	\input{"../analyses/05-assumptions/table_covariance.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:normality}
-	\caption{Univariate Shapiro-Wilk's tests of normality performed on each island where significant differences were detected by SVM classification, in each habitat where deviations from multivariate normality were detected (Table \ref{suptab:multinorm}). $W$, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
+	\caption{Shapiro-Wilk's test of univariate normality performed on each island where significant differences were detected by SVM classification, in each habitat where deviations from multivariate normality were detected. $W$, test statistic. *, P < 0.05; **, P < 0.01; ***, P < 0.001.}
 	\centering
 	\input{"../analyses/05-assumptions/table_normality.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:anova-pooled}
-	\caption{Results of ANOVAs performed on each principal component across the whole archipelago. Legend is the same as for Table \ref{tab:anova}.}
+	\caption{Univariate ANOVAs performed on each principal component across the whole archipelago. Legend is the same as for Table \ref{tab:anova}, except that best fitting models 3 and 4 refer to the mixed effect equivalents to the OLS and GLS model, with island as a random effect (see Methods).}
 	\centering
 	\input{"../analyses/06-pooled/table_anova_pooled.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:classif-svm-pca}
-	\caption{Mean SVM classification accuracy per island, over all replicates and cross-validation bins. $n$, number of observations per island; $p_{\mbox{test}}$, proportion of the data sampled to form the training set; $n_{\mbox{test}}$, number of observations in the testing set. P-values indicate deviations from the expected null binomial distribution, with $n_{\mbox{test}}$ events per island and random guess success probability $1/3$. *, P < 0.05, **, P < 0.01, ***, P < 0.001.}
+	\caption{Mean SVM classification accuracy per island, over all replicates and cross-validation bins. $N$, number of observations per island; $p_{\mbox{test}}$, proportion of the data sampled to form the training set; $n_{\mbox{test}}$, number of observations in the testing set. P-values indicate deviations from the expected null binomial distribution, with $n_{\mbox{test}}$ events per island and random guess success probability $1/3$. *, P < 0.05, **, P < 0.01, ***, P < 0.001.}
 	\centering
 	\input{"../analyses/04-machine learning/table_classif_svm_pca.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:kruskal}
-	\caption{Results of nonparametric Kruskal-Wallis tests performed on each variable on each island where deviations from normality were detected (Table \ref{suptab:normality}).}
+	\caption{Results of nonparametric Kruskal-Wallis tests performed on each variable on each island where deviations from normality were detected.}
 	\centering
 	\input{"../analyses/07-ANOVA/table_kw.tex"}
 \end{table}
 
 \begin{table}
 	\label{suptab:autocor}
-	\caption{Individual-based permutation tests of spatial autocorrelation within islands. P-values were computed from 1,000 permutations of individual site-labels. Pearson's coefficient $r$ measures the correlation between distances in color space and geodesic distances among the sites. *, P < 0.05.}
+	\caption{Individual-based permutation tests of spatial autocorrelation within islands. P-values were computed from 1,000 permutations of individual site-labels. Pearson's coefficient $r$ measures the correlation between distances in color space and geodesic distances among the sites. $N$, number of sites. *, P < 0.05.}
 	\centering
 	\input{"../analyses/08-spatial correlation/table_spatial.tex"}
 \end{table}

@@ -2,6 +2,7 @@ rm(list = ls())
 
 # Here we explore dewlap coloration between habitats across the whole archipelago
 
+library(dewlap)
 library(nmgc)
 library(GGally)
 library(MANOVA.RM)
