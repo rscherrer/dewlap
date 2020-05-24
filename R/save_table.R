@@ -2,13 +2,13 @@
 #'
 #' @param tab The table
 #' @param nm File name (without the extension)
-#' @param digits,col_names Parameters for `knitr::kable`
+#' @param ... Extra parameters for `knitr::kable`
 #'
 #' @return Nothing. Just saves.
 #'
 #' @export
 
-save_table <- function(tab, nm, digits = 0, col_names = NULL) {
+save_table <- function(tab, nm, ...) {
 
   library(knitr)
 
@@ -18,7 +18,7 @@ save_table <- function(tab, nm, digits = 0, col_names = NULL) {
   # Save LaTeX table
   if (is.null(col_names)) col_names <- NA
   tab <- knitr::kable(
-    tab, "latex", digits = digits, booktabs = TRUE, col.names = col_names
+    tab, "latex", booktabs = TRUE, linesep = "", escape = FALSE, ...
   )
   texfile <- file(paste0(nm, ".tex"))
   writeLines(tab, texfile)

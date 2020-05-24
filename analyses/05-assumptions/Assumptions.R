@@ -25,10 +25,21 @@ t3 <- test_multinorm(data, variables, grouping = "habitat", univariate = TRUE)[,
 # 1.4. Heterogeneity of variances
 t4 <- test_covariance(data, variables, grouping = "habitat", univariate = TRUE)[, -1]
 
-save_table(t1, "table_multinorm_pooled", digits = c(0, 2, 0, 0))
-save_table(t2, "table_covariance_pooled", digits = c(1, 0, 4, 0))
-save_table(t3, "table_normality_pooled", digits = c(0, 0, 3, 4, 0))
-save_table(t4, "table_variance_pooled", digits = c(0, 2, 0, 4))
+t1_names <- c("Habitat", "$HZ$", "$P$", "")
+t2_names <- c("$\\chi^2$", "df", "$P$", "")
+t3_names <- c("Habitat", "Variable", "$W$", "$P$", "")
+t4_names <- c("Variable", "$K^2$", "df", "$P$", "")
+
+fname <- "analyses/05-assumptions/table_%s"
+t1_fname <- sprintf(fname, "multinorm_pooled")
+t2_fname <- sprintf(fname, "covariance_pooled")
+t3_fname <- sprintf(fname, "normality_pooled")
+t4_fname <- sprintf(fname, "variance_pooled")
+
+save_table(t1, t1_fname, digits = c(0, 2, 0, 0), col.names = t1_names)
+save_table(t2, t2_fname, digits = c(1, 0, 4, 0), col.names = t2_names)
+save_table(t3, t3_fname, digits = c(0, 0, 3, 4, 0), col.names = t3_names)
+save_table(t4, t4_fname, digits = c(0, 2, 0, 4), col.names = t4_names)
 
 #### 2. Within islands ####
 
@@ -38,8 +49,14 @@ t5 <- test_multinorm(data, variables, grouping = "habitat", nesting = "island")
 # 2.2. Homogeneity of covariance matrices
 t6 <- test_covariance(data, variables, grouping = "habitat", nesting = "island")
 
-save_table(t5, "table_multinorm", digits = c(0, 0, 2, 4, 0))
-save_table(t6, "table_covariance", digits = c(0, 1, 0, 4, 0))
+t5_names <- c("Island", "Habitat", "$HZ$", "$P$", "")
+t6_names <- c("Island", "$\\chi^2$", "df", "$P$", "")
+
+t5_fname <- sprintf(fname, "multinorm")
+t6_fname <- sprintf(fname, "covariance")
+
+save_table(t5, t5_fname, digits = c(0, 0, 2, 4, 0), col.names = t5_names)
+save_table(t6, t6_fname, digits = c(0, 1, 0, 4, 0), col.names = t6_names)
 
 # 2.3. Univariate normality
 t7 <- test_multinorm(data, variables, grouping = "habitat", nesting = "island", univariate = TRUE)

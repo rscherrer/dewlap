@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.22)  23 MAY 2020 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.22)  24 MAY 2020 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,200 +821,17 @@ Overfull \hbox (4.38654pt too wide) in paragraph at lines 60--60
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
-(./sections/abstract.tex) (../analyses/01-counts/table_counts.tex)
-(./sections/introduction.tex
-
-Package natbib Warning: Citation `Bradbury2011' on page 1 undefined on input li
-ne 3.
-
-
-Package natbib Warning: Citation `Endler1988' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1992' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1998' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1992' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1993' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1993a' on page 1 undefined on input lin
-e 3.
-
-
-Package natbib Warning: Citation `Arnold1983' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Seehausen1997' on page 1 undefined on input l
-ine 3.
-
-
-Package natbib Warning: Citation `Endler1984' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1990' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Endler1991' on page 1 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Halfwerk2014' on page 1 undefined on input li
-ne 3.
-
-
+(./sections/abstract.tex) (./sections/introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Package natbib Warning: Citation `Felsenstein1976' on page 1 undefined on input
- line 7.
-
-
-Package natbib Warning: Citation `Garcia-Ramos1997' on page 1 undefined on inpu
-t line 7.
-
-
-Package natbib Warning: Citation `Dieckmann1999' on page 1 undefined on input l
-ine 7.
-
-
-Package natbib Warning: Citation `Lenormand2002' on page 1 undefined on input l
-ine 7.
-
-
-Package natbib Warning: Citation `Hendry2007' on page 1 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `Nosil2004' on page 1 undefined on input line 
-7.
-
-
-Package natbib Warning: Citation `Hendry2007a' on page 1 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Richardson2014' on page 1 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `Willi2012' on page 1 undefined on input line 
-7.
-
-
-Package natbib Warning: Citation `Richardson2013' on page 1 undefined on input 
-line 7.
-
-
-Package natbib Warning: Citation `Richardson2014' on page 1 undefined on input 
-line 7.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
-Package natbib Warning: Citation `Losos2009' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Sigmund1983' on page 2 undefined on input lin
-e 11.
-
-
-Package natbib Warning: Citation `Driessens2014' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Driessens2015' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Losos1985' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Macedonia1994' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Macedonia2013' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Leal1995' on page 2 undefined on input line 1
-1.
-
-
-Package natbib Warning: Citation `Leal1997' on page 2 undefined on input line 1
-1.
-
-
-Package natbib Warning: Citation `Leal1997b' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Nicholson2007' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Rand1970b' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Williams1969' on page 2 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `Williams1977' on page 2 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `Losos1985' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Macedonia1994' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Fleishman2000' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Macedonia2013' on page 2 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Lambert2013' on page 2 undefined on input lin
-e 11.
-
-
-Package natbib Warning: Citation `Geneva2015' on page 2 undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `Ng2017' on page 2 undefined on input line 11.
-
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
@@ -1022,133 +839,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-Package natbib Warning: Citation `Macedonia2001' on page 2 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Leal2002' on page 2 undefined on input line 1
-3.
-
-
-Package natbib Warning: Citation `Thorpe2002a' on page 2 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Leal2004' on page 2 undefined on input line 1
-3.
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 2 undefined on inpu
-t line 13.
-
-
-Package natbib Warning: Citation `Ng2012' on page 2 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Ng2013' on page 2 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Ng2016' on page 2 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 2 undefined on inpu
-t line 13.
-
-
-Package natbib Warning: Citation `Driessens2017' on page 2 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Fleishman2001' on page 2 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Leal2002' on page 2 undefined on input line 1
-3.
-
-
-Package natbib Warning: Citation `Leal2004' on page 2 undefined on input line 1
-3.
-
-
-Package natbib Warning: Citation `Fleishman2009' on page 2 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Ng2012' on page 2 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Macedonia2014a' on page 2 undefined on input 
-line 13.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 2 undefined on inpu
-t line 20.
-
-
-Package natbib Warning: Citation `Driessens2017' on page 2 undefined on input l
-ine 20.
-
-
-Package natbib Warning: Citation `Leal2002' on page 2 undefined on input line 2
-0.
-
-
-Package natbib Warning: Citation `Leal2004' on page 2 undefined on input line 2
-0.
-
-
-Package natbib Warning: Citation `Ng2012' on page 2 undefined on input line 20.
-
-
-
-Package natbib Warning: Citation `Ng2016' on page 2 undefined on input line 20.
-
-
-
-Package natbib Warning: Citation `Ng2011' on page 2 undefined on input line 20.
-
-
-
-Package natbib Warning: Citation `Lambert2013' on page 2 undefined on input lin
-e 20.
-
-
-Package natbib Warning: Citation `Richardson2014' on page 2 undefined on input 
-line 20.
-
-
-Package natbib Warning: Citation `Ng2017' on page 2 undefined on input line 20.
-
-
-
-Package natbib Warning: Citation `Thorpe2002a' on page 2 undefined on input lin
-e 20.
-
-
-Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
-e 20.
-
-
-Package natbib Warning: Citation `Stapley2011' on page 2 undefined on input lin
-e 20.
-
-
-Package natbib Warning: Citation `Ng2016' on page 2 undefined on input line 20.
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
@@ -1156,227 +849,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
  []
 
 
-Package natbib Warning: Citation `Reynolds2020' on page 2 undefined on input li
-ne 22.
-
-
-Package natbib Warning: Citation `Losos1994' on page 2 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `Losos1997a' on page 2 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Losos2001' on page 2 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `Kolbe2012' on page 2 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `Kolbe2008' on page 2 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `Tokarz2002' on page 2 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Tokarz2005' on page 2 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Tokarz2006' on page 2 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Driessens2014' on page 2 undefined on input l
-ine 22.
-
-
-Package natbib Warning: Citation `Steffen2014' on page 2 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Driessens2015' on page 2 undefined on input l
-ine 22.
-
-
-Package natbib Warning: Citation `Driessens2017' on page 2 undefined on input l
-ine 22.
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 2 undefined on inpu
-t line 22.
-
-
-Package natbib Warning: Citation `Baeckens2018' on page 2 undefined on input li
-ne 22.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Package natbib Warning: Citation `Kamath2018' on page 2 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Howard1950' on page 2 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Schoener1968' on page 2 undefined on input li
-ne 24.
-
-
-Package natbib Warning: Citation `Driessens2017' on page 2 undefined on input l
-ine 24.
-
-
-Package natbib Warning: Citation `Reynolds2020' on page 2 undefined on input li
-ne 24.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
-Package natbib Warning: Citation `Losos2011' on page 3 undefined on input line 
-28.
+ []
 
 ) (./sections/methods.tex
 
-Package natbib Warning: Citation `Howard1950' on page 3 undefined on input line
- 6.
+Package hyperref Warning: Suppressing empty link on input line 6.
 
 
-Package natbib Warning: Citation `Schoener1968' on page 3 undefined on input li
-ne 6.
-
-
-LaTeX Warning: Reference `suptab:counts' on page 3 undefined on input line 6.
-
-
-Package natbib Warning: Citation `Lazareva2012' on page 3 undefined on input li
-ne 10.
-
-
-Package natbib Warning: Citation `Endler1990' on page 3 undefined on input line
- 10.
-
-
-Package natbib Warning: Citation `RCoreTeam2019' on page 3 undefined on input l
-ine 14.
-
-
-Package natbib Warning: Citation `Maia2013' on page 3 undefined on input line 1
-8.
-
-
-Package natbib Warning: Citation `Cuthill1999' on page 3 undefined on input lin
-e 18.
-
-
-Package natbib Warning: Citation `Leal2002' on page 3 undefined on input line 1
-8.
-
-
-LaTeX Warning: Reference `suptab:brightness' on page 3 undefined on input line 
-18.
+LaTeX Warning: Reference `suptab:locations' on page 3 undefined on input line 6
+.
 
 [3]
 
-Package natbib Warning: Citation `Box1949' on page 4 undefined on input line 22
-.
+Package hyperref Warning: Suppressing empty link on input line 18.
 
 
-Package natbib Warning: Citation `Morrison1988' on page 4 undefined on input li
-ne 22.
+Package hyperref Warning: Suppressing empty link on input line 18.
 
 
-Package natbib Warning: Citation `Fox2018' on page 4 undefined on input line 22
-.
+Package hyperref Warning: Suppressing empty link on input line 18.
 
 
-Package natbib Warning: Citation `Henze1990' on page 4 undefined on input line 
-22.
+LaTeX Warning: Reference `fig:boxplots' on page 4 undefined on input line 18.
 
 
-Package natbib Warning: Citation `Korkmaz2014' on page 4 undefined on input lin
-e 22.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Package natbib Warning: Citation `Pigot2020' on page 4 undefined on input line 
-26.
-
-
-Package natbib Warning: Citation `Cortes1995' on page 4 undefined on input line
- 26.
-
-
-Package natbib Warning: Citation `Cristianini2000' on page 4 undefined on input
- line 26.
-
-
-Package natbib Warning: Citation `Kim2018' on page 4 undefined on input line 26
-.
-
-
-Package natbib Warning: Citation `Kim2018' on page 4 undefined on input line 26
-.
-
-
-Package natbib Warning: Citation `Cuthill1999' on page 4 undefined on input lin
-e 26.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Package natbib Warning: Citation `Ripley1996a' on page 4 undefined on input lin
-e 28.
-
-
-Package natbib Warning: Citation `Cortez2010' on page 4 undefined on input line
+LaTeX Warning: Reference `suptab:covariances' on page 4 undefined on input line
  28.
 
 
-Package natbib Warning: Citation `Cortez2016' on page 4 undefined on input line
- 28.
+Package hyperref Warning: Suppressing empty link on input line 28.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
-
-
-Package natbib Warning: Citation `Zuur2009' on page 4 undefined on input line 3
-2.
-
-
-Package natbib Warning: Citation `Pinheiro2000' on page 4 undefined on input li
-ne 32.
-
-
-Package natbib Warning: Citation `Pinheiro2020' on page 4 undefined on input li
-ne 32.
-
-
-Package natbib Warning: Citation `Barton2019' on page 4 undefined on input line
- 32.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
@@ -1389,8 +902,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-Package natbib Warning: Citation `Hijmans2019' on page 5 undefined on input lin
-e 38.
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[5]
+
+LaTeX Warning: Reference `suptab:locations' on page 6 undefined on input line 5
+6.
 
 ) (./sections/results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1398,25 +942,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-LaTeX Warning: Reference `suptab:' on page 5 undefined on input line 5.
+LaTeX Warning: Reference `suptab:anova_pooled' on page 6 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Reference `supfig:classif_svm_pca_pooled' on page 6 undefined on
+ input line 5.
+
+
+LaTeX Warning: Reference `supfig:classif_svm_refl_pooled' on page 6 undefined o
+n input line 5.
+
+
+LaTeX Warning: Reference `supfig:importance_svm_refl_pooled' on page 6 undefine
+d on input line 5.
+
+
+LaTeX Warning: Reference `supfig:importance_svm_pca_pooled' on page 6 undefined
+ on input line 5.
+
+
+LaTeX Warning: Reference `supfig:classif_lda_pca_pooled' on page 6 undefined on
+ input line 5.
+
+
+LaTeX Warning: Reference `supfig:classif_lda_refl_pooled' on page 6 undefined o
+n input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+LaTeX Warning: Reference `fig:classif_svm_pca' on page 6 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Reference `supfig:classif_lda_pca' on page 6 undefined on input 
+line 7.
+
+
+LaTeX Warning: Reference `suptab:classif_svm_pca' on page 6 undefined on input 
+line 7.
+
+
+LaTeX Warning: Reference `supfig:classif_svm_refl' on page 6 undefined on input
+ line 7.
+
+
+LaTeX Warning: Reference `supfig:classif_lda_refl' on page 6 undefined on input
+ line 7.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+[6]
 
-LaTeX Warning: Reference `tab:anova' on page 5 undefined on input line 9.
+LaTeX Warning: Reference `fig:boxplots' on page 7 undefined on input line 9.
 
 
-LaTeX Warning: Reference `tab:anova' on page 5 undefined on input line 9.
+Package hyperref Warning: Suppressing empty link on input line 9.
+
+
+LaTeX Warning: Reference `fig:boxplots' on page 7 undefined on input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -1442,19 +1040,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-LaTeX Warning: Reference `supfig:importance_svm_pca' on page 6 undefined on inp
+LaTeX Warning: Reference `supfig:importance_svm_pca' on page 7 undefined on inp
 ut line 21.
 
 
-LaTeX Warning: Reference `supfig:importance_lda_pca' on page 6 undefined on inp
+LaTeX Warning: Reference `supfig:importance_lda_pca' on page 7 undefined on inp
 ut line 21.
 
 
-LaTeX Warning: Reference `fig:importance_svm_refl' on page 6 undefined on input
+LaTeX Warning: Reference `fig:boxplots' on page 7 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:importance_svm_refl' on page 7 undefined on input
  line 21.
 
 
-LaTeX Warning: Reference `fig:importance_lda_refl' on page 6 undefined on input
+LaTeX Warning: Reference `fig:importance_lda_refl' on page 7 undefined on input
  line 21.
 
 
@@ -1463,12 +1064,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
+Package hyperref Warning: Suppressing empty link on input line 25.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-LaTeX Warning: Reference `supfig:distances' on page 6 undefined on input line 2
+LaTeX Warning: Reference `suptab:distances' on page 7 undefined on input line 2
 7.
 
 
@@ -1476,365 +1080,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-
-LaTeX Warning: Reference `tab:anova' on page 6 undefined on input line 32.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-[6]
-
-LaTeX Warning: Reference `supfig:classif_svm_pca_pooled' on page 7 undefined on
- input line 34.
-
-
-LaTeX Warning: Reference `supfig:classif_svm_refl_pooled' on page 7 undefined o
-n input line 34.
-
-
-LaTeX Warning: Reference `supfig:importance_svm_refl_pooled' on page 7 undefine
-d on input line 34.
-
-
-LaTeX Warning: Reference `supfig:importance_svm_pca_pooled' on page 7 undefined
- on input line 34.
-
-
-LaTeX Warning: Reference `supfig:classif_lda_pca_pooled' on page 7 undefined on
- input line 34.
-
-
-LaTeX Warning: Reference `supfig:classif_lda_refl_pooled' on page 7 undefined o
-n input line 34.
-
-
-LaTeX Warning: Reference `supfig:pooled' on page 7 undefined on input line 34.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-) (./sections/discussion.tex
-
-Package natbib Warning: Citation `Driessens2017' on page 7 undefined on input l
-ine 5.
-
-
-Package natbib Warning: Citation `Ortiz1962' on page 7 undefined on input line 
-9.
-
-
-Package natbib Warning: Citation `Ortiz1962a' on page 7 undefined on input line
- 9.
-
-
-Package natbib Warning: Citation `Ortiz1963' on page 7 undefined on input line 
-9.
-
-
-Package natbib Warning: Citation `Ortiz1966' on page 7 undefined on input line 
-9.
-
-
-Package natbib Warning: Citation `Macedonia2000' on page 7 undefined on input l
-ine 9.
-
-
-Package natbib Warning: Citation `Steffen2007' on page 7 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Steffen2009' on page 7 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Goodwin1984' on page 7 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Hill2002' on page 7 undefined on input line 9
-.
-
-
-Package natbib Warning: Citation `Hill2006' on page 7 undefined on input line 9
-.
-
-
-Package natbib Warning: Citation `Steffen2010' on page 7 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Ng2013' on page 7 undefined on input line 9.
-
-
-Package natbib Warning: Citation `Ng2013' on page 7 undefined on input line 9.
-
-
-Package natbib Warning: Citation `Cox2017' on page 7 undefined on input line 9.
-
-
-
-Package natbib Warning: Citation `Tariel2020' on page 7 undefined on input line
- 9.
-
-
-Package natbib Warning: Citation `Kamath2018' on page 7 undefined on input line
- 13.
-
-
-Package natbib Warning: Citation `Dieckmann1999' on page 7 undefined on input l
-ine 13.
-
-
-Package natbib Warning: Citation `Ng2012' on page 7 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Ng2016' on page 7 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Ng2011' on page 7 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Lambert2013' on page 7 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Ng2017' on page 7 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Stapley2011' on page 7 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Thorpe2002a' on page 7 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Thorpe2002b' on page 7 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Macedonia2001' on page 7 undefined on input l
-ine 13.
-
 [7]
 
-Package natbib Warning: Citation `Kamath2018' on page 8 undefined on input line
- 17.
+LaTeX Warning: Reference `fig:boxplots' on page 8 undefined on input line 31.
 
 
-Package natbib Warning: Citation `Andersson1994' on page 8 undefined on input l
-ine 17.
+LaTeX Warning: Reference `fig:boxplots' on page 8 undefined on input line 31.
 
 
-Package natbib Warning: Citation `Cook2013' on page 8 undefined on input line 1
-7.
+Package hyperref Warning: Suppressing empty link on input line 31.
 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 31--78
 
-Package natbib Warning: Citation `Steffen2014' on page 8 undefined on input lin
-e 17.
+ []
 
-
-Package natbib Warning: Citation `Driessens2015' on page 8 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `Vanhooydonck2005' on page 8 undefined on inpu
-t line 17.
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 8 undefined on inpu
-t line 17.
-
-
-Package natbib Warning: Citation `Driessens2014' on page 8 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `Tokarz2002' on page 8 undefined on input line
- 17.
-
-
-Package natbib Warning: Citation `Tokarz2005' on page 8 undefined on input line
- 17.
-
-
-Package natbib Warning: Citation `Driessens2015' on page 8 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `Baeckens2018' on page 8 undefined on input li
-ne 17.
-
-
-Package natbib Warning: Citation `Andersson1994' on page 8 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `Losos2011' on page 8 undefined on input line 
-21.
-
-
-Package natbib Warning: Citation `Thorpe2002a' on page 8 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Thorpe2002b' on page 8 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Endler1988' on page 8 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `Leal2002' on page 8 undefined on input line 2
-1.
-
-
-Package natbib Warning: Citation `Leal2004' on page 8 undefined on input line 2
-1.
-
-
-Package natbib Warning: Citation `Howard1950' on page 8 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `Schoener1968' on page 8 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `Fleishman2009' on page 8 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `Ng2012' on page 8 undefined on input line 21.
-
-
-
-Package natbib Warning: Citation `Vanhooydonck2009' on page 8 undefined on inpu
-t line 21.
-
-
-Package natbib Warning: Citation `Baeckens2018' on page 8 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `Baeckens2018' on page 8 undefined on input li
-ne 21.
-
-
-Package natbib Warning: Citation `Harmon2003' on page 8 undefined on input line
- 25.
-
-
-Package natbib Warning: Citation `Gavrilets2009' on page 8 undefined on input l
-ine 25.
-
-
-Package natbib Warning: Citation `Reynolds2007' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Servedio2011' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Ng2011' on page 8 undefined on input line 25.
-
-
-
-Package natbib Warning: Citation `Lambert2013' on page 8 undefined on input lin
-e 25.
-
-
-Package natbib Warning: Citation `Geneva2015' on page 8 undefined on input line
- 25.
-
-
-Package natbib Warning: Citation `Ng2017' on page 8 undefined on input line 25.
-
-
-
-Package natbib Warning: Citation `Williams1969' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Williams1977' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Losos1985' on page 8 undefined on input line 
-25.
-
-
-Package natbib Warning: Citation `Macedonia1994' on page 8 undefined on input l
-ine 25.
-
-
-Package natbib Warning: Citation `Fleishman2000' on page 8 undefined on input l
-ine 25.
-
-
-Package natbib Warning: Citation `Macedonia2013' on page 8 undefined on input l
-ine 25.
-
-
-Package natbib Warning: Citation `Ingram2016' on page 8 undefined on input line
- 25.
-
-
-Package natbib Warning: Citation `Baeckens2018' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Nicholson2007' on page 8 undefined on input l
-ine 25.
-
-
-Package natbib Warning: Citation `Harrison2012' on page 8 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Ingram2016' on page 8 undefined on input line
- 25.
-
-
-Package natbib Warning: Citation `Kraaijeveld2011' on page 8 undefined on input
- line 25.
-
-
-Package natbib Warning: Citation `Macedonia2001' on page 8 undefined on input l
-ine 25.
-
-) [8] (./sections/acknowledgments.tex) [9] (./sections/figures.tex
-<figures/map.pdf, id=133, 632.3625pt x 451.6875pt>
-File: figures/map.pdf Graphic file (type pdf)
-<use figures/map.pdf>
-Package pdftex.def Info: figures/map.pdf  used on input line 4.
+(./sections/discussion.tex [8] [9]) (./sections/acknowledgments.tex) [10]
+(./sections/figures.tex
+<../maps/map.pdf, id=619, 632.3625pt x 451.6875pt>
+File: ../maps/map.pdf Graphic file (type pdf)
+<use ../maps/map.pdf>
+Package pdftex.def Info: ../maps/map.pdf  used on input line 4.
 (pdftex.def)             Requested size: 341.43437pt x 243.88693pt.
-<figures/classif_svm_pca.png, id=134, 650.43pt x 433.62pt>
-File: figures/classif_svm_pca.png Graphic file (type png)
-<use figures/classif_svm_pca.png>
-Package pdftex.def Info: figures/classif_svm_pca.png  used on input line 12.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
- [10 <./figures/map.pdf>]
-<figures/figure_anova.png, id=148, 505.89pt x 505.89pt>
-File: figures/figure_anova.png Graphic file (type png)
-<use figures/figure_anova.png>
-Package pdftex.def Info: figures/figure_anova.png  used on input line 20.
+<../analyses/07-ANOVA/figure_anova.png, id=620, 505.89pt x 505.89pt>
+File: ../analyses/07-ANOVA/figure_anova.png Graphic file (type png)
+<use ../analyses/07-ANOVA/figure_anova.png>
+Package pdftex.def Info: ../analyses/07-ANOVA/figure_anova.png  used on input l
+ine 12.
 (pdftex.def)             Requested size: 512.1496pt x 512.15677pt.
-) [11 <./figures/classif_svm_pca.png (PNG copy)>] [12 <./figures/figure_anova.p
-ng (PNG copy)>] (./sections/tables.tex) [13]
-No file main.bbl.
-(./sections/suppfigures.tex
-<../maps/detailed_map.pdf, id=166, 660.4675pt x 466.74374pt>
+<"../analyses/04-machine learning/plots/classif_svm_pca".png, id=621, 650.43pt 
+x 433.62pt>
+File: "../analyses/04-machine learning/plots/classif_svm_pca".png Graphic file 
+(type png)
+<use "../analyses/04-machine learning/plots/classif_svm_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_pca
+".png  used on input line 20.
+(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
+) [11 <../maps/map.pdf>] [12 <../analyses/07-ANOVA/figure_anova.png (PNG copy)>
+] [13 <../analyses/04-machine learning/plots/classif_svm_pca.png (PNG copy)>] (
+./sections/tables.tex
+(../analyses/07-ANOVA/table_anova.tex)
+Overfull \hbox (110.75162pt too wide) in paragraph at lines 2--6
+ [][] 
+ []
+
+) [14] (./main.bbl
+! Argument of \emph  has an extra }.
+<inserted text> 
+                \par 
+l.97 ...{Anolis}}}}{\emph{ sagrei}}{\emph{{\emph}}
+                                                  }.
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \emph  was complete.
+<to be read again> 
+                   \par 
+l.97 ...{Anolis}}}}{\emph{ sagrei}}{\emph{{\emph}}
+                                                  }.
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[15] [16] [17] [18] [19]) [20] (./sections/suppfigures.tex
+<../maps/detailed_map.pdf, id=680, 660.4675pt x 466.74374pt>
 File: ../maps/detailed_map.pdf Graphic file (type pdf)
 <use ../maps/detailed_map.pdf>
 Package pdftex.def Info: ../maps/detailed_map.pdf  used on input line 4.
@@ -1843,202 +1157,279 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 ...itats across 9 islands of the West Indies.}
+l.5 ...ts across nine islands of the West Indies.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.5 ...itats across 9 islands of the West Indies.}
+l.5 ...ts across nine islands of the West Indies.}
                                                   
-<../analyses/02-reflectance/figure_reflectance.png, id=167, 433.62pt x 433.62pt
->
-File: ../analyses/02-reflectance/figure_reflectance.png Graphic file (type png)
+<"../analyses/03-PCA/figure_brightness".png, id=681, 433.62pt x 433.62pt>
+File: "../analyses/03-PCA/figure_brightness".png Graphic file (type png)
+<use "../analyses/03-PCA/figure_brightness".png>
+Package pdftex.def Info: "../analyses/03-PCA/figure_brightness".png  used on in
+put line 11.
+(pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
 
-<use ../analyses/02-reflectance/figure_reflectance.png>
-Package pdftex.def Info: ../analyses/02-reflectance/figure_reflectance.png  use
-d on input line 12.
-(pdftex.def)             Requested size: 426.79135pt x 426.81056pt.
+Overfull \hbox (6.82759pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 ...lengths for each island and each habitat.}
+l.12 ...n coefficients are reported. *, P < 0.05.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.2}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.13 ...lengths for each island and each habitat.}
-                                                   [14 <../maps/detailed_map.pd
-f>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 ...achine learning/plots/classif_lda_pca.png}
+l.12 ...n coefficients are reported. *, P < 0.05.}
                                                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<"../analyses/03-PCA/figure_brightness_pooled".png, id=682, 289.08pt x 289.08pt
+>
+File: "../analyses/03-PCA/figure_brightness_pooled".png Graphic file (type png)
 
-
-LaTeX Warning: File `../analyses/04-machine learning/plots/classif_lda_pca.png'
- not found on input line 20.
-
-<../analyses/04-machine learning/plots/classif_lda_pca.png, id=175, 650.43pt x 
-433.62pt>
-File: ../analyses/04-machine learning/plots/classif_lda_pca.png Graphic file (t
-ype png)
-<use ../analyses/04-machine learning/plots/classif_lda_pca.png>
-Package pdftex.def Info: ../analyses/04-machine learning/plots/classif_lda_pca.
-png  used on input line 20.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 ...achine learning/plots/classif_lda_pca.png}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (138.85225pt too wide) in paragraph at lines 20--21
- []\T1/cmr/m/n/10 learning/plots/classif$[]\OML/cmm/m/it/10 da[]ca:png[]$ 
- []
-
+<use "../analyses/03-PCA/figure_brightness_pooled".png>
+Package pdftex.def Info: "../analyses/03-PCA/figure_brightness_pooled".png  use
+d on input line 18.
+(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ...d null binomial distribution. *, P < 0.05}
+l.19 ...ion coefficient is reported. *, P < 0.05.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.3}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.21 ...d null binomial distribution. *, P < 0.05}
-                                                   [15 <../analyses/02-reflecta
-nce/figure_reflectance.png (PNG copy)>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...chine learning/plots/classif_svm_refl.png}
+l.19 ...ion coefficient is reported. *, P < 0.05.}
                                                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+<"../analyses/02-reflectance/figure_reflectance".png, id=683, 433.62pt x 433.62
+pt>
+File: "../analyses/02-reflectance/figure_reflectance".png Graphic file (type pn
+g)
+<use "../analyses/02-reflectance/figure_reflectance".png>
+Package pdftex.def Info: "../analyses/02-reflectance/figure_reflectance".png  u
+sed on input line 26.
+(pdftex.def)             Requested size: 426.79135pt x 426.81056pt.
+ [21 <../maps/detailed_map.pdf>] [22 <../analyses/03-PCA/figure_brightness.png>
+]
+Overfull \vbox (112.9947pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: File `../analyses/04-machine learning/plots/classif_svm_refl.png
-' not found on input line 27.
-
-<../analyses/04-machine learning/plots/classif_svm_refl.png, id=180, 650.43pt x
- 433.62pt>
-File: ../analyses/04-machine learning/plots/classif_svm_refl.png Graphic file (
-type png)
-<use ../analyses/04-machine learning/plots/classif_svm_refl.png>
-Package pdftex.def Info: ../analyses/04-machine learning/plots/classif_svm_refl
-.png  used on input line 27.
+[23 <../analyses/03-PCA/figure_brightness_pooled.png> <../analyses/02-reflectan
+ce/figure_reflectance.png (PNG copy)>]
+<"../analyses/04-machine learning/plots/classif_svm_pca_pooled".png, id=701, 43
+3.62pt x 216.81pt>
+File: "../analyses/04-machine learning/plots/classif_svm_pca_pooled".png Graphi
+c file (type png)
+<use "../analyses/04-machine learning/plots/classif_svm_pca_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_pca
+_pooled".png  used on input line 33.
+(pdftex.def)             Requested size: 426.79135pt x 213.40527pt.
+<"../analyses/04-machine learning/plots/classif_svm_refl_pooled".png, id=704, 4
+33.62pt x 216.81pt>
+File: "../analyses/04-machine learning/plots/classif_svm_refl_pooled".png Graph
+ic file (type png)
+<use "../analyses/04-machine learning/plots/classif_svm_refl_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_ref
+l_pooled".png  used on input line 40.
+(pdftex.def)             Requested size: 426.79135pt x 213.40527pt.
+<"../analyses/04-machine learning/plots/importance_svm_pca_pooled".png, id=707,
+ 216.81pt x 216.81pt>
+File: "../analyses/04-machine learning/plots/importance_svm_pca_pooled".png Gra
+phic file (type png)
+<use "../analyses/04-machine learning/plots/importance_svm_pca_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
+pca_pooled".png  used on input line 47.
+(pdftex.def)             Requested size: 426.79135pt x 426.84363pt.
+ [24 <../analyses/04-machine learning/plots/classif_svm_pca_pooled.png (PNG cop
+y)> <../analyses/04-machine learning/plots/classif_svm_refl_pooled.png (PNG cop
+y)>]
+<"../analyses/04-machine learning/plots/importance_svm_refl_pooled".png, id=716
+, 361.35pt x 289.08pt>
+File: "../analyses/04-machine learning/plots/importance_svm_refl_pooled".png Gr
+aphic file (type png)
+<use "../analyses/04-machine learning/plots/importance_svm_refl_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
+refl_pooled".png  used on input line 54.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
+ [25 <../analyses/04-machine learning/plots/importance_svm_pca_pooled.png>]
+<"../analyses/04-machine learning/plots/classif_lda_pca_pooled".png, id=726, 43
+3.62pt x 216.81pt>
+File: "../analyses/04-machine learning/plots/classif_lda_pca_pooled".png Graphi
+c file (type png)
+<use "../analyses/04-machine learning/plots/classif_lda_pca_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_pca
+_pooled".png  used on input line 61.
+(pdftex.def)             Requested size: 426.79135pt x 213.40527pt.
+<"../analyses/04-machine learning/plots/classif_lda_refl_pooled".png, id=729, 4
+33.62pt x 216.81pt>
+File: "../analyses/04-machine learning/plots/classif_lda_refl_pooled".png Graph
+ic file (type png)
+<use "../analyses/04-machine learning/plots/classif_lda_refl_pooled".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_ref
+l_pooled".png  used on input line 68.
+(pdftex.def)             Requested size: 426.79135pt x 213.40527pt.
+ [26 <../analyses/04-machine learning/plots/importance_svm_refl_pooled.png> <..
+/analyses/04-machine learning/plots/classif_lda_pca_pooled.png (PNG copy)>]
+<"../analyses/04-machine learning/plots/classif_lda_pca".png, id=739, 650.43pt 
+x 433.62pt>
+File: "../analyses/04-machine learning/plots/classif_lda_pca".png Graphic file 
+(type png)
+<use "../analyses/04-machine learning/plots/classif_lda_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_pca
+".png  used on input line 75.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 ...chine learning/plots/classif_svm_refl.png}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (147.55406pt too wide) in paragraph at lines 27--28
- []\T1/cmr/m/n/10 learning/plots/classif$[]\OML/cmm/m/it/10 vm[]efl:png[]$ 
- []
-
-[16 <../analyses/04-machine learning/plots/classif_lda_pca.png (PNG copy)>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...chine learning/plots/classif_lda_refl.png}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: File `../analyses/04-machine learning/plots/classif_lda_refl.png
-' not found on input line 34.
-
-<../analyses/04-machine learning/plots/classif_lda_refl.png, id=186, 650.43pt x
- 433.62pt>
-File: ../analyses/04-machine learning/plots/classif_lda_refl.png Graphic file (
-type png)
-<use ../analyses/04-machine learning/plots/classif_lda_refl.png>
-Package pdftex.def Info: ../analyses/04-machine learning/plots/classif_lda_refl
-.png  used on input line 34.
+<"../analyses/04-machine learning/plots/classif_svm_refl".png, id=742, 650.43pt
+ x 433.62pt>
+File: "../analyses/04-machine learning/plots/classif_svm_refl".png Graphic file
+ (type png)
+<use "../analyses/04-machine learning/plots/classif_svm_refl".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_ref
+l".png  used on input line 82.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 ...chine learning/plots/classif_lda_refl.png}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+ [27 <../analyses/04-machine learning/plots/classif_lda_refl_pooled.png (PNG co
+py)> <../analyses/04-machine learning/plots/classif_lda_pca.png (PNG copy)>]
+<"../analyses/04-machine learning/plots/classif_lda_refl".png, id=751, 650.43pt
+ x 433.62pt>
+File: "../analyses/04-machine learning/plots/classif_lda_refl".png Graphic file
+ (type png)
+<use "../analyses/04-machine learning/plots/classif_lda_refl".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_ref
+l".png  used on input line 89.
+(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
+<"../analyses/04-machine learning/plots/importance_svm_pca".png, id=754, 361.35
+pt x 289.08pt>
+File: "../analyses/04-machine learning/plots/importance_svm_pca".png Graphic fi
+le (type png)
+<use "../analyses/04-machine learning/plots/importance_svm_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
+pca".png  used on input line 96.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
 
 
-Overfull \hbox (142.8538pt too wide) in paragraph at lines 34--35
- []\T1/cmr/m/n/10 learning/plots/classif$[]\OML/cmm/m/it/10 da[]efl:png[]$ 
- []
+LaTeX Warning: Reference `supfig:classif-svm-pca' on page 28 undefined on input
+ line 97.
 
-) [17 <../analyses/04-machine learning/plots/classif_svm_refl.png (PNG copy)>]
-[18 <../analyses/04-machine learning/plots/classif_lda_refl.png (PNG copy)>]
-(./sections/supptables.tex [19] [20] [21]
-Overfull \hbox (163.89941pt too wide) in paragraph at lines 247--297
+
+LaTeX Warning: Reference `supfig:classif-svm-pca' on page 28 undefined on input
+ line 97.
+
+[28 <../analyses/04-machine learning/plots/classif_svm_refl.png (PNG copy)> <..
+/analyses/04-machine learning/plots/classif_lda_refl.png (PNG copy)>]
+<"../analyses/04-machine learning/plots/importance_lda_pca".png, id=761, 361.35
+pt x 289.08pt>
+File: "../analyses/04-machine learning/plots/importance_lda_pca".png Graphic fi
+le (type png)
+<use "../analyses/04-machine learning/plots/importance_lda_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_lda_
+pca".png  used on input line 103.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
+ [29 <../analyses/04-machine learning/plots/importance_svm_pca.png>]
+File: "../analyses/04-machine learning/plots/importance_svm_pca".png Graphic fi
+le (type png)
+<use "../analyses/04-machine learning/plots/importance_svm_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
+pca".png  used on input line 110.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
+ [30 <../analyses/04-machine learning/plots/importance_lda_pca.png>]
+File: "../analyses/04-machine learning/plots/importance_lda_pca".png Graphic fi
+le (type png)
+<use "../analyses/04-machine learning/plots/importance_lda_pca".png>
+Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_lda_
+pca".png  used on input line 117.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
+ [31]
+<"../analyses/10-distances/figure_distances2".png, id=786, 505.89pt x 252.945pt
+>
+File: "../analyses/10-distances/figure_distances2".png Graphic file (type png)
+<use "../analyses/10-distances/figure_distances2".png>
+Package pdftex.def Info: "../analyses/10-distances/figure_distances2".png  used
+ on input line 124.
+(pdftex.def)             Requested size: 426.79135pt x 213.39865pt.
+
+
+Package hyperref Warning: Suppressing empty link on input line 125.
+
+
+Package hyperref Warning: Suppressing empty link on input line 125.
+
+[32]
+<"../analyses/09-parallelism/figure_contrasts".png, id=796, 361.35pt x 289.08pt
+>
+File: "../analyses/09-parallelism/figure_contrasts".png Graphic file (type png)
+
+<use "../analyses/09-parallelism/figure_contrasts".png>
+Package pdftex.def Info: "../analyses/09-parallelism/figure_contrasts".png  use
+d on input line 131.
+(pdftex.def)             Requested size: 426.79135pt x 341.43785pt.
+) [33 <../analyses/10-distances/figure_distances2.png (PNG copy)>] [34 <../anal
+yses/09-parallelism/figure_contrasts.png (PNG copy)>]
+(./sections/supptables.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{table.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 	\caption{}
+                (../analyses/01-counts/table_counts.tex)
+(../analyses/08-spatial correlation/table_sites.tex)
+(../analyses/03-PCA/table_expvar.tex) (../analyses/03-PCA/table_brightness.tex)
+(../analyses/05-assumptions/table_multinorm.tex)
+(../analyses/05-assumptions/table_covariance.tex)
+
+Package hyperref Warning: Suppressing empty link on input line 45.
+
+
+Package hyperref Warning: Suppressing empty link on input line 45.
+
+(../analyses/05-assumptions/table_normality.tex)
+
+Package hyperref Warning: Suppressing empty link on input line 52.
+
+
+Package hyperref Warning: Suppressing empty link on input line 52.
+
+(../analyses/06-pooled/table_anova_pooled.tex)
+Overfull \hbox (45.29243pt too wide) in paragraph at lines 2--55
  [][] 
  []
 
-[22] [23]
+(../analyses/04-machine learning/table_classif_svm_pca.tex)
 
-LaTeX Warning: Reference `tab:anova' on page 24 undefined on input line 322.
-
-
-LaTeX Warning: Reference `tab:anova' on page 24 undefined on input line 322.
+Package hyperref Warning: Suppressing empty link on input line 66.
 
 
-Overfull \hbox (17.57916pt too wide) in paragraph at lines 323--333
- [][] 
- []
+Package hyperref Warning: Suppressing empty link on input line 66.
 
-)
-
-Package natbib Warning: There were undefined citations.
-
-[24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+(../analyses/07-ANOVA/table_kw.tex)
+(../analyses/08-spatial correlation/table_spatial.tex)) [35] [36] [37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+ [38]
+[39] [40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 18574 strings out of 494923
- 339210 string characters out of 6180742
- 462408 words of memory out of 5000000
- 21424 multiletter control sequences out of 15000+600000
+ 19080 strings out of 494923
+ 351764 string characters out of 6180742
+ 491106 words of memory out of 5000000
+ 21730 multiletter control sequences out of 15000+600000
  20240 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,11n,56p,2423b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,2423b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
 00pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm080
 0.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
@@ -2054,16 +1445,15 @@ four/jknappen/ec/eccc1200.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk
 /pk/ljfour/jknappen/ec/ecti1728.600pk> </home/raphael/.texlive2017/texmf-var/fo
 nts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (24 pages, 3286742 bytes).
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (40 pages, 4223341 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1339 PDF objects out of 1440 (max. 8388607)
+ 852 compressed objects within 9 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

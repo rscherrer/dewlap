@@ -11,7 +11,7 @@ LazyData: true
 RoxygenNote: 7.1.0
 Roxygen: list(markdown = TRUE)
 Imports:
-  knitr
+  knitr,
   dplyr,
   tidyr,
   ggplot2,
@@ -20,7 +20,7 @@ Imports:
   cowplot,
   GGally,
   MANOVA.RM,
-  heplots,
+  heplots
 Suggests:
   RColorBrewer
 Remotes:

@@ -4,7 +4,6 @@ rm(list = ls())
 
 library(nmgc)
 library(tidyverse)
-library(knitr)
 
 # Here we are checking first the correlation between PC1 and brightness
 # and second, the variance explained by each PC on each island
@@ -50,11 +49,14 @@ res_cor <- res_cor %>%
 
 # Save table
 t1 <- res_cor
-t1 <- latex %>%
+t1 <- t1 %>%
   add_signif() %>%
   mutate(pvalue = ifelse(pvalue < 0.0001, "< 0.0001", pvalue))
-colnames(t1)[colnames(t1) == "signif"] <- ""
-save_table(t1, "table_brightness", digits = c(0, 3, 0))
+col.names <- c("Island", "$R^2$", "$P$", "")
+save_table(
+  t1, "analyses/03-PCA/table_brightness", digits = c(0, 3, 0),
+  col.names = col.names, align = "lrrl"
+)
 
 
 # Plot the correlation
@@ -104,4 +106,6 @@ expvar <- expvar %>% mutate(total = expvar %>% dplyr::select(PC1:PC4) %>% apply(
 
 # Save table
 t2 <- expvar
-save_table(t2, "table_expvar", digits = c(0, 3, 3, 3, 3, 3))
+col.names <- c("Island", "PC1", "PC2", "PC3", "PC4", "Total")
+fname <- "analyses/03-PCA/table_expvar"
+save_table(t2, fname, digits = c(0, 3, 3, 3, 3, 3), col.names = col.names)
