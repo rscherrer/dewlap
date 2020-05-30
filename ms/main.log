@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.22)  25 MAY 2020 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.23)  30 MAY 2020 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -40,8 +40,6 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count88
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -858,35 +856,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-) (./sections/methods.tex
-
-LaTeX Warning: Reference `suptab:locations' on page 3 undefined on input line 6
-.
-
-[3]
-
-LaTeX Warning: Reference `fig:boxplots' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Reference `suptab:covariances' on page 4 undefined on input line
- 28.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+) (./sections/methods.tex [3]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -902,7 +887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -917,9 +902,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
  []
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
-LaTeX Warning: Reference `suptab:locations' on page 6 undefined on input line 5
-6.
+ []
 
 ) (./sections/results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -931,12 +916,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1002,12 +987,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 [9]) (./sections/acknowledgments.tex) [10] (./sections/figures.tex
-<../maps/map.pdf, id=675, 632.3625pt x 451.6875pt>
+<../maps/map.pdf, id=730, 632.3625pt x 451.6875pt>
 File: ../maps/map.pdf Graphic file (type pdf)
 <use ../maps/map.pdf>
 Package pdftex.def Info: ../maps/map.pdf  used on input line 4.
 (pdftex.def)             Requested size: 341.43437pt x 243.88693pt.
-<"../analyses/04-machine learning/plots/classif_svm_pca".png, id=676, 650.43pt 
+<"../analyses/04-machine learning/plots/classif_svm_pca".png, id=731, 650.43pt 
 x 433.62pt>
 File: "../analyses/04-machine learning/plots/classif_svm_pca".png Graphic file 
 (type png)
@@ -1016,7 +1001,7 @@ Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_pca
 ".png  used on input line 12.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
  [11 <../maps/map.pdf>]
-<../analyses/07-ANOVA/figure_anova.png, id=691, 505.89pt x 505.89pt>
+<../analyses/07-ANOVA/figure_anova.png, id=745, 505.89pt x 505.89pt>
 File: ../analyses/07-ANOVA/figure_anova.png Graphic file (type png)
 <use ../analyses/07-ANOVA/figure_anova.png>
 Package pdftex.def Info: ../analyses/07-ANOVA/figure_anova.png  used on input l
@@ -1025,31 +1010,8 @@ ine 21.
 ) [12 <../analyses/04-machine learning/plots/classif_svm_pca.png (PNG copy)>] [
 13 <../analyses/07-ANOVA/figure_anova.png (PNG copy)>]
 (./sections/tables.tex (../analyses/07-ANOVA/table_anova.tex)) [14] [15]
-(./main.bbl
-! Argument of \emph  has an extra }.
-<inserted text> 
-                \par 
-l.97 ...{Anolis}}}}{\emph{ sagrei}}{\emph{{\emph}}
-                                                  }.
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \emph  was complete.
-<to be read again> 
-                   \par 
-l.97 ...{Anolis}}}}{\emph{ sagrei}}{\emph{{\emph}}
-                                                  }.
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[16] [17] [18] [19] [20]) [21] (./sections/suppfigures.tex
-<../maps/detailed_map.pdf, id=737, 660.4675pt x 466.74374pt>
+(./main.bbl [16] [17] [18] [19] [20] [21]) [22] (./sections/suppfigures.tex
+<../maps/detailed_map.pdf, id=796, 660.4675pt x 466.74374pt>
 File: ../maps/detailed_map.pdf Graphic file (type pdf)
 <use ../maps/detailed_map.pdf>
 Package pdftex.def Info: ../maps/detailed_map.pdf  used on input line 4.
@@ -1066,7 +1028,7 @@ e ignored
                    \relax 
 l.5 ...ts across nine islands of the West Indies.}
                                                   
-<"../analyses/03-PCA/figure_brightness".png, id=738, 433.62pt x 433.62pt>
+<"../analyses/03-PCA/figure_brightness".png, id=797, 433.62pt x 433.62pt>
 File: "../analyses/03-PCA/figure_brightness".png Graphic file (type png)
 <use "../analyses/03-PCA/figure_brightness".png>
 Package pdftex.def Info: "../analyses/03-PCA/figure_brightness".png  used on in
@@ -1083,9 +1045,9 @@ e ignored
 <to be read again> 
                    \relax 
 l.12 ...n coefficients are reported. *, P < 0.05.}
-                                                   [22 <../maps/detailed_map.pd
+                                                   [23 <../maps/detailed_map.pd
 f>]
-<"../analyses/03-PCA/figure_brightness_pooled".png, id=746, 289.08pt x 289.08pt
+<"../analyses/03-PCA/figure_brightness_pooled".png, id=805, 289.08pt x 289.08pt
 >
 File: "../analyses/03-PCA/figure_brightness_pooled".png Graphic file (type png)
 
@@ -1105,154 +1067,161 @@ e ignored
                    \relax 
 l.19 ...ion coefficient is reported. *, P < 0.05.}
                                                   
-<"../analyses/02-reflectance/figure_reflectance".png, id=747, 433.62pt x 433.62
+<"../analyses/06-pooled/figure_pooled".png, id=806, 578.16pt x 361.35pt>
+File: "../analyses/06-pooled/figure_pooled".png Graphic file (type png)
+<use "../analyses/06-pooled/figure_pooled".png>
+Package pdftex.def Info: "../analyses/06-pooled/figure_pooled".png  used on inp
+ut line 25.
+(pdftex.def)             Requested size: 426.79135pt x 266.74419pt.
+ [24 <../analyses/03-PCA/figure_brightness.png> <../analyses/03-PCA/figure_brig
+htness_pooled.png>]
+<"../analyses/02-reflectance/figure_reflectance".png, id=813, 433.62pt x 433.62
 pt>
 File: "../analyses/02-reflectance/figure_reflectance".png Graphic file (type pn
 g)
 <use "../analyses/02-reflectance/figure_reflectance".png>
 Package pdftex.def Info: "../analyses/02-reflectance/figure_reflectance".png  u
-sed on input line 26.
+sed on input line 33.
 (pdftex.def)             Requested size: 341.43437pt x 341.4511pt.
- [23 <../analyses/03-PCA/figure_brightness.png> <../analyses/03-PCA/figure_brig
-htness_pooled.png>]
-<"../analyses/04-machine learning/plots/classif_svm_pca_pooled".png, id=754, 43
+ [25 <../analyses/06-pooled/figure_pooled.png (PNG copy)>]
+<"../analyses/04-machine learning/plots/classif_svm_pca_pooled".png, id=819, 43
 3.62pt x 216.81pt>
 File: "../analyses/04-machine learning/plots/classif_svm_pca_pooled".png Graphi
 c file (type png)
 <use "../analyses/04-machine learning/plots/classif_svm_pca_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_pca
-_pooled".png  used on input line 33.
+_pooled".png  used on input line 40.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<"../analyses/04-machine learning/plots/classif_svm_refl_pooled".png, id=757, 4
+<"../analyses/04-machine learning/plots/classif_svm_refl_pooled".png, id=822, 4
 33.62pt x 216.81pt>
 File: "../analyses/04-machine learning/plots/classif_svm_refl_pooled".png Graph
 ic file (type png)
 <use "../analyses/04-machine learning/plots/classif_svm_refl_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_ref
-l_pooled".png  used on input line 40.
+l_pooled".png  used on input line 47.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
- [24 <../analyses/02-reflectance/figure_reflectance.png (PNG copy)> <../analyse
+ [26 <../analyses/02-reflectance/figure_reflectance.png (PNG copy)> <../analyse
 s/04-machine learning/plots/classif_svm_pca_pooled.png (PNG copy)>]
-<"../analyses/04-machine learning/plots/importance_svm_pca_pooled".png, id=764,
+<"../analyses/04-machine learning/plots/importance_svm_pca_pooled".png, id=829,
  216.81pt x 216.81pt>
 File: "../analyses/04-machine learning/plots/importance_svm_pca_pooled".png Gra
 phic file (type png)
 <use "../analyses/04-machine learning/plots/importance_svm_pca_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
-pca_pooled".png  used on input line 47.
+pca_pooled".png  used on input line 54.
 (pdftex.def)             Requested size: 170.71393pt x 170.72223pt.
-<"../analyses/04-machine learning/plots/importance_svm_refl_pooled".png, id=767
+<"../analyses/04-machine learning/plots/importance_svm_refl_pooled".png, id=832
 , 361.35pt x 289.08pt>
 File: "../analyses/04-machine learning/plots/importance_svm_refl_pooled".png Gr
 aphic file (type png)
 <use "../analyses/04-machine learning/plots/importance_svm_refl_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
-refl_pooled".png  used on input line 54.
+refl_pooled".png  used on input line 61.
 (pdftex.def)             Requested size: 256.07741pt x 204.86447pt.
- [25 <../analyses/04-machine learning/plots/classif_svm_refl_pooled.png (PNG co
+ [27 <../analyses/04-machine learning/plots/classif_svm_refl_pooled.png (PNG co
 py)> <../analyses/04-machine learning/plots/importance_svm_pca_pooled.png>]
-<"../analyses/04-machine learning/plots/classif_lda_pca_pooled".png, id=776, 43
+<"../analyses/04-machine learning/plots/classif_lda_pca_pooled".png, id=840, 43
 3.62pt x 216.81pt>
 File: "../analyses/04-machine learning/plots/classif_lda_pca_pooled".png Graphi
 c file (type png)
 <use "../analyses/04-machine learning/plots/classif_lda_pca_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_pca
-_pooled".png  used on input line 61.
+_pooled".png  used on input line 68.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<"../analyses/04-machine learning/plots/classif_lda_refl_pooled".png, id=779, 4
+<"../analyses/04-machine learning/plots/classif_lda_refl_pooled".png, id=843, 4
 33.62pt x 216.81pt>
 File: "../analyses/04-machine learning/plots/classif_lda_refl_pooled".png Graph
 ic file (type png)
 <use "../analyses/04-machine learning/plots/classif_lda_refl_pooled".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_ref
-l_pooled".png  used on input line 68.
+l_pooled".png  used on input line 75.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
- [26 <../analyses/04-machine learning/plots/importance_svm_refl_pooled.png> <..
+ [28 <../analyses/04-machine learning/plots/importance_svm_refl_pooled.png> <..
 /analyses/04-machine learning/plots/classif_lda_pca_pooled.png (PNG copy)>]
-<"../analyses/04-machine learning/plots/classif_lda_pca".png, id=787, 650.43pt 
+<"../analyses/04-machine learning/plots/classif_lda_pca".png, id=851, 650.43pt 
 x 433.62pt>
 File: "../analyses/04-machine learning/plots/classif_lda_pca".png Graphic file 
 (type png)
 <use "../analyses/04-machine learning/plots/classif_lda_pca".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_pca
-".png  used on input line 75.
+".png  used on input line 82.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-<"../analyses/04-machine learning/plots/classif_svm_refl".png, id=790, 650.43pt
+<"../analyses/04-machine learning/plots/classif_svm_refl".png, id=854, 650.43pt
  x 433.62pt>
 File: "../analyses/04-machine learning/plots/classif_svm_refl".png Graphic file
  (type png)
 <use "../analyses/04-machine learning/plots/classif_svm_refl".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_svm_ref
-l".png  used on input line 82.
+l".png  used on input line 89.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
- [27 <../analyses/04-machine learning/plots/classif_lda_refl_pooled.png (PNG co
+ [29 <../analyses/04-machine learning/plots/classif_lda_refl_pooled.png (PNG co
 py)> <../analyses/04-machine learning/plots/classif_lda_pca.png (PNG copy)>]
-<"../analyses/04-machine learning/plots/classif_lda_refl".png, id=797, 650.43pt
+<"../analyses/04-machine learning/plots/classif_lda_refl".png, id=861, 650.43pt
  x 433.62pt>
 File: "../analyses/04-machine learning/plots/classif_lda_refl".png Graphic file
  (type png)
 <use "../analyses/04-machine learning/plots/classif_lda_refl".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/classif_lda_ref
-l".png  used on input line 89.
+l".png  used on input line 96.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-<"../analyses/04-machine learning/plots/importance_svm_pca".png, id=800, 361.35
+<"../analyses/04-machine learning/plots/importance_svm_pca".png, id=864, 361.35
 pt x 289.08pt>
 File: "../analyses/04-machine learning/plots/importance_svm_pca".png Graphic fi
 le (type png)
 <use "../analyses/04-machine learning/plots/importance_svm_pca".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
-pca".png  used on input line 96.
+pca".png  used on input line 103.
 (pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
 
 
-LaTeX Warning: Reference `supfig:classif-svm-pca' on page 28 undefined on input
- line 97.
+LaTeX Warning: Reference `supfig:classif-svm-pca' on page 30 undefined on input
+ line 104.
 
 
-LaTeX Warning: Reference `supfig:classif-svm-pca' on page 28 undefined on input
- line 97.
+LaTeX Warning: Reference `supfig:classif-svm-pca' on page 30 undefined on input
+ line 104.
 
-[28 <../analyses/04-machine learning/plots/classif_svm_refl.png (PNG copy)> <..
+[30 <../analyses/04-machine learning/plots/classif_svm_refl.png (PNG copy)> <..
 /analyses/04-machine learning/plots/classif_lda_refl.png (PNG copy)>]
-<"../analyses/04-machine learning/plots/importance_lda_pca".png, id=805, 361.35
+<"../analyses/04-machine learning/plots/importance_lda_pca".png, id=869, 361.35
 pt x 289.08pt>
 File: "../analyses/04-machine learning/plots/importance_lda_pca".png Graphic fi
 le (type png)
 <use "../analyses/04-machine learning/plots/importance_lda_pca".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_lda_
-pca".png  used on input line 103.
+pca".png  used on input line 110.
 (pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
 File: "../analyses/04-machine learning/plots/importance_svm_pca".png Graphic fi
 le (type png)
 <use "../analyses/04-machine learning/plots/importance_svm_pca".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_svm_
-pca".png  used on input line 110.
+pca".png  used on input line 117.
 (pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
- [29 <../analyses/04-machine learning/plots/importance_svm_pca.png> <../analyse
+ [31 <../analyses/04-machine learning/plots/importance_svm_pca.png> <../analyse
 s/04-machine learning/plots/importance_lda_pca.png>]
 File: "../analyses/04-machine learning/plots/importance_lda_pca".png Graphic fi
 le (type png)
 <use "../analyses/04-machine learning/plots/importance_lda_pca".png>
 Package pdftex.def Info: "../analyses/04-machine learning/plots/importance_lda_
-pca".png  used on input line 117.
+pca".png  used on input line 124.
 (pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
-<"../analyses/10-distances/figure_distances2".png, id=819, 505.89pt x 252.945pt
+<"../analyses/10-distances/figure_distances2".png, id=883, 505.89pt x 252.945pt
 >
 File: "../analyses/10-distances/figure_distances2".png Graphic file (type png)
 <use "../analyses/10-distances/figure_distances2".png>
 Package pdftex.def Info: "../analyses/10-distances/figure_distances2".png  used
- on input line 124.
+ on input line 131.
 (pdftex.def)             Requested size: 426.79135pt x 213.39865pt.
- [30]
-<"../analyses/09-parallelism/figure_contrasts".png, id=830, 361.35pt x 289.08pt
+ [32]
+<"../analyses/09-parallelism/figure_contrasts".png, id=894, 361.35pt x 289.08pt
 >
 File: "../analyses/09-parallelism/figure_contrasts".png Graphic file (type png)
 
 <use "../analyses/09-parallelism/figure_contrasts".png>
 Package pdftex.def Info: "../analyses/09-parallelism/figure_contrasts".png  use
-d on input line 131.
+d on input line 138.
 (pdftex.def)             Requested size: 298.75264pt x 239.0056pt.
-) [31 <../analyses/10-distances/figure_distances2.png (PNG copy)> <../analyses/
+) [33 <../analyses/10-distances/figure_distances2.png (PNG copy)> <../analyses/
 09-parallelism/figure_contrasts.png (PNG copy)>] (./sections/supptables.texpdfT
 eX warning (ext4): destination with the same identifier (name{table.1}) has bee
 n already used, duplicate ignored
@@ -1262,15 +1231,15 @@ l.2 ...ds sampled in each habitat on each island.}
                                                   
 (../analyses/01-counts/table_counts.tex)
 (../analyses/08-spatial correlation/table_sites.tex)
-(../analyses/03-PCA/table_expvar.tex) [32]
+(../analyses/03-PCA/table_expvar.tex) [34]
 (../analyses/03-PCA/table_brightness.tex)
-(../analyses/05-assumptions/table_multinorm.tex) [33]
+(../analyses/05-assumptions/table_multinorm.tex) [35]
 (../analyses/05-assumptions/table_covariance.tex)
-(../analyses/05-assumptions/table_normality.tex) [34]
-(../analyses/06-pooled/table_anova_pooled.tex) [35]
+(../analyses/05-assumptions/table_normality.tex) [36]
+(../analyses/06-pooled/table_anova_pooled.tex) [37]
 (../analyses/04-machine learning/table_classif_svm_pca.tex)
 (../analyses/07-ANOVA/table_kw.tex)
-(../analyses/08-spatial correlation/table_spatial.tex)) [36] [37]
+(../analyses/08-spatial correlation/table_spatial.tex)) [38] [39]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./main.aux)
@@ -1285,37 +1254,34 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 19061 strings out of 494923
- 351295 string characters out of 6180742
- 450616 words of memory out of 5000000
- 21714 multiletter control sequences out of 15000+600000
+ 19107 strings out of 492982
+ 352230 string characters out of 6134896
+ 456273 words of memory out of 5000000
+ 21996 multiletter control sequences out of 15000+600000
  20240 words of font info for 45 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 62i,13n,56p,1979b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
-00pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm080
-0.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
-1440.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cti1000.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecbx1000.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecti0900.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm0900.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx0900.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecrm1000.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk/lj
-four/jknappen/ec/eccc1200.600pk> </home/raphael/.texlive2017/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecss0500.600pk> </home/raphael/.texlive2017/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecti1728.600pk> </home/raphael/.texlive2017/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (37 pages, 4222494 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 62i,13n,56p,1979b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
+x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfss0500.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
+000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb>
+Output written on main.pdf (39 pages, 5145245 bytes).
 PDF statistics:
- 1361 PDF objects out of 1440 (max. 8388607)
- 877 compressed objects within 9 object streams
- 207 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 927 compressed objects within 10 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,6 +21,12 @@ Baeckens, S., Driessens, T., and Van~Damme, R. (2018).
 Barto{\'n}, K. (2019).
 \newblock {{MuMIn}}: {{Multi}}-{{Model Inference}}.
 
+\bibitem[Benjamini and Hochberg, 1995]{Benjamini1995}
+Benjamini, Y. and Hochberg, Y. (1995).
+\newblock Controlling the false discovery rate: A practical and powerful
+  approach to multiple testing.
+\newblock {\em Journal of the Royal Statistical Society Series B}, 57:289--300.
+
 \bibitem[Box, 1949]{Box1949}
 Box, G. E.~P. (1949).
 \newblock A {{General Distribution Theory}} for a {{Class}} of {{Likelihood
@@ -31,7 +37,6 @@ Box, G. E.~P. (1949).
 Bradbury, J.~W. and Vehrencamp, S.~L. (2011).
 \newblock {\em Principles of Animal Communication}.
 \newblock {Sinauer Associates}, {Sunderland, Mass}, 2nd ed edition.
-\newblock OCLC: ocn747947250.
 
 \bibitem[Cook et~al., 2013]{Cook2013}
 Cook, E.~G., Murphy, T.~G., and Johnson, M.~A. (2013).
@@ -53,11 +58,16 @@ Cortez, P. (2010).
   Intelligence}} 6171}, number 6171 in Lecture Notes in Computer Science
   {{Lecture}} Notes in Artificial Intelligence, pages 572--583. {Springer},
   {Berlin}.
-\newblock Meeting Name: ICDM OCLC: 658236611.
 
 \bibitem[Cortez, 2016]{Cortez2016}
 Cortez, P. (2016).
 \newblock Rminer: {{Data Mining Classification}} and {{Regression Methods}}.
+
+\bibitem[Cortez and Embrechts, 2013]{Cortez2013}
+Cortez, P. and Embrechts, M.~J. (2013).
+\newblock Using sensitivity analysis and visualization techniques to open black
+  box data mining models.
+\newblock {\em Information Sciences}, 225:1--17.
 
 \bibitem[Cox et~al., 2017]{Cox2017}
 Cox, R.~M., Costello, R.~A., Camber, B.~E., and McGlothlin, J.~W. (2017).
@@ -94,7 +104,7 @@ Driessens, T., Baeckens, S., Balzarolo, M., Vanhooydonck, B., Huyghe, K., and
 \bibitem[Driessens et~al., 2015]{Driessens2015}
 Driessens, T., Huyghe, K., Vanhooydonck, B., and Van~Damme, R. (2015).
 \newblock Messages conveyed by assorted facets of the dewlap, in both sexes of
-  {{{\emph{Anolis}}}}{\emph{ sagrei}}{\emph{{\emph}}}.
+  {{{\emph{Anolis}}}}{\emph{ sagrei}}.
 \newblock {\em Behavioral Ecology and Sociobiology}, 69(8):1251--1264.
 
 \bibitem[Driessens et~al., 2014]{Driessens2014}
@@ -103,6 +113,12 @@ Driessens, T., Vanhooydonck, B., and Van~Damme, R. (2014).
   {{Signaling}} rates across diverse contexts in the lizard
   {{{\emph{Anolis}}}}{\emph{ sagrei}}.
 \newblock {\em Behavioral Ecology and Sociobiology}, 68(2):173--184.
+
+\bibitem[Dunnett, 1980]{Dunnett1980}
+Dunnett, C.~W. (1980).
+\newblock Pairwise {{Multiple Comparisons}} in the {{Unequal Variance Case}}.
+\newblock {\em Journal of the American Statistical Association},
+  75(372):796--800.
 
 \bibitem[Endler, 1998]{Endler1998}
 Endler, J. (1998).
@@ -159,10 +175,9 @@ Felsenstein, J. (1976).
 
 \bibitem[Fleishman, 2000]{Fleishman2000}
 Fleishman, L.~J. (2000).
-\newblock Signal function, signal efficiency and the evolution of anoline
-  lizard dewlap color.
-\newblock In {\em Animal Signals: Signalling and Signal Design in Animal
-  Communication}, pages 209--236. {Tapir Academic}, {Trondheim}.
+\newblock {\em Signal Function, Signal Efficiency and the Evolution of Anoline
+  Lizard Dewlap Color}, pages 209--236.
+\newblock {Tapir Academic}, {Trondheim}.
 
 \bibitem[Fleishman et~al., 2009]{Fleishman2009}
 Fleishman, L.~J., Leal, M., and Persons, M.~H. (2009).
@@ -173,17 +188,23 @@ Fleishman, L.~J., Leal, M., and Persons, M.~H. (2009).
 \bibitem[Fleishman and Persons, 2001]{Fleishman2001}
 Fleishman, L.~J. and Persons, M. (2001).
 \newblock The influence of stimulus and background colour on signal visibility
-  in the lizard {{Anolis}} cristatellus.
+  in the lizard {{{\emph{Anolis}}}}{\emph{ cristatellus}}.
 \newblock {\em The Journal of Experimental Biology}, 204(Pt 9):1559--1575.
 
 \bibitem[Fox et~al., 2018]{Fox2018}
 Fox, J., Friendly, M., and Monette, G. (2018).
 \newblock Heplots: {{Visualizing Tests}} in {{Multivariate Linear Models}}.
 
+\bibitem[Friedrich et~al., 2018]{Friedrich2018}
+Friedrich, S., Konietschke, F., and Pauly, M. (2018).
+\newblock Analysis of {{Multivariate Data}} and {{Repeated Measures Designs}}
+  with the {{R Package MANOVA}}.{{RM}}.
+\newblock {\em arXiv:1801.08002 [stat]}.
+
 \bibitem[{Garc{\'i}a-Ramos} and Kirkpatrick, 1997]{Garcia-Ramos1997}
 {Garc{\'i}a-Ramos}, G. and Kirkpatrick, M. (1997).
-\newblock {{GENETIC MODELS OF ADAPTATION AND GENE FLOW IN PERIPHERAL
-  POPULATIONS}}.
+\newblock Genetic {{Models}} of {{Adaptation}} and {{Gene Flow}} in
+  {{Peripheral Populations}}.
 \newblock {\em Evolution}, 51(1):21--28.
 
 \bibitem[Gavrilets and Losos, 2009]{Gavrilets2009}
@@ -196,6 +217,12 @@ Geneva, A.~J., Hilton, J., Noll, S., and Glor, R.~E. (2015).
 \newblock Multilocus phylogenetic analyses of {{Hispaniolan}} and {{Bahamian}}
   trunk anoles ({\emph{distichus}} species group).
 \newblock {\em Molecular Phylogenetics and Evolution}, 87:105--117.
+
+\bibitem[Gittleman and Kot, 1990]{Gittleman1990}
+Gittleman, J.~L. and Kot, M. (1990).
+\newblock Adaptation: {{Statistics}} and a {{Null Model}} for {{Estimating
+  Phylogenetic Effects}}.
+\newblock {\em Systematic Zoology}, 39(3):227.
 
 \bibitem[Goodwin, 1984]{Goodwin1984}
 Goodwin, T.~W. (1984).
@@ -217,20 +244,20 @@ Harmon, L.~J., Schulte, J.~A., Larson, A., and Losos, J.~B. (2003).
 \bibitem[Harrison and Poe, 2012]{Harrison2012}
 Harrison, A. and Poe, S. (2012).
 \newblock Evolution of an ornament, the dewlap, in females of the lizard genus
-  {{Anolis}}: {{EVOLUTION OF AN ORNAMENT}}.
+  {{{\emph{Anolis}}}}.
 \newblock {\em Biological Journal of the Linnean Society}, 106(1):191--201.
 
 \bibitem[Hendry et~al., 2007a]{Hendry2007}
 Hendry, A.~P., Day, T., and Taylor, E.~B. (2007a).
-\newblock {{POPULATION MIXING AND THE ADAPTIVE DIVERGENCE OF QUANTITATIVE
-  TRAITS IN DISCRETE POPULATIONS}}: {{A THEORETICAL FRAMEWORK FOR EMPIRICAL
-  TESTS}}.
+\newblock Population {{Mixing}} and the {{Adaptive Divergence}} of
+  {{Quantitative Traits}} in {{Discrete Populations}}: {{A Theoretical
+  Framework}} for {{Empirical Tests}}.
 \newblock {\em Evolution}, 55(3):459--466.
 
 \bibitem[Hendry et~al., 2007b]{Hendry2007a}
 Hendry, A.~P., Taylor, E.~B., and McPhail, J.~D. (2007b).
-\newblock {{ADAPTIVE DIVERGENCE AND THE BALANCE BETWEEN SELECTION AND GENE
-  FLOW}}: {{LAKE AND STREAM STICKLEBACK IN THE MISTY SYSTEM}}.
+\newblock Adaptive {{Divergence}} and the {{Balance Between Selection}} and
+  {{Gene Flow}}: {{Lake}} and {{Stream Stickleback}} in the {{Misty System}}.
 \newblock {\em Evolution}, 56(6):1199--1216.
 
 \bibitem[Henze and Zirkler, 1990]{Henze1990}
@@ -253,7 +280,12 @@ Hill, G.~E., Inouye, C.~Y., and Montgomerie, R. (2002).
 Hill, G.~E. and McGraw, K.~J., editors (2006).
 \newblock {\em Bird Coloration}.
 \newblock {Harvard University Press}, {Cambridge, Mass}.
-\newblock OCLC: ocm60311967.
+
+\bibitem[Hollander et~al., 2013]{Hollander2013}
+Hollander, M., Wolfe, D.~A., and Chicken, E. (2013).
+\newblock {\em Nonparametric Statistical Methods}.
+\newblock Wiley Series in Probability and Statistics. {John Wiley \& Sons,
+  Inc}, {Hoboken, New Jersey}, third edition edition.
 
 \bibitem[Howard, 1950]{Howard1950}
 Howard, R.~A. (1950).
@@ -338,13 +370,13 @@ Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1995).
 \bibitem[Leal and {Rodriguez-Robles}, 1997]{Leal1997b}
 Leal, M. and {Rodriguez-Robles}, J.~A. (1997).
 \newblock Antipredator {{Responses}} of the {{Puerto Rican Giant Anole}},
-  {{Anolis}} cuvieri ({{Squamata}}: {{Polychrotidae}})1.
+  {{{\emph{Anolis}}}}{\emph{ cuvieri}} ({{Squamata}}: {{Polychrotidae}}).
 \newblock {\em Biotropica}, 29(3):372--375.
 
 \bibitem[Leal and {Rodr{\'i}guez-Robles}, 1997]{Leal1997}
 Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1997).
-\newblock Signalling displays during predator\textendash{}prey interactions in
-  a {{Puerto Rican}} anole, {{{\emph{Anolis}}}}{\emph{ cristatellus}}.
+\newblock Signalling displays during predator\textendash prey interactions in a
+  {{Puerto Rican}} anole, {{{\emph{Anolis}}}}{\emph{ cristatellus}}.
 \newblock {\em Animal Behaviour}, 54(5):1147--1154.
 
 \bibitem[Lenormand, 2002]{Lenormand2002}
@@ -390,13 +422,14 @@ Losos, J.~B., Warheitt, K.~I., and Schoener, T.~W. (1997).
 \bibitem[Macedonia, 2001]{Macedonia2001}
 Macedonia, J.~M. (2001).
 \newblock Habitat light, colour variation, and ultraviolet reflectance in the
-  {{Grand Cayman}} anole, {{Anolis}} conspersus.
+  {{Grand Cayman}} anole, {{{\emph{Anolis}}}}{\emph{ conspersus}}.
 \newblock {\em Biological Journal of the Linnean Society}, 73(3):299--320.
 
 \bibitem[Macedonia et~al., 2013]{Macedonia2013}
 Macedonia, J.~M., Clark, D.~L., Riley, R.~G., and Kemp, D.~J. (2013).
-\newblock Species recognition of color and motion signals in {{Anolis}}
-  grahami: Evidence from responses to lizard robots.
+\newblock Species recognition of color and motion signals in
+  {{{\emph{Anolis}}}}{\emph{ grahami}}: Evidence from responses to lizard
+  robots.
 \newblock {\em Behavioral Ecology}, 24(4):846--852.
 
 \bibitem[Macedonia et~al., 2014]{Macedonia2014a}
@@ -414,15 +447,15 @@ Macedonia, J.~M., James, S., Wittle, L.~W., and Clark, D.~L. (2000).
 
 \bibitem[Macedonia and Stamps, 1994]{Macedonia1994}
 Macedonia, J.~M. and Stamps, J.~A. (1994).
-\newblock Species {{Recognition}} in {{Anolis}} grahami ({{Sauria}},
-  {{Iguanidae}}): {{Evidence}} from {{Responses}} to {{Video Playbacks}} of
-  {{Conspecific}} and {{Heterospecific Displays}}.
+\newblock Species {{Recognition}} in {{{\emph{Anolis}}}}{\emph{ grahami}}
+  ({{Sauria}}, {{Iguanidae}}): {{Evidence}} from {{Responses}} to {{Video
+  Playbacks}} of {{Conspecific}} and {{Heterospecific Displays}}.
 \newblock {\em Ethology}, 98(3-4):246--264.
 
 \bibitem[Maia et~al., 2013]{Maia2013}
 Maia, R., Eliason, C.~M., Bitton, P.-P., Doucet, S.~M., and Shawkey, M.~D.
   (2013).
-\newblock Pavo : An {{R}} package for the analysis, visualization and
+\newblock Pavo: An {{R}} package for the analysis, visualization and
   organization of spectral data.
 \newblock {\em Methods in Ecology and Evolution}, pages n/a--n/a.
 
@@ -431,7 +464,11 @@ Morrison, D.~F. (1988).
 \newblock {\em Multivariate Statistical Methods}.
 \newblock {{McGraw}}-{{Hill}} Series in Probability and Statistics.
   {McGraw-Hill}, {Hamburg Auckland}.
-\newblock OCLC: 257151237.
+
+\bibitem[Nemenyi, 1963]{Nemenyi1963}
+Nemenyi, P. (1963).
+\newblock {\em Distribution-Free Multiple Comparisons}.
+\newblock {Ph. D. dissertation, Princeton University}, {Princeton, NJ}.
 
 \bibitem[Ng et~al., 2017]{Ng2017}
 Ng, J., Geneva, A.~J., Noll, S., and Glor, R.~E. (2017).
@@ -472,9 +509,9 @@ Nicholson, K.~E., Harmon, L.~J., and Losos, J.~B. (2007).
 
 \bibitem[Nosil and Crespi, 2004]{Nosil2004}
 Nosil, P. and Crespi, B.~J. (2004).
-\newblock {{DOES GENE FLOW CONSTRAIN ADAPTIVE DIVERGENCE OR VICE VERSA}}? {{A
-  TEST USING ECOMORPHOLOGY AND SEXUAL ISOLATION IN TIMEMA CRISTINAE
-  WALKING}}-{{STICKS}}.
+\newblock Does {{Gene Flow Constrain Adaptive Divergence}} or {{Vice Versa}}?
+  {{A Test Using Ecomorphology}} and {{Sexual Isolation}} in
+  {{{\emph{Timema}}}}{\emph{ cristinae}} {{Walking}}-{{Sticks}}.
 \newblock {\em Evolution}, 58(1):102--112.
 
 \bibitem[Ortiz, 1962]{Ortiz1962}
@@ -515,6 +552,16 @@ Pinheiro, J. and Bates, D. (2000).
 Pinheiro, J., Bates, D., DebRoy, S., Sarkar, D., and Team, R.~C. (2020).
 \newblock Nlme: {{Linear}} and {{Nonlinear Mixed Effects Models}}.
 
+\bibitem[Pohlert, 2020]{Pohlert2020}
+Pohlert, T. (2020).
+\newblock {{PMCMRplus}}: {{Calculate Pairwise Multiple}} {{Comparisons}} of
+  {{Mean Rank Sums Extended}}. {{R}} package version 1.4.4.
+
+\bibitem[{R Core Team}, 2019]{RCoreTeam2019}
+{R Core Team} (2019).
+\newblock R: {{A Language}} and {{Environment}} for {{Statistical Computing}}.
+\newblock R Foundation for Statistical Computing.
+
 \bibitem[Rand and Williams, 1970]{Rand1970b}
 Rand, A.~S. and Williams, E.~E. (1970).
 \newblock An {{Estimation}} of {{Redundancy}} and {{Information Content}} of
@@ -538,8 +585,8 @@ Reynolds, R.~G., Kolbe, J.~J., Glor, R.~E., L{\'o}pez-Darias, M.,
 
 \bibitem[Richardson and Urban, 2013]{Richardson2013}
 Richardson, J.~L. and Urban, M.~C. (2013).
-\newblock {{STRONG SELECTION BARRIERS EXPLAIN MICROGEOGRAPHIC ADAPTATION IN
-  WILD SALAMANDER POPULATIONS}}.
+\newblock Strong {{Selection Barriers Explain Microgeographic Adaptation}} in
+  {{Wild Salamander Populations}}.
 \newblock {\em Evolution}, 67(6):1729--1740.
 
 \bibitem[Richardson et~al., 2014]{Richardson2014}
@@ -604,7 +651,7 @@ Steffen, J.~E. and McGraw, K.~J. (2007).
 \bibitem[Steffen and McGraw, 2009]{Steffen2009}
 Steffen, J.~E. and McGraw, K.~J. (2009).
 \newblock How dewlap color reflects its carotenoid and pterin content in male
-  and female brown anoles ({{Norops}} sagrei).
+  and female brown anoles ({{{\emph{Norops}}}}{\emph{ sagrei}}).
 \newblock {\em Comparative Biochemistry and Physiology Part B: Biochemistry and
   Molecular Biology}, 154(3):334--340.
 
@@ -614,16 +661,11 @@ Tariel, J., Pl{\'e}net, S., and Luquet, {\'E}. (2020).
   effects of grand-parental, parental and current environments.
 \newblock {\em Ecology and Evolution}, 10(5):2367--2376.
 
-\bibitem[Team, 2019]{RCoreTeam2019}
-Team, R.~C. (2019).
-\newblock R: {{A Language}} and {{Environment}} for {{Statistical Computing}}.
-\newblock R Foundation for Statistical Computing.
-
 \bibitem[Thorpe, 2002]{Thorpe2002b}
 Thorpe, R.~S. (2002).
 \newblock Analysis of {{Color Spectra}} in {{Comparative Evolutionary
   Studies}}: {{Molecular Phylogeny}} and {{Habitat Adaptation}} in the {{St}}.
-  {{Vincent Anole}} ({{Anolis}} trinitatis).
+  {{Vincent Anole}} ({{{\emph{Anolis}}}}{\emph{ trinitatis}}).
 \newblock {\em Systematic Biology}, 51(4):554--569.
 
 \bibitem[Thorpe and Stenson, 2002]{Thorpe2002a}
@@ -653,6 +695,11 @@ Tokarz, R.~R., Paterson, A.~V., and McMann, S. (2005).
   {{Free}}-{{Ranging Brown Anoles}} ({{{\emph{Anolis}}}}{\emph{ sagrei}}).
 \newblock {\em Journal of Herpetology}, 39(1):174--177.
 
+\bibitem[Tukey, 1949]{Tukey1949}
+Tukey, J.~W. (1949).
+\newblock Comparing {{Individual Means}} in the {{Analysis}} of {{Variance}}.
+\newblock {\em Biometrics}, 5(2):99.
+
 \bibitem[Vanhooydonck et~al., 2009]{Vanhooydonck2009}
 Vanhooydonck, B., Herrel, A., Meyers, J.~J., and Irschick, D.~J. (2009).
 \newblock What determines dewlap diversity in {{{\emph{Anolis}}}} lizards?
@@ -661,14 +708,19 @@ Vanhooydonck, B., Herrel, A., Meyers, J.~J., and Irschick, D.~J. (2009).
 
 \bibitem[Vanhooydonck et~al., 2005]{Vanhooydonck2005}
 Vanhooydonck, B., Herrel, A.~Y., Van~Damme, R., and Irschick, D.~J. (2005).
-\newblock Does dewlap size predict male bite performance in {{Jamaican Anolis}}
-  lizards?
+\newblock Does dewlap size predict male bite performance in {{Jamaican}}
+  {{{\emph{Anolis}}}} lizards?
 \newblock {\em Functional Ecology}, 19(1):38--42.
+
+\bibitem[Venables and Ripley, 2002]{Venables2002}
+Venables, W.~N. and Ripley, B.~D. (2002).
+\newblock {\em Modern {{Applied Statistics}} with {{S}}}.
+\newblock Statistics and {{Computing}}. {Springer}, {New York}, 4th ed edition.
 
 \bibitem[Willi and Hoffmann, 2012]{Willi2012}
 Willi, Y. and Hoffmann, A.~A. (2012).
 \newblock Microgeographic adaptation linked to forest fragmentation and habitat
-  quality in the tropical fruit fly {{Drosophila}} birchii.
+  quality in the tropical fruit fly {{{\emph{Drosophila}}}}{\emph{ birchii}}.
 \newblock {\em Oikos}, 121(10):1627--1637.
 
 \bibitem[Williams, 1969]{Williams1969}
@@ -686,6 +738,5 @@ Williams, E.~E. and Rand, A.~S. (1977).
 Zuur, A.~F., editor (2009).
 \newblock {\em Mixed Effects Models and Extensions in Ecology with {{R}}}.
 \newblock Statistics for Biology and Health. {Springer}, {New York, NY}.
-\newblock OCLC: 288985460.
 
 \end{thebibliography}
