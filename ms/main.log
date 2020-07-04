@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.23)  4 JUL 2020 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.23)  4 JUL 2020 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,33 +972,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--78
  []
 
 (./sections/discussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 [9]) (./sections/acknowledgments.tex) [10] (./sections/figures.tex
-<figures/map.pdf, id=737, 632.3625pt x 451.6875pt>
+<figures/map.pdf, id=741, 632.3625pt x 451.6875pt>
 File: figures/map.pdf Graphic file (type pdf)
 <use figures/map.pdf>
 Package pdftex.def Info: figures/map.pdf  used on input line 4.
 (pdftex.def)             Requested size: 341.43437pt x 243.88693pt.
-<figures/classif_svm_pca.png, id=738, 650.43pt x 433.62pt>
+<figures/classif_svm_pca.png, id=742, 650.43pt x 433.62pt>
 File: figures/classif_svm_pca.png Graphic file (type png)
 <use figures/classif_svm_pca.png>
 Package pdftex.def Info: figures/classif_svm_pca.png  used on input line 12.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
  [11 <./figures/map.pdf>]
-<figures/figure_anova.png, id=752, 505.89pt x 505.89pt>
+<figures/figure_anova.png, id=756, 505.89pt x 505.89pt>
 File: figures/figure_anova.png Graphic file (type png)
 <use figures/figure_anova.png>
 Package pdftex.def Info: figures/figure_anova.png  used on input line 21.
@@ -1007,7 +1012,7 @@ Package pdftex.def Info: figures/figure_anova.png  used on input line 21.
 ng (PNG copy)>] (./sections/tables.tex (./tables/table_anova.tex))
 [14] [15] (./main.bbl [16] [17] [18] [19] [20] [21]) [22]
 (./sections/suppfigures.tex
-<suppfigures/detailed_map.pdf, id=803, 660.4675pt x 466.74374pt>
+<suppfigures/detailed_map.pdf, id=807, 660.4675pt x 466.74374pt>
 File: suppfigures/detailed_map.pdf Graphic file (type pdf)
 <use suppfigures/detailed_map.pdf>
 Package pdftex.def Info: suppfigures/detailed_map.pdf  used on input line 4.
@@ -1024,7 +1029,7 @@ e ignored
                    \relax 
 l.5 ...ts across nine islands of the West Indies.}
                                                   
-<suppfigures/figure_brightness.png, id=804, 433.62pt x 433.62pt>
+<suppfigures/figure_brightness.png, id=808, 433.62pt x 433.62pt>
 File: suppfigures/figure_brightness.png Graphic file (type png)
 <use suppfigures/figure_brightness.png>
 Package pdftex.def Info: suppfigures/figure_brightness.png  used on input line 
@@ -1043,7 +1048,7 @@ e ignored
 l.12 ...n coefficients are reported. *, P < 0.05.}
                                                    [23 <./suppfigures/detailed_
 map.pdf>]
-<suppfigures/figure_brightness_pooled.png, id=812, 289.08pt x 289.08pt>
+<suppfigures/figure_brightness_pooled.png, id=816, 289.08pt x 289.08pt>
 File: suppfigures/figure_brightness_pooled.png Graphic file (type png)
 <use suppfigures/figure_brightness_pooled.png>
 Package pdftex.def Info: suppfigures/figure_brightness_pooled.png  used on inpu
@@ -1061,27 +1066,27 @@ e ignored
                    \relax 
 l.19 ...ion coefficient is reported. *, P < 0.05.}
                                                   
-<suppfigures/figure_pooled.png, id=813, 578.16pt x 361.35pt>
+<suppfigures/figure_pooled.png, id=817, 578.16pt x 361.35pt>
 File: suppfigures/figure_pooled.png Graphic file (type png)
 <use suppfigures/figure_pooled.png>
 Package pdftex.def Info: suppfigures/figure_pooled.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79135pt x 266.74419pt.
  [24 <./suppfigures/figure_brightness.png> <./suppfigures/figure_brightness_poo
 led.png>]
-<suppfigures/figure_reflectance.png, id=820, 433.62pt x 433.62pt>
+<suppfigures/figure_reflectance.png, id=824, 433.62pt x 433.62pt>
 File: suppfigures/figure_reflectance.png Graphic file (type png)
 <use suppfigures/figure_reflectance.png>
 Package pdftex.def Info: suppfigures/figure_reflectance.png  used on input line
  33.
 (pdftex.def)             Requested size: 341.43437pt x 341.4511pt.
  [25 <./suppfigures/figure_pooled.png (PNG copy)>]
-<suppfigures/classif_svm_pca_pooled.png, id=826, 433.62pt x 216.81pt>
+<suppfigures/classif_svm_pca_pooled.png, id=830, 433.62pt x 216.81pt>
 File: suppfigures/classif_svm_pca_pooled.png Graphic file (type png)
 <use suppfigures/classif_svm_pca_pooled.png>
 Package pdftex.def Info: suppfigures/classif_svm_pca_pooled.png  used on input 
 line 40.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<suppfigures/classif_svm_refl_pooled.png, id=829, 433.62pt x 216.81pt>
+<suppfigures/classif_svm_refl_pooled.png, id=833, 433.62pt x 216.81pt>
 File: suppfigures/classif_svm_refl_pooled.png Graphic file (type png)
 <use suppfigures/classif_svm_refl_pooled.png>
 Package pdftex.def Info: suppfigures/classif_svm_refl_pooled.png  used on input
@@ -1089,13 +1094,13 @@ Package pdftex.def Info: suppfigures/classif_svm_refl_pooled.png  used on input
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
  [26 <./suppfigures/figure_reflectance.png (PNG copy)> <./suppfigures/classif_s
 vm_pca_pooled.png (PNG copy)>]
-<suppfigures/importance_svm_pca_pooled.png, id=836, 216.81pt x 216.81pt>
+<suppfigures/importance_svm_pca_pooled.png, id=840, 216.81pt x 216.81pt>
 File: suppfigures/importance_svm_pca_pooled.png Graphic file (type png)
 <use suppfigures/importance_svm_pca_pooled.png>
 Package pdftex.def Info: suppfigures/importance_svm_pca_pooled.png  used on inp
 ut line 54.
 (pdftex.def)             Requested size: 170.71393pt x 170.72223pt.
-<suppfigures/importance_svm_refl_pooled.png, id=839, 361.35pt x 289.08pt>
+<suppfigures/importance_svm_refl_pooled.png, id=843, 361.35pt x 289.08pt>
 File: suppfigures/importance_svm_refl_pooled.png Graphic file (type png)
 <use suppfigures/importance_svm_refl_pooled.png>
 Package pdftex.def Info: suppfigures/importance_svm_refl_pooled.png  used on in
@@ -1103,13 +1108,13 @@ put line 61.
 (pdftex.def)             Requested size: 256.07741pt x 204.86447pt.
  [27 <./suppfigures/classif_svm_refl_pooled.png (PNG copy)> <./suppfigures/impo
 rtance_svm_pca_pooled.png>]
-<suppfigures/classif_lda_pca_pooled.png, id=847, 433.62pt x 216.81pt>
+<suppfigures/classif_lda_pca_pooled.png, id=851, 433.62pt x 216.81pt>
 File: suppfigures/classif_lda_pca_pooled.png Graphic file (type png)
 <use suppfigures/classif_lda_pca_pooled.png>
 Package pdftex.def Info: suppfigures/classif_lda_pca_pooled.png  used on input 
 line 68.
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<suppfigures/classif_lda_refl_pooled.png, id=850, 433.62pt x 216.81pt>
+<suppfigures/classif_lda_refl_pooled.png, id=854, 433.62pt x 216.81pt>
 File: suppfigures/classif_lda_refl_pooled.png Graphic file (type png)
 <use suppfigures/classif_lda_refl_pooled.png>
 Package pdftex.def Info: suppfigures/classif_lda_refl_pooled.png  used on input
@@ -1117,13 +1122,13 @@ Package pdftex.def Info: suppfigures/classif_lda_refl_pooled.png  used on input
 (pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
  [28 <./suppfigures/importance_svm_refl_pooled.png> <./suppfigures/classif_lda_
 pca_pooled.png (PNG copy)>]
-<suppfigures/classif_lda_pca.png, id=858, 650.43pt x 433.62pt>
+<suppfigures/classif_lda_pca.png, id=862, 650.43pt x 433.62pt>
 File: suppfigures/classif_lda_pca.png Graphic file (type png)
 <use suppfigures/classif_lda_pca.png>
 Package pdftex.def Info: suppfigures/classif_lda_pca.png  used on input line 82
 .
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-<suppfigures/classif_svm_refl.png, id=861, 650.43pt x 433.62pt>
+<suppfigures/classif_svm_refl.png, id=865, 650.43pt x 433.62pt>
 File: suppfigures/classif_svm_refl.png Graphic file (type png)
 <use suppfigures/classif_svm_refl.png>
 Package pdftex.def Info: suppfigures/classif_svm_refl.png  used on input line 8
@@ -1131,13 +1136,13 @@ Package pdftex.def Info: suppfigures/classif_svm_refl.png  used on input line 8
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
  [29 <./suppfigures/classif_lda_refl_pooled.png (PNG copy)> <./suppfigures/clas
 sif_lda_pca.png (PNG copy)>]
-<suppfigures/classif_lda_refl.png, id=868, 650.43pt x 433.62pt>
+<suppfigures/classif_lda_refl.png, id=872, 650.43pt x 433.62pt>
 File: suppfigures/classif_lda_refl.png Graphic file (type png)
 <use suppfigures/classif_lda_refl.png>
 Package pdftex.def Info: suppfigures/classif_lda_refl.png  used on input line 9
 6.
 (pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-<suppfigures/importance_svm_pca.png, id=871, 361.35pt x 289.08pt>
+<suppfigures/importance_svm_pca.png, id=875, 361.35pt x 289.08pt>
 File: suppfigures/importance_svm_pca.png Graphic file (type png)
 <use suppfigures/importance_svm_pca.png>
 Package pdftex.def Info: suppfigures/importance_svm_pca.png  used on input line
@@ -1154,7 +1159,7 @@ LaTeX Warning: Reference `supfig:classif-svm-pca' on page 30 undefined on input
 
 [30 <./suppfigures/classif_svm_refl.png (PNG copy)> <./suppfigures/classif_lda_
 refl.png (PNG copy)>]
-<suppfigures/importance_lda_pca.png, id=876, 361.35pt x 289.08pt>
+<suppfigures/importance_lda_pca.png, id=880, 361.35pt x 289.08pt>
 File: suppfigures/importance_lda_pca.png Graphic file (type png)
 <use suppfigures/importance_lda_pca.png>
 Package pdftex.def Info: suppfigures/importance_lda_pca.png  used on input line
@@ -1172,14 +1177,14 @@ File: suppfigures/importance_lda_pca.png Graphic file (type png)
 Package pdftex.def Info: suppfigures/importance_lda_pca.png  used on input line
  124.
 (pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
-<suppfigures/figure_distances2.png, id=890, 505.89pt x 252.945pt>
+<suppfigures/figure_distances2.png, id=894, 505.89pt x 252.945pt>
 File: suppfigures/figure_distances2.png Graphic file (type png)
 <use suppfigures/figure_distances2.png>
 Package pdftex.def Info: suppfigures/figure_distances2.png  used on input line 
 131.
 (pdftex.def)             Requested size: 426.79135pt x 213.39865pt.
  [32]
-<suppfigures/figure_contrasts.png, id=901, 361.35pt x 289.08pt>
+<suppfigures/figure_contrasts.png, id=905, 361.35pt x 289.08pt>
 File: suppfigures/figure_contrasts.png Graphic file (type png)
 <use suppfigures/figure_contrasts.png>
 Package pdftex.def Info: suppfigures/figure_contrasts.png  used on input line 1
@@ -1237,10 +1242,10 @@ public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 /texmf/fonts/type1/public/cm-super/sfss0500.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
 000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on main.pdf (39 pages, 5146155 bytes).
+Output written on main.pdf (39 pages, 5145637 bytes).
 PDF statistics:
- 1050 PDF objects out of 1200 (max. 8388607)
- 934 compressed objects within 10 object streams
+ 1054 PDF objects out of 1200 (max. 8388607)
+ 938 compressed objects within 10 object streams
  221 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

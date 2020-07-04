@@ -27,9 +27,4 @@ This repository has the default structure of an R package created with RStudio, 
 
 ## Manuscript
 
-The manuscript was written in LaTeX using Overleaf and TeXstudio. Note that the TeX files in `ms/` import tables and figures from the `analyses/` folder and is thus not self-contained. This allows the manuscript's tables and figures to automatically update if they are changed from R, for example. The rendered manuscript is available as `main.pdf`. 
-
-### Reviewing (for co-authors)
-
-In order to make use of word processors' reviewing system we also rendered the manuscript as `.docx` and `.odt` documents from `tex` files using [pandoc](https://pandoc.org). So, as a co-author, please use these for reviews, comments and suggestions. The changes will then be incorporated into the original `tex` files. Because file conversion from `tex` to word processor documents is not perfect (in terms of figure resolution and table layout), please also refer to the `pdf` document for full-resolution figures and correct table layout while reviewing text the `docx`/`odt` document. Also please focus on text review only when editing the word processor documents.
-
+The manuscript was written in LaTeX using Overleaf and TeXstudio. The figures and tables for the manuscript are in the folders `figures`, `suppfigures`, `tables` and `supptables`. Run the `fetch_content.sh` script to copy the relevant figures and tables from the `analyses` folder into the `ms` folder. The rendered manuscript is available as `main.pdf`. The script `run_pandoc.sh` converts the TeX files into two word-processor document versions of the manuscript, `scherrer2020.docx` and `scherrer2020.odt`. The ODT version was uploaded on Google Drive and shared with collaborators, and this is where the review of the draft was mostly done.
