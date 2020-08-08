@@ -21,6 +21,7 @@ cp ../analyses/10-distances/figure_distances2.png suppfigures
 cp ../analyses/10-distances/figure_distances.png suppfigures
 cp ../analyses/06-pooled/figure_pooled.png suppfigures
 cp ../analyses/02-reflectance/figure_reflectance.png suppfigures
+cp ../analyses/02-reflectance/figure_reflectance_pooled.png suppfigures
 cp ../analyses/04-machine-learning/plots/importance_lda_pca.png suppfigures
 cp ../analyses/04-machine-learning/plots/importance_lda_pca_pooled.png suppfigures
 cp ../analyses/04-machine-learning/plots/importance_lda_refl.png suppfigures
