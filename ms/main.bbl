@@ -191,6 +191,12 @@ Fleishman, L.~J. and Persons, M. (2001).
   in the lizard {{{\emph{Anolis}}}}{\emph{ cristatellus}}.
 \newblock {\em The Journal of Experimental Biology}, 204(Pt 9):1559--1575.
 
+\bibitem[Fleishman et~al., 2020]{Fleishman2020}
+Fleishman, L.~J., Wadman, C.~S., and Maximov, K.~J. (2020).
+\newblock The interacting effects of total light intensity and chromatic
+  contrast on visual signal visibility in an {{Anolis}} lizard.
+\newblock {\em Animal Behaviour}, page S0003347220302037.
+
 \bibitem[Fox et~al., 2018]{Fox2018}
 Fox, J., Friendly, M., and Monette, G. (2018).
 \newblock Heplots: {{Visualizing Tests}} in {{Multivariate Linear Models}}.
@@ -206,11 +212,6 @@ Friedrich, S., Konietschke, F., and Pauly, M. (2018).
 \newblock Genetic {{Models}} of {{Adaptation}} and {{Gene Flow}} in
   {{Peripheral Populations}}.
 \newblock {\em Evolution}, 51(1):21--28.
-
-\bibitem[Gavrilets and Losos, 2009]{Gavrilets2009}
-Gavrilets, S. and Losos, J.~B. (2009).
-\newblock Adaptive {{Radiation}}: {{Contrasting Theory}} with {{Data}}.
-\newblock {\em Science}, 323(5915):732--737.
 
 \bibitem[Geneva et~al., 2015]{Geneva2015}
 Geneva, A.~J., Hilton, J., Noll, S., and Glor, R.~E. (2015).
@@ -235,18 +236,6 @@ Halfwerk, W., Jones, P.~L., Taylor, R.~C., Ryan, M.~J., and Page, R.~A. (2014).
   {{Multisensory Sexual Display}}.
 \newblock {\em Science}, 343(6169):413--416.
 
-\bibitem[Harmon et~al., 2003]{Harmon2003}
-Harmon, L.~J., Schulte, J.~A., Larson, A., and Losos, J.~B. (2003).
-\newblock Tempo and {{Mode}} of {{Evolutionary Radiation}} in {{Iguanian
-  Lizards}}.
-\newblock {\em Science}, 301(5635):961--964.
-
-\bibitem[Harrison and Poe, 2012]{Harrison2012}
-Harrison, A. and Poe, S. (2012).
-\newblock Evolution of an ornament, the dewlap, in females of the lizard genus
-  {{{\emph{Anolis}}}}.
-\newblock {\em Biological Journal of the Linnean Society}, 106(1):191--201.
-
 \bibitem[Hendry et~al., 2007a]{Hendry2007}
 Hendry, A.~P., Day, T., and Taylor, E.~B. (2007a).
 \newblock Population {{Mixing}} and the {{Adaptive Divergence}} of
@@ -265,6 +254,11 @@ Henze, N. and Zirkler, B. (1990).
 \newblock A class of invariant consistent tests for multivariate normality.
 \newblock {\em Communications in Statistics - Theory and Methods},
   19(10):3595--3617.
+
+\bibitem[Higashi et~al., 1999]{Higashi1999}
+Higashi, M., Takimoto, G., and Yamamura, N. (1999).
+\newblock Sympatric speciation by sexual selection.
+\newblock {\em Nature}, 402(6761):523--526.
 
 \bibitem[Hijmans, 2019]{Hijmans2019}
 Hijmans, R.~J. (2019).
@@ -292,14 +286,6 @@ Howard, R.~A. (1950).
 \newblock Vegetation of the {{Bimini Island Group}}: {{Bahamas}}, {{B}}. {{W}}.
   {{I}}.
 \newblock {\em Ecological Monographs}, 20(4):317--349.
-
-\bibitem[Ingram et~al., 2016]{Ingram2016}
-Ingram, T., Harrison, A., Mahler, D.~L., Casta{\~n}eda, M. d.~R., Glor, R.~E.,
-  Herrel, A., Stuart, Y.~E., and Losos, J.~B. (2016).
-\newblock Comparative tests of the role of dewlap size in {{{\emph{Anolis}}}}
-  lizard speciation.
-\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
-  283(1845):20162199.
 
 \bibitem[Kamath and Losos, 2018]{Kamath2018}
 Kamath, A. and Losos, J.~B. (2018).
@@ -331,16 +317,17 @@ Korkmaz, S., Goksuluk, D., and Zararsiz, G. (2014).
 \newblock {{MVN}}: {{An R Package}} for {{Assessing Multivariate Normality}}.
 \newblock {\em The R Journal}, 6(2):151--162.
 
-\bibitem[Kraaijeveld et~al., 2011]{Kraaijeveld2011}
-Kraaijeveld, K., {Kraaijeveld-Smit}, F. J.~L., and Maan, M.~E. (2011).
-\newblock Sexual selection and speciation: The comparative evidence revisited.
-\newblock {\em Biological Reviews}, 86(2):367--377.
-
 \bibitem[Lambert et~al., 2013]{Lambert2013}
 Lambert, S.~M., Geneva, A.~J., Luke~Mahler, D., and Glor, R.~E. (2013).
 \newblock Using genomic data to revisit an early example of reproductive
   character displacement in {{Haitian}} {{{\emph{Anolis}}}} lizards.
 \newblock {\em Molecular Ecology}, 22(15):3981--3995.
+
+\bibitem[Lande, 1981]{Lande1981}
+Lande, R. (1981).
+\newblock Models of speciation by sexual selection on polygenic traits.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  78(6):3721--3725.
 
 \bibitem[Lazareva et~al., 2012]{Lazareva2012}
 Lazareva, O.~F., Shimizu, T., and Wasserman, E.~A. (2012).
@@ -574,12 +561,6 @@ Rand, A.~S. and Williams, E.~E. (1970).
   {{Anole Dewlaps}}.
 \newblock {\em The American Naturalist}, 104(935):99--103.
 
-\bibitem[Reynolds and Fitzpatrick, 2007]{Reynolds2007}
-Reynolds, R.~G. and Fitzpatrick, B.~M. (2007).
-\newblock Assortative {{Mating}} in {{Poison}}-{{Dart Frogs Based}} on an
-  {{Ecologically Important Trait}}.
-\newblock {\em Evolution}, 61(9):2253--2259.
-
 \bibitem[Reynolds et~al., 2020]{Reynolds2020}
 Reynolds, R.~G., Kolbe, J.~J., Glor, R.~E., L{\'o}pez-Darias, M.,
   G{\'o}mez~Pourroy, C.~V., Harrison, A.~S., Queiroz, K., Revell, L.~J., and
@@ -616,11 +597,6 @@ Seehausen, O. (1997).
 \newblock Cichlid {{Fish Diversity Threatened}} by {{Eutrophication That Curbs
   Sexual Selection}}.
 \newblock {\em Science}, 277(5333):1808--1811.
-
-\bibitem[Servedio et~al., 2011]{Servedio2011}
-Servedio, M.~R., Doorn, G. S.~V., Kopp, M., Frame, A.~M., and Nosil, P. (2011).
-\newblock Magic traits in speciation: `magic' but not rare?
-\newblock {\em Trends in Ecology \& Evolution}, 26(8):389--397.
 
 \bibitem[Sigmund, 1983]{Sigmund1983}
 Sigmund, W.~R. (1983).
@@ -660,12 +636,6 @@ Steffen, J.~E. and McGraw, K.~J. (2009).
   and female brown anoles ({{{\emph{Norops}}}}{\emph{ sagrei}}).
 \newblock {\em Comparative Biochemistry and Physiology Part B: Biochemistry and
   Molecular Biology}, 154(3):334--340.
-
-\bibitem[Tariel et~al., 2020]{Tariel2020}
-Tariel, J., Pl{\'e}net, S., and Luquet, {\'E}. (2020).
-\newblock Transgenerational plasticity of inducible defences: {{Combined}}
-  effects of grand-parental, parental and current environments.
-\newblock {\em Ecology and Evolution}, 10(5):2367--2376.
 
 \bibitem[Thorpe, 2002]{Thorpe2002b}
 Thorpe, R.~S. (2002).
@@ -711,12 +681,6 @@ Vanhooydonck, B., Herrel, A., Meyers, J.~J., and Irschick, D.~J. (2009).
 \newblock What determines dewlap diversity in {{{\emph{Anolis}}}} lizards?
   {{An}} among-island comparison.
 \newblock {\em Journal of Evolutionary Biology}, 22(2):293--305.
-
-\bibitem[Vanhooydonck et~al., 2005]{Vanhooydonck2005}
-Vanhooydonck, B., Herrel, A.~Y., Van~Damme, R., and Irschick, D.~J. (2005).
-\newblock Does dewlap size predict male bite performance in {{Jamaican}}
-  {{{\emph{Anolis}}}} lizards?
-\newblock {\em Functional Ecology}, 19(1):38--42.
 
 \bibitem[Venables and Ripley, 2002]{Venables2002}
 Venables, W.~N. and Ripley, B.~D. (2002).

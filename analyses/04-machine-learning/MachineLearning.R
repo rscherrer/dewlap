@@ -42,9 +42,9 @@ blank <- ggplot() + theme_void()
 
 p <- plot_classif(res, facets = "island")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
-ggsave("classif_svm_pca.png", height = 6, width = 9, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_svm_pca.png", height = 6, width = 9, dpi = 300)
 
-fname <- "analyses/04-machine learning/table_classif_%s"
+fname <- "analyses/04-machine-learning/table_classif_%s"
 colnames <- c("Island", "Accuracy", "$N$", "$p_{\\mbox{test}}$", "$n_{\\mbox{test}}$", "$P$", "")
 
 t1 <- res$mean
@@ -61,7 +61,7 @@ res$imp %>%
   facet_wrap(. ~ island) +
   geom_hline(yintercept = 0.25, lty = 2)
 
-ggsave("importance_svm_pca.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_svm_pca.png", height = 4, width = 5, dpi = 300)
 
 # LDA-classification on PCs
 
@@ -73,7 +73,7 @@ res <- classify(
 
 p <- plot_classif(res, facets = "island", fill = "coral")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
-ggsave("classif_lda_pca.png", height = 6, width = 9, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_lda_pca.png", height = 6, width = 9, dpi = 300)
 
 t2 <- res$mean
 t2_fname <- sprintf(fname, "lda_pca")
@@ -89,7 +89,7 @@ res$imp %>%
   facet_wrap(. ~ island) +
   geom_hline(yintercept = 0.25, lty = 2)
 
-ggsave("importance_lda_pca.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_lda_pca.png", height = 4, width = 5, dpi = 300)
 
 # Reflectance data
 
@@ -104,7 +104,7 @@ res <- classify(
 
 p <- plot_classif(res, facets = "island")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
-ggsave("classif_svm_refl.png", height = 6, width = 9, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_svm_refl.png", height = 6, width = 9, dpi = 300)
 
 t3 <- res$mean
 t3_fname <- sprintf(fname, "svm_refl")
@@ -122,7 +122,7 @@ res$imp %>%
   facet_wrap(. ~ island) +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_svm_refl.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_svm_refl.png", height = 4, width = 5, dpi = 300)
 
 
 # LDA-classification on reflectance
@@ -134,7 +134,7 @@ res <- classify(
 
 p <- plot_classif(res, facets = "island", fill = "coral")
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3), ncol = 2, rel_widths = c(2, 1))
-ggsave("classif_lda_refl.png", height = 6, width = 9, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_lda_refl.png", height = 6, width = 9, dpi = 300)
 
 t4 <- res$mean
 t4_fname <- sprintf(fname, "lda_refl")
@@ -152,7 +152,7 @@ res$imp %>%
   facet_wrap(. ~ island) +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_lda_refl.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_lda_refl.png", height = 4, width = 5, dpi = 300)
 
 
 #### Pooling the islands together ####
@@ -189,7 +189,7 @@ res$imp %>%
   labs(x = "Wavelength (nm)", y = "Relative importance") +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_svm_pca_pooled.png", height = 3, width = 3, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_svm_pca_pooled.png", height = 3, width = 3, dpi = 300)
 
 
 # LDA-classification on PCs
@@ -220,7 +220,7 @@ res$imp %>%
   labs(x = "Wavelength (nm)", y = "Relative importance") +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_lda_pca_pooled.png", height = 3, width = 3, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_lda_pca_pooled.png", height = 3, width = 3, dpi = 300)
 
 
 # Reflectance data
@@ -255,7 +255,7 @@ res$imp %>%
   labs(x = "Wavelength (nm)", y = "Relative importance") +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_svm_refl_pooled.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_svm_refl_pooled.png", height = 4, width = 5, dpi = 300)
 
 
 # LDA-classification on reflectance
@@ -270,7 +270,7 @@ confplot <- plot_classif(res, type = "confusion") +
   labs(x = "True habitat", y = "Predicted habitat", fill = "Frequency") +
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
-ggsave("classif_lda_refl_pooled.png", height = 3, width = 6, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_lda_refl_pooled.png", height = 3, width = 6, dpi = 300)
 
 t8 <- res$mean
 t8_fname <- sprintf(fname, "lda_refl_pooled")
@@ -286,4 +286,4 @@ res$imp %>%
   labs(x = "Wavelength (nm)", y = "Relative importance") +
   geom_hline(yintercept = 1/length(variables), lty = 2)
 
-ggsave("importance_lda_refl_pooled.png", height = 4, width = 5, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/importance_lda_refl_pooled.png", height = 4, width = 5, dpi = 300)
