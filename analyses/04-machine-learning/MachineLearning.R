@@ -174,7 +174,7 @@ confplot <- plot_classif(res, type = "confusion") +
   labs(x = "True habitat", y = "Predicted habitat", fill = "Frequency") +
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
-ggsave("classif_svm_pca_pooled.png", height = 3, width = 6, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_svm_pca_pooled.png", height = 3, width = 6, dpi = 300)
 
 t5 <- res$mean
 t5_fname <- sprintf(fname, "svm_pca_pooled")
@@ -205,7 +205,7 @@ confplot <- plot_classif(res, type = "confusion") +
   labs(x = "True habitat", y = "Predicted habitat", fill = "Frequency") +
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
-ggsave("classif_lda_pca_pooled.png", height = 3, width = 6, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_lda_pca_pooled.png", height = 3, width = 6, dpi = 300)
 
 t6 <- res$mean
 t6_fname <- sprintf(fname, "lda_pca_pooled")
@@ -239,7 +239,7 @@ confplot <- plot_classif(res, type = "confusion") +
   labs(x = "True habitat", y = "Predicted habitat", fill = "Frequency") +
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
 plot_grid(p, plot_grid(blank, confplot, blank, nrow = 3, rel_heights = c(1, 3, 1)), ncol = 2, rel_widths = c(1.1, 1))
-ggsave("classif_svm_refl_pooled.png", height = 3, width = 6, dpi = 300)
+ggsave("analyses/04-machine-learning/plots/classif_svm_refl_pooled.png", height = 3, width = 6, dpi = 300)
 
 t7 <- res$mean
 t7_fname <- sprintf(fname, "svm_refl_pooled")
