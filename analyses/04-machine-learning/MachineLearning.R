@@ -21,6 +21,14 @@ res <- classify(
   nrep = 100, seed = 24, method = "SVM", importance = TRUE
 )
 
+# Make sure that this script works with the new output of the classify function
+# before changing the package further
+classify2(
+  data, variables, grouping = "habitat", nesting = "island",
+  to_pcomp = paste0("wl", 300:700), k = 5,
+  nrep = 10, seed = 24, method = "SVM", importance = TRUE
+)
+
 # Prepare a confusion matrix plot to show on the side
 
 conf <- res$avg$`Long Island`
