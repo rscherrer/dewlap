@@ -29,6 +29,20 @@ classify2(
   nrep = 10, seed = 24, method = "SVM", importance = TRUE
 )
 
+# Can we try classify2 on made-up data?
+data2 <- data %>%
+  group_by(island) %>%
+  nest() %>%
+  mutate(data = map(data, ~ .x %>% mutate(habitat = sample(habitat)))) %>%
+  unnest(cols = c(data)) %>%
+  ungroup()
+
+classify2(
+  data2, variables, grouping = "habitat", nesting = "island",
+  to_pcomp = paste0("wl", 300:700), k = 5,
+  nrep = 100, seed = 24, method = "SVM", importance = TRUE
+)
+
 # Prepare a confusion matrix plot to show on the side
 
 conf <- res$avg$`Long Island`
