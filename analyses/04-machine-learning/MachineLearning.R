@@ -9,39 +9,97 @@ data <- read.csv("data/reflectance.csv", header = TRUE)
 
 #### Analysis within each island ####
 
-# Principal components
+# Setup principal components
+pcomps <- paste0("PC", 1:4)
+wlengths <- paste0("wl", 300:700)
+somewl <- paste0("wl", seq(350, 650, 50))
 
-variables <- paste0("PC", 1:4)
+# Prepare a few ways to perform our analysis
+methods <- c("SVM", "LDA") # type of machine to fit
+datasets <- c("PC", "WL") # type of data to use
 
-# SVM-classification on PCs
+# For each method and each dataset
+for (i in seq_along(methods)) {
+  for (j in seq_along(datasets)) {
 
-res <- classify(
-  data, variables, grouping = "habitat", nesting = "island",
-  to_pcomp = paste0("wl", 300:700), digest = TRUE, test = TRUE, k = 5,
-  nrep = 100, seed = 24, method = "SVM", importance = TRUE
-)
+    # Set up
+    if (datasets[j] == "PC") {
+      variables <- pcomps
+      to_pcomp <- wlengths
+    } else {
+      variables <- somewl
+      to_pcomp <- NULL
+    }
 
-# Make sure that this script works with the new output of the classify function
-# before changing the package further
-classify2(
-  data, variables, grouping = "habitat", nesting = "island",
-  to_pcomp = paste0("wl", 300:700), k = 5,
-  nrep = 10, seed = 24, method = "SVM", importance = TRUE
-)
+    # Perform the analysis
+    res <- classify(
+      data, variables, grouping = "habitat", nesting = "island",
+      topcomp = to_pcomp, k = 5, nrep = 100, seed = 24, method = methods[i],
+      importance = TRUE, nperm = 1000
+    )
 
-# Can we try classify2 on made-up data?
-data2 <- data %>%
+    # Rename for practical purposes
+    res[[1]] <- rename(res[[1]], island = "nesting")
+
+    # Prepare file names for saving
+    outputname <- sprintf("results/classif_%s_%s.rds", methods[i], datasets[j])
+    tablename <- str_replace(outputname, ".rds", ".csv")
+    confplotname <- str_replace(outputname, ".rds", ".png")
+    confplotname <- str_replace(confplotname, "classif", "confplot")
+    accuplotname <- str_replace(confplotname, "confplot", "accuplot")
+
+    # Save
+    saveRDS(res, outputname)
+    write_csv(res[[1]][, 1:6], tablename)
+    ggsave(confplotname, res[[2]], width = 4.5, height = 4)
+    ggsave(accuplotname, res[[3]], width = 7.5, height = 4)
+
+  }
+}
+
+# Compare results across analyses
+all_res <- map(methods, function(method) {
+  map(datasets, function(dataset) {
+
+    read_csv(sprintf("results/classif_%s_%s.csv", method, dataset)) %>%
+      mutate(method = method, dataset = dataset)
+
+  })
+})
+
+all_res <- flatten(all_res)
+all_res <- map_dfr(all_res, ~ .x)
+
+# We test the classification function on a permuted dataset to make sure our
+# method does not yield false positives
+
+# Permute the data
+permuted <- data %>%
   group_by(island) %>%
   nest() %>%
   mutate(data = map(data, ~ .x %>% mutate(habitat = sample(habitat)))) %>%
   unnest(cols = c(data)) %>%
   ungroup()
 
-classify2(
-  data2, variables, grouping = "habitat", nesting = "island",
-  to_pcomp = paste0("wl", 300:700), k = 5,
-  nrep = 100, seed = 24, method = "SVM", importance = TRUE
-)
+# Run our little experiment here
+
+methods <- c("SVM", "LDA")
+nreps <- c(1, 10, 1000)
+
+res <- purrr::map(methods, function(method) {
+  purrr::map(nreps, function(nrep) {
+
+    # The function classifyX() implements a few ways of computing P-values
+    classifyX(
+      permuted, variables, grouping = "habitat", nesting = "island",
+      topcomp = to_pcomp, k = 5, nrep = nrep, seed = 24,
+      method = method, nperm = 1000
+    )
+
+  })
+})
+
+res # view the results
 
 # Prepare a confusion matrix plot to show on the side
 

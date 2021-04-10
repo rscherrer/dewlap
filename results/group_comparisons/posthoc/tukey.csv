@@ -1,0 +1,22 @@
+island,variable,i,j,pvalue
+Abaco,PC3,coastal,coppice,0.0024824746317365642
+Abaco,PC3,coastal,mangrove,2.5985354321633736e-6
+Abaco,PC3,coppice,mangrove,0.17463192126149663
+Bimini,PC2,coastal,coppice,0.30440454374496484
+Bimini,PC2,coastal,mangrove,0.019996616473360596
+Bimini,PC2,coppice,mangrove,0.567358477660414
+Cayman Brac,PC2,coastal,coppice,0.24913254391129636
+Cayman Brac,PC2,coastal,mangrove,0.014034473395063918
+Cayman Brac,PC2,coppice,mangrove,0.3476393395761709
+Little Cayman,PC1,coastal,coppice,0.016683223810687875
+Little Cayman,PC1,coastal,mangrove,0.5389435081117593
+Little Cayman,PC1,coppice,mangrove,0.1593371596375628
+Long Island,PC3,coastal,coppice,0.028493906273047598
+Long Island,PC3,coastal,mangrove,0.012697312126151328
+Long Island,PC3,coppice,mangrove,0.9408491834231574
+Long Island,PC4,coastal,coppice,0.9765555971854223
+Long Island,PC4,coastal,mangrove,0.045420140552490995
+Long Island,PC4,coppice,mangrove,0.12570405253552142
+South Andros,PC4,coastal,coppice,5.66579209060003e-4
+South Andros,PC4,coastal,mangrove,0.009494716868308828
+South Andros,PC4,coppice,mangrove,0.3749808118262553

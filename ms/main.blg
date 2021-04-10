@@ -1,46 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: apalike.bst
-Database file #1: library.bib.bib
-You've used 119 entries,
+Database file #1: library.bib
+Warning--I didn't find a database entry for "Leal1997b"
+Warning--I didn't find a database entry for "Rand1970b"
+Warning--I didn't find a database entry for "Thorpe2002b"
+Warning--I didn't find a database entry for "Macedonia2014a"
+You've used 104 entries,
             1935 wiz_defined-function locations,
-            1268 strings with 26320 characters,
-and the built_in function-call counts, 47488 in all, are:
-= -- 4781
-> -- 1746
-< -- 81
-+ -- 603
-- -- 569
-* -- 4173
-:= -- 8188
-add.period$ -- 359
-call.type$ -- 119
-change.case$ -- 868
-chr.to.int$ -- 117
-cite$ -- 119
-duplicate$ -- 1719
-empty$ -- 3408
-format.name$ -- 756
-if$ -- 9239
+            1176 strings with 23647 characters,
+and the built_in function-call counts, 41734 in all, are:
+= -- 4192
+> -- 1567
+< -- 70
++ -- 548
+- -- 514
+* -- 3686
+:= -- 7198
+add.period$ -- 312
+call.type$ -- 104
+change.case$ -- 766
+chr.to.int$ -- 102
+cite$ -- 104
+duplicate$ -- 1498
+empty$ -- 2971
+format.name$ -- 674
+if$ -- 8101
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 125
-newline$ -- 592
-num.names$ -- 363
-pop$ -- 633
+missing$ -- 108
+newline$ -- 517
+num.names$ -- 316
+pop$ -- 562
 preamble$ -- 1
-purify$ -- 878
+purify$ -- 776
 quote$ -- 0
-skip$ -- 1328
+skip$ -- 1157
 stack$ -- 0
-substring$ -- 3875
-swap$ -- 183
+substring$ -- 3402
+swap$ -- 161
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 684
+type$ -- 598
 warning$ -- 0
-while$ -- 428
+while$ -- 374
 width$ -- 0
-write$ -- 1543
+write$ -- 1345
+(There were 4 warnings)

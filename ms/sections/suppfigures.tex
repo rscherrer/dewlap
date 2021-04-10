@@ -1,148 +1,62 @@
-% Map of each island
 \begin{figure}[H]
-\centering
-	\includegraphics[width=\textwidth]{suppfigures/detailed_map.pdf}
-	\caption{Map of the sampling sites and corresponding habitats across nine islands of the West Indies.}
-	\label{supfig:map}
+	\centering
+	\includegraphics[width=\textwidth]{figures/all_maps.png}
+	\caption{Maps of the islands. (A) Map of the West Indies with sampled islands highlighted in black. (B) Sampling sites within islands colored after their respective habitat-types.}
+	\label{fig:maps}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/figure_brightness.png}
-	\caption{Correlation between dewlap brightness (as measured by the mean reflectance from 300 to 700nm in wavelength) and PC1 score for each island. Pearson's squared correlation coefficients are reported. *, P < 0.05.}	
-	\label{supfig:brightness}
+	\includegraphics[width=\textwidth]{figures/Bimini.png}
+	\caption{Comparison of dewlap coloration across habitats on Bimini. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:Bimini}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{suppfigures/figure_brightness_pooled.png}
-	\caption{Correlation between dewlap brightness (as measured by the mean reflectance from 300 to 700nm in wavelength) and PC1 score across the whole archipelago. Pearson's squared correlation coefficient is reported. *, P < 0.05.}
-	\label{supfig:brightness_pooled}
+	\includegraphics[width=\textwidth]{figures/CaymanBrac.png}
+	\caption{Comparison of dewlap coloration across habitats on Cayman Brac. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:CaymanBrac}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width = \textwidth]{suppfigures/figure_pooled.png}
-	\caption{(A) Principal component scores and 5\% confidence ellipses across habitats for the whole archipelago. The principal component analysis was performed on reflectance data from all islands pooled together. (B) PCA rotation matrix showing the loadings of each wavelength from 300 to 700nm onto the principal components.}
-	\label{supfig:pooled}
-\end{figure}
-
-% Reflectance curves
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/figure_reflectance.png}
-	\caption{5-95th percentile range of lizard dewlap reflectance values (in \% of incoming light) across wavelengths for each island and each habitat.}
-	\label{supfig:reflectance}
+	\includegraphics[width=\textwidth]{figures/Eleuthera.png}
+	\caption{Comparison of dewlap coloration across habitats on Eleuthera. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:Eleuthera}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/classif_svm_pca_pooled.png}
-	\caption{Archipelago-wide SVM classification accuracy based on principal component data. Machines were trained on individual dewlaps regardless of island identity. The histogram shows the accuracy distribution over 100 replicates for each five cross-validation bins. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-svm-pca-pooled}
+	\includegraphics[width=\textwidth]{figures/LittleCayman.png}
+	\caption{Comparison of dewlap coloration across habitats on Little Cayman. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:LittleCayman}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/classif_svm_refl_pooled.png}
-	\caption{Archipelago-wide SVM classification accuracy based on reflectance data at 50nm-intervals in wavelength (see Methods). Machines were trained on individual dewlaps regardless of island identity. The histogram shows the accuracy distribution over 100 replicates for each five cross-validation bins. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-svm-refl-pooled}
+	\includegraphics[width=\textwidth]{figures/LongIsland.png}
+	\caption{Comparison of dewlap coloration across habitats on Long Island. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:LongIsland}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\textwidth]{suppfigures/importance_svm_pca_pooled.png}
-	\caption{Sensitivity analyses of the different input variables in the archipelago-wide SVM classification on principal component data (Figure \ref{supfig:classif-svm-pca-pooled}), with relative importance computed for every machine.}
-	\label{supfig:importance-svm-pca-pooled}
+	\includegraphics[width=\textwidth]{figures/NorthAndros.png}
+	\caption{Comparison of dewlap coloration across habitats on North Andros. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:NorthAndros}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{suppfigures/importance_svm_refl_pooled.png}
-	\caption{Sensitivity analyses of the different input variables in the archipelago-wide SVM classification on reflectance data at 50nm-intervals in wavelength (Figure \ref{supfig:classif-svm-refl-pooled}), with relative importance computed for every machine.}
-	\label{supfig:importance-svm-refl-pooled}
+	\includegraphics[width=\textwidth]{figures/SouthAndros.png}
+	\caption{Comparison of dewlap coloration across habitats on South Andros. Legend is as per Figure \ref{fig:Abaco}.}
+	\label{fig:SouthAndros}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/classif_lda_pca_pooled.png}
-	\caption{Archipelago-wide LDA classification accuracy based on principal component data. Machines were trained on individual dewlaps regardless of island identity. The histogram shows the accuracy distribution over 100 replicates for each five cross-validation bins. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-lda-pca-pooled}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/classif_lda_refl_pooled.png}
-	\caption{Archipelago-wide LDA classification accuracy based on reflectance data at 50nm-intervals in wavelength (see Methods). Machines were trained on individual dewlaps regardless of island identity. The histogram shows the accuracy distribution over 100 replicates for each five cross-validation bins. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-lda-refl-pooled}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{suppfigures/figure_reflectance_pooled.png}
-	\caption{5-95th percentile range of lizard dewlap reflectance values (in \% of incoming light) across wavelengths for each habitat throughout the whole archipelago.}
-	\label{supfig:reflectance-pooled}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{suppfigures/classif_lda_pca.png}
-	\caption{LDA classification accuracy across islands based on principal component data. Histograms show accuracy distributions over 100 replicates for each five cross-validation bins per island. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-lda-pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{suppfigures/classif_svm_refl.png}
-	\caption{SVM classification accuracy across islands based on reflectance data at 50nm-intervals in wavelength (see Methods). Histograms show accuracy distributions over 100 replicates for each five cross-validation bins per island. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-svm-refl}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{suppfigures/classif_lda_refl.png}
-	\caption{LDA classification accuracy across islands based on reflectance data at 50nm-intervals in wavelength (see Methods). Histograms show accuracy distributions over 100 replicates for each five cross-validation bins per island. The legend is the same as in Figure \ref{fig:classif-svm-pca}.}
-	\label{supfig:classif-lda-refl}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/importance_svm_pca.png}
-	\caption{Sensitivity analyses of the different input variables in the within-island SVM classification on principal component data (Figure \ref{supfig:classif-svm-pca}), with relative importance computed for every machine.}
-	\label{supfig:importance-svm-pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/importance_lda_pca.png}
-	\caption{Sensitivity analyses of the different input variables in the within-island LDA classification on principal component data (Figure \ref{supfig:classif-lda-pca}), with relative importance computed for every machine.}
-	\label{supfig:importance-lda-pca}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/importance_svm_pca.png}
-	\caption{Sensitivity analyses of the different input variables in the archipelago-wide SVM classification on reflectance at 50nm-intervals in wavelength (Figure \ref{supfig:classif-svm-refl}), with relative importance computed for every machine.}
-	\label{supfig:importance-svm-refl}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{suppfigures/importance_lda_pca.png}
-	\caption{Sensitivity analyses of the different input variables in the archipelago-wide LDA classification on reflectance at 50nm-intervals in wavelength (Figure \ref{supfig:classif-lda-refl}), with relative importance computed for every machine.}
-	\label{supfig:importance-lda-refl}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{suppfigures/figure_distances2.png}
-	\caption{Spatial scale of between-habitat differences in dewlap coloration. For each variable and each pair of habitats where significant differences were detected (Figure \ref{fig:anova}), we performed multiple post hoc pairwise comparisons between the sites involved (Figure \ref{supfig:map}, Table \ref{suptab:sites}), using nonparametric Wilcoxon-Mann-Whitney tests. Here we report, for each pair of habitats, the distances between sites that significantly differed in dewlap coloration at an error rate of 0.05 (P-values corrected with the Benjamini-Hochberg procedure for multiple testing).}
-	\label{supfig:distances}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{suppfigures/figure_contrasts.png}
-	\caption{Test of parallel divergence between islands. Differences in habitat-means, or contrasts, are shown for two pairs of habitats for each principal component on each island, rescaled so the standard deviation of the means along each principal component is one. The contrasts represent the patterns of between-habtiat variation on each island, for a given principal component. The absence of clustering of islands by variable indicates that islands differ in their between-habitat divergence patterns. This is confirmed by a non-significant MANOVA test of the between versus within-variable variance in contrasts.}
-	\label{supfig:contrasts}
+	\includegraphics[width=0.8\textwidth]{figures/brightness.png}
+	\caption{PC1 captures brightness across all islands. (A) Correlation between dewlap brightness (as measured by the mean reflectance from 300 to 700nm in wavelength) and PC1 score across the whole archipelago. (B) Correlation between brightness and PC1 for each island. Pearson's correlation coefficients are reported. ***, $P < 0.001$.}
+	\label{fig:brightness}
 \end{figure}

@@ -1,0 +1,109 @@
+island,name,from,to,pvalue, 
+Abaco,PC1,coastal,coppice,0.9973329704367748,
+Abaco,PC1,coastal,mangrove,0.9915953304425515,
+Abaco,PC1,coppice,mangrove,0.9653680262980993,
+Abaco,PC2,coastal,coppice,0.9488113541121089,
+Abaco,PC2,coastal,mangrove,8.064147436481761e-7,***
+Abaco,PC2,coppice,mangrove,5.9962812929414966e-5,***
+Abaco,PC3,coastal,coppice,9.0080182869956e-4,***
+Abaco,PC3,coastal,mangrove,7.021986412469872e-5,***
+Abaco,PC3,coppice,mangrove,0.21391693184172023,
+Abaco,PC4,coastal,coppice,0.6170471894485883,
+Abaco,PC4,coastal,mangrove,0.9998021228441493,
+Abaco,PC4,coppice,mangrove,0.5922698213585592,
+Bimini,PC1,coastal,coppice,0.1685861662984418,
+Bimini,PC1,coastal,mangrove,0.0202924086471572,*
+Bimini,PC1,coppice,mangrove,0.8982347197477072,
+Bimini,PC2,coastal,coppice,0.25174805946014545,
+Bimini,PC2,coastal,mangrove,0.017464986960221474,*
+Bimini,PC2,coppice,mangrove,0.5069279131248365,
+Bimini,PC3,coastal,coppice,0.006721551162761852,**
+Bimini,PC3,coastal,mangrove,0.9953570816267967,
+Bimini,PC3,coppice,mangrove,0.01620104307672321,*
+Bimini,PC4,coastal,coppice,0.932128053368913,
+Bimini,PC4,coastal,mangrove,0.9933050354381742,
+Bimini,PC4,coppice,mangrove,0.9847538683360778,
+Cayman Brac,PC1,coastal,coppice,0.02271043665867789,*
+Cayman Brac,PC1,coastal,mangrove,0.8436081688546283,
+Cayman Brac,PC1,coppice,mangrove,0.003119763801511022,**
+Cayman Brac,PC2,coastal,coppice,0.22785843357962166,
+Cayman Brac,PC2,coastal,mangrove,0.016317176554620505,*
+Cayman Brac,PC2,coppice,mangrove,0.4804376630175752,
+Cayman Brac,PC3,coastal,coppice,0.09960933706855757,
+Cayman Brac,PC3,coastal,mangrove,2.1777708427039855e-5,***
+Cayman Brac,PC3,coppice,mangrove,0.0013941704119159182,**
+Cayman Brac,PC4,coastal,coppice,0.08945849523718052,
+Cayman Brac,PC4,coastal,mangrove,0.5038297509750131,
+Cayman Brac,PC4,coppice,mangrove,0.6135934875446944,
+Eleuthera,PC1,coastal,coppice,0.8002067120606019,
+Eleuthera,PC1,coastal,mangrove,0.9961678340087579,
+Eleuthera,PC1,coppice,mangrove,0.785833344797638,
+Eleuthera,PC2,coastal,coppice,0.317610882927407,
+Eleuthera,PC2,coastal,mangrove,0.005077047538057822,**
+Eleuthera,PC2,coppice,mangrove,0.08017543135539118,
+Eleuthera,PC3,coastal,coppice,0.07246169532895419,
+Eleuthera,PC3,coastal,mangrove,0.20058369211734317,
+Eleuthera,PC3,coppice,mangrove,0.8702871808263584,
+Eleuthera,PC4,coastal,coppice,0.8497289997908908,
+Eleuthera,PC4,coastal,mangrove,0.23122058746752283,
+Eleuthera,PC4,coppice,mangrove,0.10715910188672928,
+Little Cayman,PC1,coastal,coppice,0.018723621945472613,*
+Little Cayman,PC1,coastal,mangrove,0.679712722602274,
+Little Cayman,PC1,coppice,mangrove,0.09588812943860536,
+Little Cayman,PC2,coastal,coppice,0.7637525176585732,
+Little Cayman,PC2,coastal,mangrove,0.0013574057323172406,**
+Little Cayman,PC2,coppice,mangrove,3.173594196326235e-7,***
+Little Cayman,PC3,coastal,coppice,0.0026445452118625257,**
+Little Cayman,PC3,coastal,mangrove,2.6384565864934206e-4,***
+Little Cayman,PC3,coppice,mangrove,0.2996642146017493,
+Little Cayman,PC4,coastal,coppice,0.2795228602825063,
+Little Cayman,PC4,coastal,mangrove,0.9981579887900046,
+Little Cayman,PC4,coppice,mangrove,0.30524261696707977,
+Long Island,PC1,coastal,coppice,0.32254099629555133,
+Long Island,PC1,coastal,mangrove,0.996291069087511,
+Long Island,PC1,coppice,mangrove,0.29517045943487974,
+Long Island,PC2,coastal,coppice,0.9998474466840533,
+Long Island,PC2,coastal,mangrove,0.2948145831771085,
+Long Island,PC2,coppice,mangrove,0.204419581120574,
+Long Island,PC3,coastal,coppice,0.04534376457533362,*
+Long Island,PC3,coastal,mangrove,0.007875146864813498,**
+Long Island,PC3,coppice,mangrove,0.9758560060777988,
+Long Island,PC4,coastal,coppice,0.9958091584588614,
+Long Island,PC4,coastal,mangrove,0.02486712441421124,*
+Long Island,PC4,coppice,mangrove,0.08369372224229399,
+North Andros,PC1,coastal,coppice,0.9997033799351219,
+North Andros,PC1,coastal,mangrove,0.7543410932244641,
+North Andros,PC1,coppice,mangrove,0.8906125145162782,
+North Andros,PC2,coastal,coppice,0.518164034014184,
+North Andros,PC2,coastal,mangrove,0.05372969796436289,
+North Andros,PC2,coppice,mangrove,0.9147270380501434,
+North Andros,PC3,coastal,coppice,0.15788263111955825,
+North Andros,PC3,coastal,mangrove,0.8507336274730293,
+North Andros,PC3,coppice,mangrove,0.4757967739474439,
+North Andros,PC4,coastal,coppice,0.9863152698562243,
+North Andros,PC4,coastal,mangrove,0.9076337898734481,
+North Andros,PC4,coppice,mangrove,0.7560187818825989,
+Ragged Island,PC1,coastal,coppice,0.7306586225579128,
+Ragged Island,PC1,coastal,mangrove,0.9739002188327045,
+Ragged Island,PC1,coppice,mangrove,0.42424568524239115,
+Ragged Island,PC2,coastal,coppice,0.6189397519620631,
+Ragged Island,PC2,coastal,mangrove,0.23311724083051366,
+Ragged Island,PC2,coppice,mangrove,0.051091896359415134,
+Ragged Island,PC3,coastal,coppice,0.9572853681283097,
+Ragged Island,PC3,coastal,mangrove,0.3560019514039938,
+Ragged Island,PC3,coppice,mangrove,0.6665392339273568,
+Ragged Island,PC4,coastal,coppice,0.6227762375747035,
+Ragged Island,PC4,coastal,mangrove,0.7639371495024931,
+Ragged Island,PC4,coppice,mangrove,0.31365233163814055,
+South Andros,PC1,coastal,coppice,0.2379218744980962,
+South Andros,PC1,coastal,mangrove,0.9879602099304535,
+South Andros,PC1,coppice,mangrove,0.28181592230387653,
+South Andros,PC2,coastal,coppice,0.5271130137233866,
+South Andros,PC2,coastal,mangrove,0.13423536024954041,
+South Andros,PC2,coppice,mangrove,0.08338954556729339,
+South Andros,PC3,coastal,coppice,0.03472858862524786,*
+South Andros,PC3,coastal,mangrove,0.9744967769426822,
+South Andros,PC3,coppice,mangrove,0.12671946584322158,
+South Andros,PC4,coastal,coppice,0.00221672825694752,**
+South Andros,PC4,coastal,mangrove,0.03401929017444483,*
+South Andros,PC4,coppice,mangrove,0.2897507162574938,

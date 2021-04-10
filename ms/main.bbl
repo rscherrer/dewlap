@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Anderson, 2001]{Anderson2001}
+Anderson, M.~J. (2001).
+\newblock A new method for non-parametric multivariate analysis of variance.
+\newblock {\em Austral Ecology}, 26(1):32--46.
+
 \bibitem[Andersson, 1994]{Andersson1994}
 Andersson, M.~B. (1994).
 \newblock {\em Sexual Selection}.
@@ -27,47 +32,24 @@ Benjamini, Y. and Hochberg, Y. (1995).
   approach to multiple testing.
 \newblock {\em Journal of the Royal Statistical Society Series B}, 57:289--300.
 
-\bibitem[Box, 1949]{Box1949}
-Box, G. E.~P. (1949).
-\newblock A {{General Distribution Theory}} for a {{Class}} of {{Likelihood
-  Criteria}}.
-\newblock {\em Biometrika}, 36(3/4):317.
-
 \bibitem[Bradbury and Vehrencamp, 2011]{Bradbury2011}
 Bradbury, J.~W. and Vehrencamp, S.~L. (2011).
 \newblock {\em Principles of Animal Communication}.
 \newblock {Sinauer Associates}, {Sunderland, Mass}, 2nd ed edition.
+
+\bibitem[Breiman, 2001]{Breiman2001}
+Breiman, L. (2001).
+\newblock Random forests.
+\newblock {\em Machine Learning}, 45(1):5--32.
 
 \bibitem[Cook et~al., 2013]{Cook2013}
 Cook, E.~G., Murphy, T.~G., and Johnson, M.~A. (2013).
 \newblock Colorful displays signal male quality in a tropical anole lizard.
 \newblock {\em Naturwissenschaften}, 100(10):993--996.
 
-\bibitem[Cortes and Vapnik, 1995]{Cortes1995}
-Cortes, C. and Vapnik, V. (1995).
-\newblock Support-vector networks.
-\newblock {\em Machine Learning}, 20(3):273--297.
-
-\bibitem[Cortez, 2010]{Cortez2010}
-Cortez, P. (2010).
-\newblock Data {{Mining}} with {{Neural Networks}} and {{Support Vector
-  Machines Using}} the {{R}}/rminer {{Tool}}.
-\newblock In Perner, P., editor, {\em Advances in {{Data Mining}} -
-  {{Applications}} and {{Theoretical Aspects}} 10th {{Industrial Conference}}
-  on {{Data Mining}} ({{ICDM}} 2010), {{Lecture Notes}} in {{Artificial
-  Intelligence}} 6171}, number 6171 in Lecture Notes in Computer Science
-  {{Lecture}} Notes in Artificial Intelligence, pages 572--583. {Springer},
-  {Berlin}.
-
-\bibitem[Cortez, 2016]{Cortez2016}
-Cortez, P. (2016).
+\bibitem[Cortez, 2020]{Cortez2020}
+Cortez, P. (2020).
 \newblock Rminer: {{Data Mining Classification}} and {{Regression Methods}}.
-
-\bibitem[Cortez and Embrechts, 2013]{Cortez2013}
-Cortez, P. and Embrechts, M.~J. (2013).
-\newblock Using sensitivity analysis and visualization techniques to open black
-  box data mining models.
-\newblock {\em Information Sciences}, 225:1--17.
 
 \bibitem[Cox et~al., 2017]{Cox2017}
 Cox, R.~M., Costello, R.~A., Camber, B.~E., and McGlothlin, J.~W. (2017).
@@ -113,12 +95,6 @@ Driessens, T., Vanhooydonck, B., and Van~Damme, R. (2014).
   {{Signaling}} rates across diverse contexts in the lizard
   {{{\emph{Anolis}}}}{\emph{ sagrei}}.
 \newblock {\em Behavioral Ecology and Sociobiology}, 68(2):173--184.
-
-\bibitem[Dunnett, 1980]{Dunnett1980}
-Dunnett, C.~W. (1980).
-\newblock Pairwise {{Multiple Comparisons}} in the {{Unequal Variance Case}}.
-\newblock {\em Journal of the American Statistical Association},
-  75(372):796--800.
 
 \bibitem[Endler, 1998]{Endler1998}
 Endler, J. (1998).
@@ -197,16 +173,6 @@ Fleishman, L.~J., Wadman, C.~S., and Maximov, K.~J. (2020).
   contrast on visual signal visibility in an {{Anolis}} lizard.
 \newblock {\em Animal Behaviour}, page S0003347220302037.
 
-\bibitem[Fox et~al., 2018]{Fox2018}
-Fox, J., Friendly, M., and Monette, G. (2018).
-\newblock Heplots: {{Visualizing Tests}} in {{Multivariate Linear Models}}.
-
-\bibitem[Friedrich et~al., 2018]{Friedrich2018}
-Friedrich, S., Konietschke, F., and Pauly, M. (2018).
-\newblock Analysis of {{Multivariate Data}} and {{Repeated Measures Designs}}
-  with the {{R Package MANOVA}}.{{RM}}.
-\newblock {\em arXiv:1801.08002 [stat]}.
-
 \bibitem[{Garc{\'i}a-Ramos} and Kirkpatrick, 1997]{Garcia-Ramos1997}
 {Garc{\'i}a-Ramos}, G. and Kirkpatrick, M. (1997).
 \newblock Genetic {{Models}} of {{Adaptation}} and {{Gene Flow}} in
@@ -255,11 +221,6 @@ Henze, N. and Zirkler, B. (1990).
 \newblock {\em Communications in Statistics - Theory and Methods},
   19(10):3595--3617.
 
-\bibitem[Higashi et~al., 1999]{Higashi1999}
-Higashi, M., Takimoto, G., and Yamamura, N. (1999).
-\newblock Sympatric speciation by sexual selection.
-\newblock {\em Nature}, 402(6761):523--526.
-
 \bibitem[Hijmans, 2019]{Hijmans2019}
 Hijmans, R.~J. (2019).
 \newblock Geosphere: {{Spherical Trigonometry}}.
@@ -287,17 +248,18 @@ Howard, R.~A. (1950).
   {{I}}.
 \newblock {\em Ecological Monographs}, 20(4):317--349.
 
+\bibitem[James et~al., 2013]{James2013}
+James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013).
+\newblock {\em An {{Introduction}} to {{Statistical Learning}}}, volume 103 of
+  {\em Springer {{Texts}} in {{Statistics}}}.
+\newblock {Springer New York}, {New York, NY}.
+
 \bibitem[Kamath and Losos, 2018]{Kamath2018}
 Kamath, A. and Losos, J.~B. (2018).
 \newblock Estimating encounter rates as the first step of sexual selection in
   the lizard {{{\emph{Anolis}}}}{\emph{ sagrei}}.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   285(1873):20172244.
-
-\bibitem[Kim and von Oertzen, 2018]{Kim2018}
-Kim, B. and von Oertzen, T. (2018).
-\newblock Classifiers as a model-free group comparison test.
-\newblock {\em Behavior Research Methods}, 50(1):416--426.
 
 \bibitem[Kolbe et~al., 2008]{Kolbe2008}
 Kolbe, J.~J., Larson, A., Losos, J.~B., and {de Queiroz}, K. (2008).
@@ -322,12 +284,6 @@ Lambert, S.~M., Geneva, A.~J., Luke~Mahler, D., and Glor, R.~E. (2013).
 \newblock Using genomic data to revisit an early example of reproductive
   character displacement in {{Haitian}} {{{\emph{Anolis}}}} lizards.
 \newblock {\em Molecular Ecology}, 22(15):3981--3995.
-
-\bibitem[Lande, 1981]{Lande1981}
-Lande, R. (1981).
-\newblock Models of speciation by sexual selection on polygenic traits.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  78(6):3721--3725.
 
 \bibitem[Lazareva et~al., 2012]{Lazareva2012}
 Lazareva, O.~F., Shimizu, T., and Wasserman, E.~A. (2012).
@@ -354,12 +310,6 @@ Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1995).
   cristatellus}} ({{Sauria}}: {{Polychrotidae}}).
 \newblock {\em Copeia}, 1995(1):155--161.
 
-\bibitem[Leal and {Rodriguez-Robles}, 1997]{Leal1997b}
-Leal, M. and {Rodriguez-Robles}, J.~A. (1997).
-\newblock Antipredator {{Responses}} of the {{Puerto Rican Giant Anole}},
-  {{{\emph{Anolis}}}}{\emph{ cuvieri}} ({{Squamata}}: {{Polychrotidae}}).
-\newblock {\em Biotropica}, 29(3):372--375.
-
 \bibitem[Leal and {Rodr{\'i}guez-Robles}, 1997]{Leal1997}
 Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1997).
 \newblock Signalling displays during predator\textendash prey interactions in a
@@ -370,6 +320,11 @@ Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1997).
 Lenormand, T. (2002).
 \newblock Gene flow and the limits to natural selection.
 \newblock {\em Trends in Ecology \& Evolution}, 17(4):183--189.
+
+\bibitem[Liaw and Wiener, 2002]{Liaw2002}
+Liaw, A. and Wiener, M. (2002).
+\newblock Classification and {{Regression}} by {{randomForest}}.
+\newblock {\em R News}, 2(3):18--22.
 
 \bibitem[Losos, 1985]{Losos1985}
 Losos, J.~B. (1985).
@@ -419,13 +374,6 @@ Macedonia, J.~M., Clark, D.~L., Riley, R.~G., and Kemp, D.~J. (2013).
   robots.
 \newblock {\em Behavioral Ecology}, 24(4):846--852.
 
-\bibitem[Macedonia et~al., 2014]{Macedonia2014a}
-Macedonia, J.~M., Clark, D.~L., and Tamasi, A.~L. (2014).
-\newblock Does {{Selection Favor Dewlap Colors}} that {{Maximize
-  Detectability}}? {{A Test}} with {{Five Species}} of {{Jamaican}}
-  {{{\emph{Anolis}}}} {{Lizards}}.
-\newblock {\em Herpetologica}, 70(2):157--170.
-
 \bibitem[Macedonia et~al., 2000]{Macedonia2000}
 Macedonia, J.~M., James, S., Wittle, L.~W., and Clark, D.~L. (2000).
 \newblock Skin {{Pigments}} and {{Coloration}} in the {{Jamaican Radiation}} of
@@ -445,23 +393,6 @@ Maia, R., Eliason, C.~M., Bitton, P.-P., Doucet, S.~M., and Shawkey, M.~D.
 \newblock Pavo: An {{R}} package for the analysis, visualization and
   organization of spectral data.
 \newblock {\em Methods in Ecology and Evolution}, pages n/a--n/a.
-
-\bibitem[Miles et~al., 2019]{Miles2019}
-Miles, L.~S., Rivkin, L.~R., Johnson, M. T.~J., Munshi-South, J., and Verrelli,
-  B.~C. (2019).
-\newblock Gene flow and genetic drift in urban environments.
-\newblock {\em Molecular Ecology}, 28(18):4138--4151.
-
-\bibitem[Morrison, 1988]{Morrison1988}
-Morrison, D.~F. (1988).
-\newblock {\em Multivariate Statistical Methods}.
-\newblock {{McGraw}}-{{Hill}} Series in Probability and Statistics.
-  {McGraw-Hill}, {Hamburg Auckland}.
-
-\bibitem[Nemenyi, 1963]{Nemenyi1963}
-Nemenyi, P. (1963).
-\newblock {\em Distribution-Free Multiple Comparisons}.
-\newblock {Ph. D. dissertation, Princeton University}, {Princeton, NJ}.
 
 \bibitem[Ng et~al., 2017]{Ng2017}
 Ng, J., Geneva, A.~J., Noll, S., and Glor, R.~E. (2017).
@@ -507,6 +438,12 @@ Nosil, P. and Crespi, B.~J. (2004).
   {{{\emph{Timema}}}}{\emph{ cristinae}} {{Walking}}-{{Sticks}}.
 \newblock {\em Evolution}, 58(1):102--112.
 
+\bibitem[Oksanen et~al., 2019]{Oksanen2019}
+Oksanen, J., Blanchet, F.~G., Friendly, M., Kindt, R., Legendre, P., McGlinn,
+  D., Minchin, P.~R., O'Hara, R.~B., Simpson, G.~L., Solymos, P., Stevens, M.
+  H.~H., Szoecs, E., and Wagner, H. (2019).
+\newblock Vegan: {{Community Ecology Package}}. {{R}} package version 2.5-6.
+
 \bibitem[Ortiz, 1962]{Ortiz1962}
 Ortiz, E. (1962).
 \newblock Drosopterins in the dewlap of some anoline lizards.
@@ -529,13 +466,6 @@ Ortiz, E. and {Williams-Ashman}, H. (1963).
   {{{\emph{Anolis}}}}{\emph{ pulchellus}}.
 \newblock {\em Comparative Biochemistry and Physiology}, 10(3):181--190.
 
-\bibitem[Pigot et~al., 2020]{Pigot2020}
-Pigot, A.~L., Sheard, C., Miller, E.~T., Bregman, T.~P., Freeman, B.~G., Roll,
-  U., Seddon, N., Trisos, C.~H., Weeks, B.~C., and Tobias, J.~A. (2020).
-\newblock Macroevolutionary convergence connects morphological form to
-  ecological function in birds.
-\newblock {\em Nature Ecology \& Evolution}, 4(2):230--239.
-
 \bibitem[Pinheiro and Bates, 2000]{Pinheiro2000}
 Pinheiro, J. and Bates, D. (2000).
 \newblock {\em Mixed-{{Effects Models}} in {{S}} and {{S}}-{{PLUS}}}.
@@ -554,12 +484,6 @@ Pohlert, T. (2020).
 {R Core Team} (2019).
 \newblock R: {{A Language}} and {{Environment}} for {{Statistical Computing}}.
 \newblock R Foundation for Statistical Computing.
-
-\bibitem[Rand and Williams, 1970]{Rand1970b}
-Rand, A.~S. and Williams, E.~E. (1970).
-\newblock An {{Estimation}} of {{Redundancy}} and {{Information Content}} of
-  {{Anole Dewlaps}}.
-\newblock {\em The American Naturalist}, 104(935):99--103.
 
 \bibitem[Reynolds et~al., 2020]{Reynolds2020}
 Reynolds, R.~G., Kolbe, J.~J., Glor, R.~E., L{\'o}pez-Darias, M.,
@@ -581,10 +505,11 @@ Richardson, J.~L., Urban, M.~C., Bolnick, D.~I., and Skelly, D.~K. (2014).
 \newblock Microgeographic adaptation and the spatial scale of evolution.
 \newblock {\em Trends in Ecology \& Evolution}, 29(3):165--176.
 
-\bibitem[Ripley, 1996]{Ripley1996a}
-Ripley, B.~D. (1996).
-\newblock {\em Pattern {{Recognition}} and {{Neural Networks}}}.
-\newblock {Cambridge University Press}, first edition.
+\bibitem[Rousset, 2004]{Rousset2004}
+Rousset, F. (2004).
+\newblock {\em Genetic Structure and Selection in Subdivided Populations}.
+\newblock Number~40 in Monographs in Population Biology. {Princeton University
+  Press}, {Princeton}.
 
 \bibitem[Schoener, 1968]{Schoener1968}
 Schoener, T.~W. (1968).
@@ -637,19 +562,12 @@ Steffen, J.~E. and McGraw, K.~J. (2009).
 \newblock {\em Comparative Biochemistry and Physiology Part B: Biochemistry and
   Molecular Biology}, 154(3):334--340.
 
-\bibitem[Thorpe, 2002]{Thorpe2002b}
+\bibitem[Thorpe, 2002]{Thorpe2002a}
 Thorpe, R.~S. (2002).
 \newblock Analysis of {{Color Spectra}} in {{Comparative Evolutionary
   Studies}}: {{Molecular Phylogeny}} and {{Habitat Adaptation}} in the {{St}}.
   {{Vincent Anole}} ({{{\emph{Anolis}}}}{\emph{ trinitatis}}).
 \newblock {\em Systematic Biology}, 51(4):554--569.
-
-\bibitem[Thorpe and Stenson, 2002]{Thorpe2002a}
-Thorpe, R.~S. and Stenson, A.~G. (2002).
-\newblock Phylogeny, {{Paraphyly}} and {{Ecological Adaptation}} of the
-  {{Colour}} and {{Pattern}} in the {{Anolis Roquet Complex}} on
-  {{Martinique}}: {{Interaction Between Phylogeny}} and {{Adaptation}}.
-\newblock {\em Molecular Ecology}, 12(1):117--132.
 
 \bibitem[Tokarz, 2002]{Tokarz2002}
 Tokarz, R.~R. (2002).
@@ -671,21 +589,11 @@ Tokarz, R.~R., Paterson, A.~V., and McMann, S. (2005).
   {{Free}}-{{Ranging Brown Anoles}} ({{{\emph{Anolis}}}}{\emph{ sagrei}}).
 \newblock {\em Journal of Herpetology}, 39(1):174--177.
 
-\bibitem[Tukey, 1949]{Tukey1949}
-Tukey, J.~W. (1949).
-\newblock Comparing {{Individual Means}} in the {{Analysis}} of {{Variance}}.
-\newblock {\em Biometrics}, 5(2):99.
-
 \bibitem[Vanhooydonck et~al., 2009]{Vanhooydonck2009}
 Vanhooydonck, B., Herrel, A., Meyers, J.~J., and Irschick, D.~J. (2009).
 \newblock What determines dewlap diversity in {{{\emph{Anolis}}}} lizards?
   {{An}} among-island comparison.
 \newblock {\em Journal of Evolutionary Biology}, 22(2):293--305.
-
-\bibitem[Venables and Ripley, 2002]{Venables2002}
-Venables, W.~N. and Ripley, B.~D. (2002).
-\newblock {\em Modern {{Applied Statistics}} with {{S}}}.
-\newblock Statistics and {{Computing}}. {Springer}, {New York}, 4th ed edition.
 
 \bibitem[Willi and Hoffmann, 2012]{Willi2012}
 Willi, Y. and Hoffmann, A.~A. (2012).

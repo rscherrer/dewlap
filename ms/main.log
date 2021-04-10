@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  19 NOV 2020 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  10 APR 2021 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,22 +736,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -816,10 +816,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 56.
+loading the todonotes package. on input line 62.
 
 \AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 62.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -831,21 +831,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-1.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (10.99776pt too wide) in paragraph at lines 61--61
+Overfull \hbox (10.99776pt too wide) in paragraph at lines 67--67
  [][] 
  []
 
@@ -862,14 +862,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
+Package natbib Warning: Citation `Leal1997b' on page 2 undefined on input line 
+11.
+
+
+Package natbib Warning: Citation `Rand1970b' on page 2 undefined on input line 
+11.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
+Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
+e 13.
+
+
+Package natbib Warning: Citation `Macedonia2014a' on page 2 undefined on input 
+line 13.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
+
+
+Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
+e 15.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -886,8 +906,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-) (./sections/methods.tex [3]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+) [3] (./sections/methods2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
@@ -897,11 +922,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -912,31 +942,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+[6]) [7] (./sections/results2.tex
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
+LaTeX Warning: Reference `fig:reflectance' on page 8 undefined on input line 3.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
- []
-
-) (./sections/results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -946,7 +966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -962,6 +982,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+) [9] (./sections/discussion2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
@@ -986,282 +1061,135 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
+[11]) [12] (./sections/acknowledgments.tex) [13] (./sections/figures.tex
+<figures/Abaco.png, id=641, 470.9595pt x 236.3229pt>
+File: figures/Abaco.png Graphic file (type png)
+<use figures/Abaco.png>
+Package pdftex.def Info: figures/Abaco.png  used on input line 4.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 31--79
-
- []
-
-(./sections/discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-) (./sections/acknowledgments.tex) [10] [11] (./sections/figures.tex
-<figures/map.pdf, id=709, 632.3625pt x 451.6875pt>
-File: figures/map.pdf Graphic file (type pdf)
-<use figures/map.pdf>
-Package pdftex.def Info: figures/map.pdf  used on input line 4.
-(pdftex.def)             Requested size: 341.43437pt x 243.88693pt.
-<figures/classif_svm_pca.png, id=710, 650.43pt x 433.62pt>
-File: figures/classif_svm_pca.png Graphic file (type png)
-<use figures/classif_svm_pca.png>
-Package pdftex.def Info: figures/classif_svm_pca.png  used on input line 12.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
- [12 <./figures/map.pdf>]
-<figures/figure_anova.png, id=725, 505.89pt x 505.89pt>
-File: figures/figure_anova.png Graphic file (type png)
-<use figures/figure_anova.png>
-Package pdftex.def Info: figures/figure_anova.png  used on input line 21.
-(pdftex.def)             Requested size: 426.79135pt x 426.7973pt.
-) [13 <./figures/classif_svm_pca.png (PNG copy)>] [14 <./figures/figure_anova.p
-ng (PNG copy)>] (./sections/tables.tex (./tables/table_anova.tex)) [15] [16] (.
-/main.bbl [17] [18] [19] [20] [21]) [22]
-(./sections/suppfigures.tex
-<suppfigures/detailed_map.pdf, id=771, 660.4675pt x 466.74374pt>
-File: suppfigures/detailed_map.pdf Graphic file (type pdf)
-<use suppfigures/detailed_map.pdf>
-Package pdftex.def Info: suppfigures/detailed_map.pdf  used on input line 4.
-(pdftex.def)             Requested size: 426.79135pt x 301.62071pt.
+[14 <./figures/Abaco.png>] (./sections/tables.tex (./tables/randomforests.tex)
+(./tables/autocorrelation.tex) (./tables/anova.tex)) [15] [16] (./main.bbl
+[17] [18] [19] [20] [21]) [22] (./sections/suppfigures.tex
+<figures/all_maps.png, id=685, 424.7067pt x 546.6021pt>
+File: figures/all_maps.png Graphic file (type png)
+<use figures/all_maps.png>
+Package pdftex.def Info: figures/all_maps.png  used on input line 3.
+(pdftex.def)             Requested size: 426.79135pt x 549.30305pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 ...ts across nine islands of the West Indies.}
+l.4 ...ored after their respective habitat-types.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.5 ...ts across nine islands of the West Indies.}
+l.4 ...ored after their respective habitat-types.}
                                                   
-<suppfigures/figure_brightness.png, id=772, 433.62pt x 433.62pt>
-File: suppfigures/figure_brightness.png Graphic file (type png)
-<use suppfigures/figure_brightness.png>
-Package pdftex.def Info: suppfigures/figure_brightness.png  used on input line 
-11.
-(pdftex.def)             Requested size: 341.43437pt x 341.4511pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 ...n coefficients are reported. *, P < 0.05.}
-                                                  	pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.2}) has been already used, duplica
-te ignored
-<to be read again> 
-                   \relax 
-l.12 ...n coefficients are reported. *, P < 0.05.}
-                                                  	 [23 <./suppfigures/detailed
-_map.pdf>]
-<suppfigures/figure_brightness_pooled.png, id=780, 289.08pt x 289.08pt>
-File: suppfigures/figure_brightness_pooled.png Graphic file (type png)
-<use suppfigures/figure_brightness_pooled.png>
-Package pdftex.def Info: suppfigures/figure_brightness_pooled.png  used on inpu
-t line 18.
-(pdftex.def)             Requested size: 213.39568pt x 213.39534pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 ...ion coefficient is reported. *, P < 0.05.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.3}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.19 ...ion coefficient is reported. *, P < 0.05.}
-                                                  
-<suppfigures/figure_pooled.png, id=781, 578.16pt x 361.35pt>
-File: suppfigures/figure_pooled.png Graphic file (type png)
-<use suppfigures/figure_pooled.png>
-Package pdftex.def Info: suppfigures/figure_pooled.png  used on input line 25.
-(pdftex.def)             Requested size: 426.79135pt x 266.74419pt.
- [24 <./suppfigures/figure_brightness.png> <./suppfigures/figure_brightness_poo
-led.png>]
-<suppfigures/figure_reflectance.png, id=788, 433.62pt x 433.62pt>
-File: suppfigures/figure_reflectance.png Graphic file (type png)
-<use suppfigures/figure_reflectance.png>
-Package pdftex.def Info: suppfigures/figure_reflectance.png  used on input line
- 33.
-(pdftex.def)             Requested size: 341.43437pt x 341.4511pt.
- [25 <./suppfigures/figure_pooled.png (PNG copy)>]
-<suppfigures/classif_svm_pca_pooled.png, id=794, 433.62pt x 216.81pt>
-File: suppfigures/classif_svm_pca_pooled.png Graphic file (type png)
-<use suppfigures/classif_svm_pca_pooled.png>
-Package pdftex.def Info: suppfigures/classif_svm_pca_pooled.png  used on input 
-line 40.
-(pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<suppfigures/classif_svm_refl_pooled.png, id=797, 433.62pt x 216.81pt>
-File: suppfigures/classif_svm_refl_pooled.png Graphic file (type png)
-<use suppfigures/classif_svm_refl_pooled.png>
-Package pdftex.def Info: suppfigures/classif_svm_refl_pooled.png  used on input
- line 47.
-(pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
- [26 <./suppfigures/figure_reflectance.png (PNG copy)> <./suppfigures/classif_s
-vm_pca_pooled.png (PNG copy)>]
-<suppfigures/importance_svm_pca_pooled.png, id=804, 216.81pt x 216.81pt>
-File: suppfigures/importance_svm_pca_pooled.png Graphic file (type png)
-<use suppfigures/importance_svm_pca_pooled.png>
-Package pdftex.def Info: suppfigures/importance_svm_pca_pooled.png  used on inp
-ut line 54.
-(pdftex.def)             Requested size: 170.71393pt x 170.72223pt.
-<suppfigures/importance_svm_refl_pooled.png, id=807, 361.35pt x 289.08pt>
-File: suppfigures/importance_svm_refl_pooled.png Graphic file (type png)
-<use suppfigures/importance_svm_refl_pooled.png>
-Package pdftex.def Info: suppfigures/importance_svm_refl_pooled.png  used on in
-put line 61.
-(pdftex.def)             Requested size: 256.07741pt x 204.86447pt.
- [27 <./suppfigures/classif_svm_refl_pooled.png (PNG copy)> <./suppfigures/impo
-rtance_svm_pca_pooled.png>]
-<suppfigures/classif_lda_pca_pooled.png, id=815, 433.62pt x 216.81pt>
-File: suppfigures/classif_lda_pca_pooled.png Graphic file (type png)
-<use suppfigures/classif_lda_pca_pooled.png>
-Package pdftex.def Info: suppfigures/classif_lda_pca_pooled.png  used on input 
-line 68.
-(pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
-<suppfigures/classif_lda_refl_pooled.png, id=818, 433.62pt x 216.81pt>
-File: suppfigures/classif_lda_refl_pooled.png Graphic file (type png)
-<use suppfigures/classif_lda_refl_pooled.png>
-Package pdftex.def Info: suppfigures/classif_lda_refl_pooled.png  used on input
- line 75.
-(pdftex.def)             Requested size: 341.43437pt x 170.72554pt.
- [28 <./suppfigures/importance_svm_refl_pooled.png> <./suppfigures/classif_lda_
-pca_pooled.png (PNG copy)>]
-<suppfigures/figure_reflectance_pooled.png, id=826, 289.08pt x 144.54pt>
-File: suppfigures/figure_reflectance_pooled.png Graphic file (type png)
-<use suppfigures/figure_reflectance_pooled.png>
-Package pdftex.def Info: suppfigures/figure_reflectance_pooled.png  used on inp
-ut line 82.
-(pdftex.def)             Requested size: 213.39568pt x 106.69766pt.
-<suppfigures/classif_lda_pca.png, id=827, 650.43pt x 433.62pt>
-File: suppfigures/classif_lda_pca.png Graphic file (type png)
-<use suppfigures/classif_lda_pca.png>
-Package pdftex.def Info: suppfigures/classif_lda_pca.png  used on input line 89
-.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
- [29 <./suppfigures/classif_lda_refl_pooled.png (PNG copy)> <./suppfigures/figu
-re_reflectance_pooled.png (PNG copy)>]
-<suppfigures/classif_svm_refl.png, id=835, 650.43pt x 433.62pt>
-File: suppfigures/classif_svm_refl.png Graphic file (type png)
-<use suppfigures/classif_svm_refl.png>
-Package pdftex.def Info: suppfigures/classif_svm_refl.png  used on input line 9
-6.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-<suppfigures/classif_lda_refl.png, id=838, 650.43pt x 433.62pt>
-File: suppfigures/classif_lda_refl.png Graphic file (type png)
-<use suppfigures/classif_lda_refl.png>
-Package pdftex.def Info: suppfigures/classif_lda_refl.png  used on input line 1
-03.
-(pdftex.def)             Requested size: 426.79135pt x 284.53595pt.
-
-[30 <./suppfigures/classif_lda_pca.png (PNG copy)> <./suppfigures/classif_svm_r
-efl.png (PNG copy)>]
-<suppfigures/importance_svm_pca.png, id=845, 361.35pt x 289.08pt>
-File: suppfigures/importance_svm_pca.png Graphic file (type png)
-<use suppfigures/importance_svm_pca.png>
-Package pdftex.def Info: suppfigures/importance_svm_pca.png  used on input line
- 110.
-(pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
-
-
-LaTeX Warning: Reference `supfig:classif-svm-pca' on page 31 undefined on input
- line 111.
-
-
-LaTeX Warning: Reference `supfig:classif-svm-pca' on page 31 undefined on input
- line 111.
-
-<suppfigures/importance_lda_pca.png, id=846, 361.35pt x 289.08pt>
-File: suppfigures/importance_lda_pca.png Graphic file (type png)
-<use suppfigures/importance_lda_pca.png>
-Package pdftex.def Info: suppfigures/importance_lda_pca.png  used on input line
- 117.
-(pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
-[31 <./suppfigures/classif_lda_refl.png (PNG copy)> <./suppfigures/importance_s
-vm_pca.png>]
-File: suppfigures/importance_svm_pca.png Graphic file (type png)
-<use suppfigures/importance_svm_pca.png>
-Package pdftex.def Info: suppfigures/importance_svm_pca.png  used on input line
- 124.
-(pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
-File: suppfigures/importance_lda_pca.png Graphic file (type png)
-<use suppfigures/importance_lda_pca.png>
-Package pdftex.def Info: suppfigures/importance_lda_pca.png  used on input line
- 131.
-(pdftex.def)             Requested size: 341.43437pt x 273.15115pt.
- [32 <./suppfigures/importance_lda_pca.png>]
-<suppfigures/figure_distances2.png, id=864, 505.89pt x 252.945pt>
-File: suppfigures/figure_distances2.png Graphic file (type png)
-<use suppfigures/figure_distances2.png>
-Package pdftex.def Info: suppfigures/figure_distances2.png  used on input line 
-138.
-(pdftex.def)             Requested size: 426.79135pt x 213.39865pt.
-<suppfigures/figure_contrasts.png, id=871, 361.35pt x 289.08pt>
-File: suppfigures/figure_contrasts.png Graphic file (type png)
-<use suppfigures/figure_contrasts.png>
-Package pdftex.def Info: suppfigures/figure_contrasts.png  used on input line 1
-45.
-(pdftex.def)             Requested size: 298.75264pt x 239.0056pt.
-) [33 <./suppfigures/figure_distances2.png (PNG copy)>] [34 <./suppfigures/figu
-re_contrasts.png (PNG copy)>] (./sections/supptables.texpdfTeX warning (ext4): 
-destination with the same identifier (name{table.1}) has been already used, dup
-licate ignored
+<figures/Bimini.png, id=686, 470.9595pt x 236.3229pt>
+File: figures/Bimini.png Graphic file (type png)
+<use figures/Bimini.png>
+Package pdftex.def Info: figures/Bimini.png  used on input line 10.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+ [23 <./figures/all_maps.png>]
+<figures/CaymanBrac.png, id=696, 470.9595pt x 236.3229pt>
+File: figures/CaymanBrac.png Graphic file (type png)
+<use figures/CaymanBrac.png>
+Package pdftex.def Info: figures/CaymanBrac.png  used on input line 17.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+<figures/Eleuthera.png, id=699, 470.9595pt x 236.3229pt>
+File: figures/Eleuthera.png Graphic file (type png)
+<use figures/Eleuthera.png>
+Package pdftex.def Info: figures/Eleuthera.png  used on input line 24.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+ [24 <./figures/Bimini.png> <./figures/CaymanBrac.png>]
+<figures/LittleCayman.png, id=708, 470.9595pt x 236.3229pt>
+File: figures/LittleCayman.png Graphic file (type png)
+<use figures/LittleCayman.png>
+Package pdftex.def Info: figures/LittleCayman.png  used on input line 31.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+<figures/LongIsland.png, id=711, 470.9595pt x 236.3229pt>
+File: figures/LongIsland.png Graphic file (type png)
+<use figures/LongIsland.png>
+Package pdftex.def Info: figures/LongIsland.png  used on input line 38.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+ [25 <./figures/Eleuthera.png> <./figures/LittleCayman.png>]
+<figures/NorthAndros.png, id=721, 470.9595pt x 236.3229pt>
+File: figures/NorthAndros.png Graphic file (type png)
+<use figures/NorthAndros.png>
+Package pdftex.def Info: figures/NorthAndros.png  used on input line 45.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+<figures/SouthAndros.png, id=724, 470.9595pt x 236.3229pt>
+File: figures/SouthAndros.png Graphic file (type png)
+<use figures/SouthAndros.png>
+Package pdftex.def Info: figures/SouthAndros.png  used on input line 52.
+(pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
+ [26 <./figures/LongIsland.png> <./figures/NorthAndros.png>]
+<figures/brightness.png, id=733, 289.08pt x 448.5558pt>
+File: figures/brightness.png Graphic file (type png)
+<use figures/brightness.png>
+Package pdftex.def Info: figures/brightness.png  used on input line 59.
+(pdftex.def)             Requested size: 341.43437pt x 529.81825pt.
+) [27 <./figures/SouthAndros.png>] [28 <./figures/brightness.png>] (./sections/
+supptables.texpdfTeX warning (ext4): destination with the same identifier (name
+{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...ds sampled in each habitat on each island.}
-                                                  
-(./supptables/table_counts.tex) (./supptables/table_sites.tex)
-(./supptables/table_expvar.tex) [35] (./supptables/table_brightness.tex)
-(./supptables/table_multinorm.tex) [36] (./supptables/table_covariance.tex)
-(./supptables/table_normality.tex) [37] (./supptables/table_anova_pooled.tex)
-[38] (./supptables/table_classif_svm_pca.tex) (./supptables/table_kw.tex)
-(./supptables/table_spatial.tex)) [39] [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+                                                   (./tables/counts.tex)pdfTeX 
+warning (ext4): destination with the same identifier (name{table.2}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 ..., as well as across the whole archipelago.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.2}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.9 ..., as well as across the whole archipelago.}
+                                                   (./tables/pcavariances.tex)p
+dfTeX warning (ext4): destination with the same identifier (name{table.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 ... 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.3}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.16 ... 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
+                                                   (./tables/multinorm.tex)
+[29] (./tables/normality.tex) [30] (./tables/sites.tex) [31]
+(./tables/kruskal.tex) (./tables/ksvms.tex) [32] (./tables/ldas.tex))
+
+Package natbib Warning: There were undefined citations.
+
+[33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 19953 strings out of 483183
- 370502 string characters out of 5966291
- 654704 words of memory out of 5000000
- 34231 multiletter control sequences out of 15000+600000
- 549615 words of font info for 57 fonts, out of 8000000 for 9000
+ 19777 strings out of 483183
+ 365028 string characters out of 5966291
+ 649063 words of memory out of 5000000
+ 34115 multiletter control sequences out of 15000+600000
+ 550383 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,13n,83p,1773b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,83p,1753b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
 00pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
 0.600pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
@@ -1279,15 +1207,15 @@ nts/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/raphael/.texlive2019/texmf-var
 /fonts/pk/ljfour/jknappen/ec/ecti1728.600pk> </home/raphael/.texlive2019/texmf-
 var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on main.pdf (40 pages, 5115668 bytes).
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (33 pages, 4322346 bytes).
 PDF statistics:
- 1417 PDF objects out of 1440 (max. 8388607)
- 906 compressed objects within 10 object streams
- 218 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1242 PDF objects out of 1440 (max. 8388607)
+ 782 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
