@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  10 APR 2021 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  10 APR 2021 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,13 +1143,13 @@ warning (ext4): destination with the same identifier (name{table.2}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 ..., as well as across the whole archipelago.}
+l.9 ...formed on all islands together (last row).}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{table.2}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.9 ..., as well as across the whole archipelago.}
+l.9 ...formed on all islands together (last row).}
                                                    (./tables/pcavariances.tex)p
 dfTeX warning (ext4): destination with the same identifier (name{table.3}) has 
 been already used, duplicate ignored
@@ -1185,7 +1185,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
 Here is how much of TeX's memory you used:
  19777 strings out of 483183
  365028 string characters out of 5966291
- 649063 words of memory out of 5000000
+ 649095 words of memory out of 5000000
  34115 multiletter control sequences out of 15000+600000
  550383 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1212,7 +1212,7 @@ blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (33 pages, 4322346 bytes).
+Output written on main.pdf (33 pages, 4322376 bytes).
 PDF statistics:
  1242 PDF objects out of 1440 (max. 8388607)
  782 compressed objects within 8 object streams

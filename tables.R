@@ -26,6 +26,8 @@ library(tidyverse)
 library(knitr)
 library(kableExtra)
 
+#### 0. Accessory functions ####
+
 # Function to add a significance column with asterisk symbols to a tibble
 mutate_signif <- function(
   D, col = "pvalue", levels = c(0.05, 0.01, 0.001), dropname = TRUE
@@ -55,6 +57,8 @@ round_pvalue <- function(pvalue, digits = 4) {
 
 }
 
+#### 1. Random forest table ####
+
 # Random forest results
 read_csv("results/group_comparisons/machine_learning/PC/randomforest/summary.csv") %>%
   mutate_signif() %>%
@@ -69,6 +73,8 @@ read_csv("results/group_comparisons/machine_learning/PC/randomforest/summary.csv
     escape = FALSE
   ) %>%
   cat(file = "ms/tables/randomforests.tex")
+
+#### 2. LDA table ####
 
 # LDA results
 read_csv("results/group_comparisons/machine_learning/PC/lda/summary.csv") %>%
@@ -87,6 +93,8 @@ read_csv("results/group_comparisons/machine_learning/PC/lda/summary.csv") %>%
   ) %>%
   cat(file = "ms/tables/ldas.tex")
 
+#### 3. SVM table ####
+
 # SVM results
 read_csv("results/group_comparisons/machine_learning/PC/ksvm/summary.csv") %>%
   mutate_signif() %>%
@@ -103,6 +111,8 @@ read_csv("results/group_comparisons/machine_learning/PC/ksvm/summary.csv") %>%
     escape = FALSE
   ) %>%
   cat(file = "ms/tables/ksvms.tex")
+
+#### 4. ANOVA table ####
 
 # ANOVA table
 read_csv("results/group_comparisons/anovas.csv") %>%
@@ -122,6 +132,8 @@ read_csv("results/group_comparisons/anovas.csv") %>%
   ) %>%
   cat(file = "ms/tables/anova.tex")
 
+#### 5. Spatial autocorrelation table ####
+
 # Spatial autocorrelation
 read_csv("results/spatial_correlation/spatial_correlation.csv") %>%
   mutate_signif() %>%
@@ -139,6 +151,8 @@ read_csv("results/spatial_correlation/spatial_correlation.csv") %>%
   ) %>%
   cat(file = "ms/tables/autocorrelation.tex")
 
+#### 6. Sample size table ####
+
 # Sample sizes
 read_csv("metadata/counts.csv") %>%
   rename(" " = "island") %>%
@@ -148,6 +162,8 @@ read_csv("metadata/counts.csv") %>%
     linesep = ""
   ) %>%
   cat(file = "ms/tables/counts.tex")
+
+#### 7. Site metadata table ####
 
 # Site metadata
 read_csv("metadata/sites.csv") %>%
@@ -162,6 +178,8 @@ read_csv("metadata/sites.csv") %>%
   ) %>%
   cat(file = "ms/tables/sites.tex")
 
+#### 8. PCA table ####
+
 # PCA explained variance
 read_csv("results/pc_expvars/pc_expvars.csv") %>%
   kable(
@@ -174,6 +192,8 @@ read_csv("results/pc_expvars/pc_expvars.csv") %>%
     linesep = ""
   ) %>%
   cat(file = "ms/tables/pcavariances.tex")
+
+#### 9. Multivariate normality table ####
 
 # Tests of multivariate normality
 read_csv("results/assumptions/multinorm.csv") %>%
@@ -192,6 +212,8 @@ read_csv("results/assumptions/multinorm.csv") %>%
   ) %>%
   cat(file = "ms/tables/multinorm.tex")
 
+#### 10. Normality table ####
+
 # Univariate normality
 read_csv("results/assumptions/uninorm.csv") %>%
   mutate_signif(col = "padj") %>%
@@ -208,6 +230,8 @@ read_csv("results/assumptions/uninorm.csv") %>%
     escape = FALSE
   ) %>%
   cat(file = "ms/tables/normality.tex")
+
+#### 11. Kruskal-Wallis table ####
 
 # Kruskal-Wallis tests
 read_csv("results/group_comparisons/kruskalwallis.csv") %>%

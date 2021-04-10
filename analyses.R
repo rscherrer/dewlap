@@ -602,14 +602,30 @@ with(P, walk2(data, island, function(X, island) {
 #### 6.4. Explained variance ####
 
 # Make a table with the variance explained by each PC on each island
-map(wPCA, ~ with(.x, sdev[1:4] / sum(sdev))) %>%
+X <- map(wPCA, ~ with(.x, sdev[1:4] / sum(sdev))) %>%
   do.call("rbind", .) %>%
   as_tibble(.name_repair = ) %>%
   mutate(expvar = rowSums(.)) %>%
   mutate(island = island_names) %>%
   setNames(c(pc_names, "expvar", "island")) %>%
-  select(island, expvar, pc_names) %>%
-  write_csv("results/pc_expvars/pc_expvars.csv")
+  select(island, expvar, pc_names)
+
+# Record explained variance for the global PCA on all islands
+pc_expvar <- with(PCA, sdev[1:4] / sum(sdev))
+names(pc_expvar) <- pc_names
+
+# Prepare extra row for all islands
+new_row <- c(
+  island = "All islands",
+  expvar = sum(pc_expvar),
+  as.list(pc_expvar)
+)
+
+# Append extra row
+X <- X %>% add_row(!!!new_row)
+
+# Save the table
+write_csv(X, "results/pc_expvars/pc_expvars.csv")
 
 #### 6.5. Mapping of the PC onto the reflectance curves ####
 
