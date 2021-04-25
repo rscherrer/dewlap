@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  25 APR 2021 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  25 APR 2021 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 [11]) [12] (./sections/acknowledgments.tex) [13] (./sections/figures.tex
-<figures/Abaco.png, id=649, 470.9595pt x 236.3229pt>
+<figures/Abaco.png, id=647, 470.9595pt x 236.3229pt>
 File: figures/Abaco.png Graphic file (type png)
 <use figures/Abaco.png>
 Package pdftex.def Info: figures/Abaco.png  used on input line 4.
@@ -1066,7 +1066,7 @@ Package pdftex.def Info: figures/Abaco.png  used on input line 4.
 [14 <./figures/Abaco.png>] (./sections/tables.tex (./tables/randomforests.tex)
 (./tables/autocorrelation.tex) (./tables/anova.tex)) [15] [16] (./main.bbl
 [17] [18] [19] [20] [21]) [22] (./sections/suppfigures.tex
-<figures/all_maps.png, id=694, 424.7067pt x 546.6021pt>
+<figures/all_maps.png, id=692, 424.7067pt x 546.6021pt>
 File: figures/all_maps.png Graphic file (type png)
 <use figures/all_maps.png>
 Package pdftex.def Info: figures/all_maps.png  used on input line 3.
@@ -1083,57 +1083,53 @@ e ignored
                    \relax 
 l.4 ...ored after their respective habitat-types.}
                                                   
-<figures/Bimini.png, id=695, 470.9595pt x 236.3229pt>
+<figures/Bimini.png, id=693, 470.9595pt x 236.3229pt>
 File: figures/Bimini.png Graphic file (type png)
 <use figures/Bimini.png>
 Package pdftex.def Info: figures/Bimini.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [23 <./figures/all_maps.png>]
-<figures/CaymanBrac.png, id=704, 470.9595pt x 236.3229pt>
+<figures/CaymanBrac.png, id=702, 470.9595pt x 236.3229pt>
 File: figures/CaymanBrac.png Graphic file (type png)
 <use figures/CaymanBrac.png>
 Package pdftex.def Info: figures/CaymanBrac.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/Eleuthera.png, id=707, 470.9595pt x 236.3229pt>
+<figures/Eleuthera.png, id=705, 470.9595pt x 236.3229pt>
 File: figures/Eleuthera.png Graphic file (type png)
 <use figures/Eleuthera.png>
 Package pdftex.def Info: figures/Eleuthera.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [24 <./figures/Bimini.png> <./figures/CaymanBrac.png>]
-<figures/LittleCayman.png, id=716, 470.9595pt x 236.3229pt>
+<figures/LittleCayman.png, id=714, 470.9595pt x 236.3229pt>
 File: figures/LittleCayman.png Graphic file (type png)
 <use figures/LittleCayman.png>
 Package pdftex.def Info: figures/LittleCayman.png  used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/LongIsland.png, id=719, 470.9595pt x 236.3229pt>
+<figures/LongIsland.png, id=717, 470.9595pt x 236.3229pt>
 File: figures/LongIsland.png Graphic file (type png)
 <use figures/LongIsland.png>
 Package pdftex.def Info: figures/LongIsland.png  used on input line 38.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [25 <./figures/Eleuthera.png> <./figures/LittleCayman.png>]
-<figures/NorthAndros.png, id=729, 470.9595pt x 236.3229pt>
+<figures/NorthAndros.png, id=727, 470.9595pt x 236.3229pt>
 File: figures/NorthAndros.png Graphic file (type png)
 <use figures/NorthAndros.png>
 Package pdftex.def Info: figures/NorthAndros.png  used on input line 45.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/SouthAndros.png, id=732, 470.9595pt x 236.3229pt>
+<figures/SouthAndros.png, id=730, 470.9595pt x 236.3229pt>
 File: figures/SouthAndros.png Graphic file (type png)
 <use figures/SouthAndros.png>
 Package pdftex.def Info: figures/SouthAndros.png  used on input line 52.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [26 <./figures/LongIsland.png> <./figures/NorthAndros.png>]
-<figures/brightness.png, id=741, 289.08pt x 448.5558pt>
+<figures/brightness.png, id=739, 289.08pt x 448.5558pt>
 File: figures/brightness.png Graphic file (type png)
 <use figures/brightness.png>
 Package pdftex.def Info: figures/brightness.png  used on input line 59.
 (pdftex.def)             Requested size: 341.43437pt x 529.81825pt.
-) [27 <./figures/SouthAndros.png>] [28 <./figures/brightness.png>]
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-(./sections/supptables.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{table.1}) has been already used, duplicate ignored
+) [27 <./figures/SouthAndros.png>] [28 <./figures/brightness.png>] (./sections/
+supptables.texpdfTeX warning (ext4): destination with the same identifier (name
+{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...ds sampled in each habitat on each island.}
@@ -1207,10 +1203,10 @@ blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (33 pages, 4324050 bytes).
+Output written on main.pdf (33 pages, 4324000 bytes).
 PDF statistics:
- 1250 PDF objects out of 1440 (max. 8388607)
- 790 compressed objects within 8 object streams
+ 1248 PDF objects out of 1440 (max. 8388607)
+ 788 compressed objects within 8 object streams
  174 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
