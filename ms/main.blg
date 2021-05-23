@@ -3,49 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: apalike.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Leal1997b"
-Warning--I didn't find a database entry for "Rand1970b"
-Warning--I didn't find a database entry for "Thorpe2002b"
-Warning--I didn't find a database entry for "Macedonia2014a"
-You've used 104 entries,
+You've used 109 entries,
             1935 wiz_defined-function locations,
-            1176 strings with 23647 characters,
-and the built_in function-call counts, 41734 in all, are:
-= -- 4192
-> -- 1567
-< -- 70
-+ -- 548
-- -- 514
-* -- 3686
-:= -- 7198
-add.period$ -- 312
-call.type$ -- 104
-change.case$ -- 766
-chr.to.int$ -- 102
-cite$ -- 104
-duplicate$ -- 1498
-empty$ -- 2971
-format.name$ -- 674
-if$ -- 8101
+            1199 strings with 24618 characters,
+and the built_in function-call counts, 43637 in all, are:
+= -- 4388
+> -- 1631
+< -- 74
++ -- 570
+- -- 534
+* -- 3856
+:= -- 7529
+add.period$ -- 327
+call.type$ -- 109
+change.case$ -- 800
+chr.to.int$ -- 107
+cite$ -- 109
+duplicate$ -- 1566
+empty$ -- 3107
+format.name$ -- 705
+if$ -- 8467
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 108
-newline$ -- 517
-num.names$ -- 316
-pop$ -- 562
+missing$ -- 112
+newline$ -- 542
+num.names$ -- 331
+pop$ -- 583
 preamble$ -- 1
-purify$ -- 776
+purify$ -- 811
 quote$ -- 0
-skip$ -- 1157
+skip$ -- 1210
 stack$ -- 0
-substring$ -- 3402
-swap$ -- 161
+substring$ -- 3561
+swap$ -- 166
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 598
+type$ -- 628
 warning$ -- 0
-while$ -- 374
+while$ -- 392
 width$ -- 0
-write$ -- 1345
-(There were 4 warnings)
+write$ -- 1411

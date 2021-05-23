@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  25 APR 2021 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  23 MAY 2021 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,42 +854,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+[1
 
-Package natbib Warning: Citation `Leal1997b' on page 2 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Rand1970b' on page 2 undefined on input line 
-11.
-
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `Macedonia2014a' on page 2 undefined on input 
-line 13.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
-
-
-Package natbib Warning: Citation `Thorpe2002b' on page 2 undefined on input lin
-e 15.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -962,42 +942,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
@@ -1057,7 +1037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 [11]) [12] (./sections/acknowledgments.tex) [13] (./sections/figures.tex
-<figures/Abaco.png, id=647, 470.9595pt x 236.3229pt>
+<figures/Abaco.png, id=666, 470.9595pt x 236.3229pt>
 File: figures/Abaco.png Graphic file (type png)
 <use figures/Abaco.png>
 Package pdftex.def Info: figures/Abaco.png  used on input line 4.
@@ -1066,7 +1046,7 @@ Package pdftex.def Info: figures/Abaco.png  used on input line 4.
 [14 <./figures/Abaco.png>] (./sections/tables.tex (./tables/randomforests.tex)
 (./tables/autocorrelation.tex) (./tables/anova.tex)) [15] [16] (./main.bbl
 [17] [18] [19] [20] [21]) [22] (./sections/suppfigures.tex
-<figures/all_maps.png, id=692, 424.7067pt x 546.6021pt>
+<figures/all_maps.png, id=711, 424.7067pt x 546.6021pt>
 File: figures/all_maps.png Graphic file (type png)
 <use figures/all_maps.png>
 Package pdftex.def Info: figures/all_maps.png  used on input line 3.
@@ -1083,46 +1063,46 @@ e ignored
                    \relax 
 l.4 ...ored after their respective habitat-types.}
                                                   
-<figures/Bimini.png, id=693, 470.9595pt x 236.3229pt>
+<figures/Bimini.png, id=712, 470.9595pt x 236.3229pt>
 File: figures/Bimini.png Graphic file (type png)
 <use figures/Bimini.png>
 Package pdftex.def Info: figures/Bimini.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [23 <./figures/all_maps.png>]
-<figures/CaymanBrac.png, id=702, 470.9595pt x 236.3229pt>
+<figures/CaymanBrac.png, id=721, 470.9595pt x 236.3229pt>
 File: figures/CaymanBrac.png Graphic file (type png)
 <use figures/CaymanBrac.png>
 Package pdftex.def Info: figures/CaymanBrac.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/Eleuthera.png, id=705, 470.9595pt x 236.3229pt>
+<figures/Eleuthera.png, id=724, 470.9595pt x 236.3229pt>
 File: figures/Eleuthera.png Graphic file (type png)
 <use figures/Eleuthera.png>
 Package pdftex.def Info: figures/Eleuthera.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [24 <./figures/Bimini.png> <./figures/CaymanBrac.png>]
-<figures/LittleCayman.png, id=714, 470.9595pt x 236.3229pt>
+<figures/LittleCayman.png, id=733, 470.9595pt x 236.3229pt>
 File: figures/LittleCayman.png Graphic file (type png)
 <use figures/LittleCayman.png>
 Package pdftex.def Info: figures/LittleCayman.png  used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/LongIsland.png, id=717, 470.9595pt x 236.3229pt>
+<figures/LongIsland.png, id=736, 470.9595pt x 236.3229pt>
 File: figures/LongIsland.png Graphic file (type png)
 <use figures/LongIsland.png>
 Package pdftex.def Info: figures/LongIsland.png  used on input line 38.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [25 <./figures/Eleuthera.png> <./figures/LittleCayman.png>]
-<figures/NorthAndros.png, id=727, 470.9595pt x 236.3229pt>
+<figures/NorthAndros.png, id=746, 470.9595pt x 236.3229pt>
 File: figures/NorthAndros.png Graphic file (type png)
 <use figures/NorthAndros.png>
 Package pdftex.def Info: figures/NorthAndros.png  used on input line 45.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
-<figures/SouthAndros.png, id=730, 470.9595pt x 236.3229pt>
+<figures/SouthAndros.png, id=749, 470.9595pt x 236.3229pt>
 File: figures/SouthAndros.png Graphic file (type png)
 <use figures/SouthAndros.png>
 Package pdftex.def Info: figures/SouthAndros.png  used on input line 52.
 (pdftex.def)             Requested size: 426.79135pt x 214.16708pt.
  [26 <./figures/LongIsland.png> <./figures/NorthAndros.png>]
-<figures/brightness.png, id=739, 289.08pt x 448.5558pt>
+<figures/brightness.png, id=758, 289.08pt x 448.5558pt>
 File: figures/brightness.png Graphic file (type png)
 <use figures/brightness.png>
 Package pdftex.def Info: figures/brightness.png  used on input line 59.
@@ -1159,14 +1139,11 @@ ation with the same identifier (name{table.3}) has been already used, duplicate
 l.16 ... 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
                                                    (./tables/multinorm.tex)
 [29] (./tables/normality.tex) [30] (./tables/sites.tex) [31]
-(./tables/kruskal.tex) (./tables/ksvms.tex) [32] (./tables/ldas.tex))
-
-Package natbib Warning: There were undefined citations.
-
-[33]
+(./tables/kruskal.tex) (./tables/ksvms.tex) [32] (./tables/ldas.tex)) [33]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
- (./main.aux)
+
+(./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -1174,13 +1151,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 19774 strings out of 483183
- 364991 string characters out of 5966291
- 649095 words of memory out of 5000000
- 34113 multiletter control sequences out of 15000+600000
+ 19794 strings out of 483183
+ 365356 string characters out of 5966291
+ 649291 words of memory out of 5000000
+ 34128 multiletter control sequences out of 15000+600000
  549615 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,83p,1753b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,83p,1744b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
 00pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
 0.600pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
@@ -1203,10 +1180,10 @@ blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (33 pages, 4324000 bytes).
+Output written on main.pdf (33 pages, 4325613 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 788 compressed objects within 8 object streams
- 174 named destinations out of 1000 (max. 500000)
+ 1268 PDF objects out of 1440 (max. 8388607)
+ 808 compressed objects within 9 object streams
+ 179 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
