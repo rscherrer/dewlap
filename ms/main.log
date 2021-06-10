@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  29 MAY 2021 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  10 JUN 2021 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,14 +854,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
+[1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -942,42 +942,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
@@ -1037,13 +1037,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 [11]) [12] (./sections/acknowledgments.tex) [13] (./sections/figures.tex
-<figures/Figure1_CMD-01_cropped.png, id=667, 537.6888pt x 180.675pt>
+<figures/Figure1_CMD-01_cropped.png, id=671, 537.6888pt x 180.675pt>
 File: figures/Figure1_CMD-01_cropped.png Graphic file (type png)
 <use figures/Figure1_CMD-01_cropped.png>
 Package pdftex.def Info: figures/Figure1_CMD-01_cropped.png  used on input line
  3.
 (pdftex.def)             Requested size: 426.79135pt x 143.41814pt.
-<figures/Abaco_2.2.png, id=669, 571.8966pt x 363.759pt>
+<figures/Abaco_2.2.png, id=673, 571.8966pt x 363.759pt>
 File: figures/Abaco_2.2.png Graphic file (type png)
 <use figures/Abaco_2.2.png>
 Package pdftex.def Info: figures/Abaco_2.2.png  used on input line 10.
@@ -1053,7 +1053,7 @@ Package pdftex.def Info: figures/Abaco_2.2.png  used on input line 10.
 (./sections/tables.tex (./tables/randomforests.tex)
 (./tables/autocorrelation.tex) (./tables/anova.tex)) [15] [16] (./main.bbl
 [17] [18] [19] [20] [21]) [22] (./sections/suppfigures.tex
-<figures/island_maps_white_2.0.png, id=714, 424.7067pt x 546.6021pt>
+<figures/island_maps_white_2.0.png, id=718, 424.7067pt x 546.6021pt>
 File: figures/island_maps_white_2.0.png Graphic file (type png)
 <use figures/island_maps_white_2.0.png>
 Package pdftex.def Info: figures/island_maps_white_2.0.png  used on input line 
@@ -1071,7 +1071,7 @@ e ignored
                    \relax 
 l.4 ...ored after their respective habitat-types.}
                                                   
-<figures/Abaco_supplement_1.0b.png, id=715, 421.0932pt x 397.485pt>
+<figures/Abaco_supplement_1.0b.png, id=719, 421.0932pt x 397.485pt>
 File: figures/Abaco_supplement_1.0b.png Graphic file (type png)
 <use figures/Abaco_supplement_1.0b.png>
 Package pdftex.def Info: figures/Abaco_supplement_1.0b.png  used on input line 
@@ -1090,55 +1090,55 @@ e ignored
 l.11 ...ed in between-habitat dewlap differences.}
                                                    [23 <./figures/island_maps_w
 hite_2.0.png>]
-<figures/Bimini_supplement.png, id=724, 421.0932pt x 397.485pt>
+<figures/Bimini_supplement.png, id=728, 421.0932pt x 397.485pt>
 File: figures/Bimini_supplement.png Graphic file (type png)
 <use figures/Bimini_supplement.png>
 Package pdftex.def Info: figures/Bimini_supplement.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
  [24 <./figures/Abaco_supplement_1.0b.png>]
-<figures/CaymanBrac_supplement.png, id=732, 421.0932pt x 397.485pt>
+<figures/CaymanBrac_supplement.png, id=736, 421.0932pt x 397.485pt>
 File: figures/CaymanBrac_supplement.png Graphic file (type png)
 <use figures/CaymanBrac_supplement.png>
 Package pdftex.def Info: figures/CaymanBrac_supplement.png  used on input line 
 24.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
  [25 <./figures/Bimini_supplement.png>]
-<figures/Eleuthera_supplement.png, id=741, 421.0932pt x 397.485pt>
+<figures/Eleuthera_supplement.png, id=745, 421.0932pt x 397.485pt>
 File: figures/Eleuthera_supplement.png Graphic file (type png)
 <use figures/Eleuthera_supplement.png>
 Package pdftex.def Info: figures/Eleuthera_supplement.png  used on input line 3
 1.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
  [26 <./figures/CaymanBrac_supplement.png>]
-<figures/LittleCayman_supplement.png, id=749, 421.0932pt x 397.485pt>
+<figures/LittleCayman_supplement.png, id=753, 421.0932pt x 397.485pt>
 File: figures/LittleCayman_supplement.png Graphic file (type png)
 <use figures/LittleCayman_supplement.png>
 Package pdftex.def Info: figures/LittleCayman_supplement.png  used on input lin
 e 38.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
  [27 <./figures/Eleuthera_supplement.png>]
-<figures/LongIsland_supplement.png, id=757, 421.0932pt x 397.485pt>
+<figures/LongIsland_supplement.png, id=761, 421.0932pt x 397.485pt>
 File: figures/LongIsland_supplement.png Graphic file (type png)
 <use figures/LongIsland_supplement.png>
 Package pdftex.def Info: figures/LongIsland_supplement.png  used on input line 
 45.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
  [28 <./figures/LittleCayman_supplement.png>]
-<figures/NorthAndros_supplement.png, id=765, 403.5075pt x 397.485pt>
+<figures/NorthAndros_supplement.png, id=769, 403.5075pt x 397.485pt>
 File: figures/NorthAndros_supplement.png Graphic file (type png)
 <use figures/NorthAndros_supplement.png>
 Package pdftex.def Info: figures/NorthAndros_supplement.png  used on input line
  52.
 (pdftex.def)             Requested size: 426.79135pt x 420.42232pt.
  [29 <./figures/LongIsland_supplement.png>]
-<figures/RaggedIsland_supplement.png, id=773, 403.5075pt x 397.485pt>
+<figures/RaggedIsland_supplement.png, id=777, 403.5075pt x 397.485pt>
 File: figures/RaggedIsland_supplement.png Graphic file (type png)
 <use figures/RaggedIsland_supplement.png>
 Package pdftex.def Info: figures/RaggedIsland_supplement.png  used on input lin
 e 59.
 (pdftex.def)             Requested size: 426.79135pt x 420.42232pt.
  [30 <./figures/NorthAndros_supplement.png>]
-<figures/SouthAndros_supplement.png, id=781, 421.0932pt x 397.485pt>
+<figures/SouthAndros_supplement.png, id=785, 421.0932pt x 397.485pt>
 File: figures/SouthAndros_supplement.png Graphic file (type png)
 <use figures/SouthAndros_supplement.png>
 Package pdftex.def Info: figures/SouthAndros_supplement.png  used on input line
@@ -1146,14 +1146,18 @@ Package pdftex.def Info: figures/SouthAndros_supplement.png  used on input line
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
 
 [31 <./figures/RaggedIsland_supplement.png>]
-<figures/brightness.png, id=791, 289.08pt x 448.5558pt>
+<figures/brightness.png, id=795, 289.08pt x 448.5558pt>
 File: figures/brightness.png Graphic file (type png)
 <use figures/brightness.png>
 Package pdftex.def Info: figures/brightness.png  used on input line 73.
 (pdftex.def)             Requested size: 341.43437pt x 529.81825pt.
-) [32 <./figures/SouthAndros_supplement.png>] [33 <./figures/brightness.png>] (
-./sections/supptables.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{table.1}) has been already used, duplicate ignored
+) [32 <./figures/SouthAndros_supplement.png>] [33 <./figures/brightness.png>]
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+(./sections/supptables.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...ds sampled in each habitat on each island.}
@@ -1201,7 +1205,7 @@ Here is how much of TeX's memory you used:
  34146 multiletter control sequences out of 15000+600000
  549615 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,83p,1744b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,83p,1765b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
 00pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
 0.600pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
@@ -1224,10 +1228,10 @@ blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (38 pages, 8203555 bytes).
+Output written on main.pdf (38 pages, 8203759 bytes).
 PDF statistics:
- 1305 PDF objects out of 1440 (max. 8388607)
- 832 compressed objects within 9 object streams
+ 1309 PDF objects out of 1440 (max. 8388607)
+ 836 compressed objects within 9 object streams
  186 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
