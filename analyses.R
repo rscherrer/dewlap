@@ -24,7 +24,7 @@
 
 rm(list = ls())
 
-library(nmgc)
+#library(nmgc)
 library(tidyverse)
 library(ggridges)
 library(ggiraphExtra)
@@ -41,6 +41,7 @@ library(RColorBrewer)
 library(pairwiseAdonis)
 library(scales)
 library(vegan)
+library(ape)
 
 #### 1. Set-up ####
 
@@ -1170,7 +1171,7 @@ islands <- c(
   "Long Island", "North Andros", "South Andros"
 )
 
-#### 8.3.4. Run on principal components ####
+#### 8.3.4. Run on reflectance data ####
 
 set.seed(35)
 
@@ -1311,6 +1312,8 @@ D %>%
   summarize(across(wpc_names, mean)) %>%
   write_csv("metadata/sites.csv")
 
+#### 9.1. Permutation test ####
+
 set.seed(1994)
 
 # Permutation test
@@ -1380,6 +1383,64 @@ D %>%
   ) %>%
   select(robs, pvalue) %>%
   write_csv("results/spatial_correlation/spatial_correlation.csv")
+
+#### 9.2. Mantel's test ####
+
+set.seed(99)
+
+D %>%
+  group_by(island) %>%
+  nest() %>%
+  mutate(
+
+    # Get a vector of observed and permuted correlation coefficients
+    mantel_test = map(data, function(X) {
+
+      # Compute mean phenotypes per site
+      S <- X %>%
+        group_by(longitude, latitude) %>%
+        nest() %>%
+        mutate(
+
+          data = map(data, function(data) {
+
+            tibble(
+              variable = wpc_names,
+              mean = colMeans(data[wpc_names])
+            )
+
+          })
+
+        ) %>%
+        unnest(cols = c(data)) %>%
+        pivot_wider(names_from = "variable", values_from = "mean")
+
+      # Matrix of geographic distances between sites
+      G <- as.dist(
+        distm(
+          S[c("longitude", "latitude")], fun = distGeo
+        )
+      )
+
+      # Matrix of euclidean distances between site means in phenotype space
+      M <- dist(S[wpc_names])
+
+      # Mantel's test of correlation between these two matrices
+      test_result <- mantel(G, M)
+      test_stat <- test_result$statistic
+      p_value <- test_result$signif
+
+      return(list(test_stat, p_value))
+
+    }),
+
+    # Extract the test statistics
+    mantel = map_dbl(mantel_test, ~ .x[[1]]),
+    pvalue = map_dbl(mantel_test, ~ .x[[2]])
+
+  ) %>%
+  select(mantel, pvalue) %>%
+  write_csv("results/spatial_correlation/mantel_test.csv")
 
 #### 10. Univariate signal decomposition ####
 

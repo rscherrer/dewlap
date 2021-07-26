@@ -185,12 +185,6 @@ Geneva, A.~J., Hilton, J., Noll, S., and Glor, R.~E. (2015).
   trunk anoles ({\emph{distichus}} species group).
 \newblock {\em Molecular Phylogenetics and Evolution}, 87:105--117.
 
-\bibitem[Gittleman and Kot, 1990]{Gittleman1990}
-Gittleman, J.~L. and Kot, M. (1990).
-\newblock Adaptation: {{Statistics}} and a {{Null Model}} for {{Estimating
-  Phylogenetic Effects}}.
-\newblock {\em Systematic Zoology}, 39(3):227.
-
 \bibitem[Goodwin, 1984]{Goodwin1984}
 Goodwin, T.~W. (1984).
 \newblock {\em The {{Biochemistry}} of the {{Carotenoids}}}.
@@ -201,6 +195,12 @@ Halfwerk, W., Jones, P.~L., Taylor, R.~C., Ryan, M.~J., and Page, R.~A. (2014).
 \newblock Risky {{Ripples Allow Bats}} and {{Frogs}} to {{Eavesdrop}} on a
   {{Multisensory Sexual Display}}.
 \newblock {\em Science}, 343(6169):413--416.
+
+\bibitem[Harvey and Pagel, 1991]{Harvey1991}
+Harvey, P.~H. and Pagel, M.~D. (1991).
+\newblock {\em The Comparative Method in Evolutionary Biology}.
+\newblock Oxford Series in Ecology and Evolution. {Oxford University Press},
+  {Oxford ; New York}.
 
 \bibitem[Hendry et~al., 2007a]{Hendry2007}
 Hendry, A.~P., Day, T., and Taylor, E.~B. (2007a).
@@ -322,6 +322,12 @@ Leal, M. and {Rodr{\'i}guez-Robles}, J.~A. (1997).
   {{Puerto Rican}} anole, {{{\emph{Anolis}}}}{\emph{ cristatellus}}.
 \newblock {\em Animal Behaviour}, 54(5):1147--1154.
 
+\bibitem[Legendre and Legendre, 2012]{Legendre2012}
+Legendre, P. and Legendre, L. (2012).
+\newblock {\em Numerical Ecology}.
+\newblock Number~24 in Developments in Environmental Modelling. {Elsevier},
+  {Amsterdam}, third english edition edition.
+
 \bibitem[Lenormand, 2002]{Lenormand2002}
 Lenormand, T. (2002).
 \newblock Gene flow and the limits to natural selection.
@@ -387,12 +393,6 @@ Macedonia, J.~M., Clark, D.~L., and Tamasi, A.~L. (2014).
   {{{\emph{Anolis}}}} {{Lizards}}.
 \newblock {\em Herpetologica}, 70(2):157--170.
 
-\bibitem[Macedonia et~al., 2000]{Macedonia2000}
-Macedonia, J.~M., James, S., Wittle, L.~W., and Clark, D.~L. (2000).
-\newblock Skin {{Pigments}} and {{Coloration}} in the {{Jamaican Radiation}} of
-  {{{\emph{Anolis}}}} {{Lizards}}.
-\newblock {\em Journal of Herpetology}, 34(1):99--109.
-
 \bibitem[Macedonia and Stamps, 1994]{Macedonia1994}
 Macedonia, J.~M. and Stamps, J.~A. (1994).
 \newblock Species {{Recognition}} in {{{\emph{Anolis}}}}{\emph{ grahami}}
@@ -457,28 +457,6 @@ Oksanen, J., Blanchet, F.~G., Friendly, M., Kindt, R., Legendre, P., McGlinn,
   H.~H., Szoecs, E., and Wagner, H. (2019).
 \newblock Vegan: {{Community Ecology Package}}. {{R}} package version 2.5-6.
 
-\bibitem[Ortiz, 1962]{Ortiz1962}
-Ortiz, E. (1962).
-\newblock Drosopterins in the dewlap of some anoline lizards.
-\newblock {\em American Zoologist}, 2:545--546.
-
-\bibitem[Ortiz and Maldonado, 1966]{Ortiz1966}
-Ortiz, E. and Maldonado, A.~A. (1966).
-\newblock Pteridine accumulation in lizards of the genus {{{\emph{Anolis}}}}.
-\newblock {\em Caribbean Journal of Science}, 6:9--13.
-
-\bibitem[Ortiz et~al., 1962]{Ortiz1962a}
-Ortiz, E., Throckmorton, L.~H., and {Williams-Ashman}, H.~G. (1962).
-\newblock Drosopterins in the {{Throat}}-{{Fans}} of {{Some Puerto Rican
-  Lizards}}.
-\newblock {\em Nature}, 196(4854):595--596.
-
-\bibitem[Ortiz and {Williams-Ashman}, 1963]{Ortiz1963}
-Ortiz, E. and {Williams-Ashman}, H. (1963).
-\newblock Identification of skin pteridines in the pasture lizard
-  {{{\emph{Anolis}}}}{\emph{ pulchellus}}.
-\newblock {\em Comparative Biochemistry and Physiology}, 10(3):181--190.
-
 \bibitem[Pinheiro and Bates, 2000]{Pinheiro2000}
 Pinheiro, J. and Bates, D. (2000).
 \newblock {\em Mixed-{{Effects Models}} in {{S}} and {{S}}-{{PLUS}}}.
@@ -524,12 +502,6 @@ Richardson, J.~L., Urban, M.~C., Bolnick, D.~I., and Skelly, D.~K. (2014).
 \newblock Microgeographic adaptation and the spatial scale of evolution.
 \newblock {\em Trends in Ecology \& Evolution}, 29(3):165--176.
 
-\bibitem[Rousset, 2004]{Rousset2004}
-Rousset, F. (2004).
-\newblock {\em Genetic Structure and Selection in Subdivided Populations}.
-\newblock Number~40 in Monographs in Population Biology. {Princeton University
-  Press}, {Princeton}.
-
 \bibitem[Schoener, 1968]{Schoener1968}
 Schoener, T.~W. (1968).
 \newblock The {{{\emph{Anolis}}}}{{Lizards}} of {{Bimini}}: {{Resource
@@ -566,20 +538,6 @@ Steffen, J.~E., Hill, G.~E., and Guyer, C. (2010).
 \newblock Carotenoid {{Access}}, {{Nutritional Stress}}, and the {{Dewlap
   Color}} of {{Male Brown Anoles}}.
 \newblock {\em Copeia}, 2010(2):239--246.
-
-\bibitem[Steffen and McGraw, 2007]{Steffen2007}
-Steffen, J.~E. and McGraw, K.~J. (2007).
-\newblock Contributions of pterin and carotenoid pigments to dewlap coloration
-  in two anole species.
-\newblock {\em Comparative Biochemistry and Physiology Part B: Biochemistry and
-  Molecular Biology}, 146(1):42--46.
-
-\bibitem[Steffen and McGraw, 2009]{Steffen2009}
-Steffen, J.~E. and McGraw, K.~J. (2009).
-\newblock How dewlap color reflects its carotenoid and pterin content in male
-  and female brown anoles ({{{\emph{Norops}}}}{\emph{ sagrei}}).
-\newblock {\em Comparative Biochemistry and Physiology Part B: Biochemistry and
-  Molecular Biology}, 154(3):334--340.
 
 \bibitem[Thorpe, 2002]{Thorpe2002a}
 Thorpe, R.~S. (2002).

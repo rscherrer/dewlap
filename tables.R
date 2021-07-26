@@ -132,9 +132,26 @@ read_csv("results/group_comparisons/anovas.csv") %>%
   ) %>%
   cat(file = "ms/tables/anova.tex")
 
-#### 5. Spatial autocorrelation table ####
+#### 5. Spatial autocorrelation tables ####
 
-# Spatial autocorrelation
+# Mantel's test of spatial autocorrelation
+read_csv("results/spatial_correlation/mantel_test.csv") %>%
+  mutate_signif() %>%
+  mutate(pvalue = round_pvalue(pvalue, digits = 3)) %>%
+  kable(
+    "latex",
+    col.names = c(
+      "Island", "$\\rho$", "$P$", ""
+    ),
+    digits = c(0, 3, 0, 0),
+    align = "lrrl",
+    booktabs = TRUE,
+    linesep = "",
+    escape = FALSE
+  ) %>%
+  cat(file = "ms/tables/mantel.tex")
+
+# Spatial autocorrelation (custom permutation test)
 read_csv("results/spatial_correlation/spatial_correlation.csv") %>%
   mutate_signif() %>%
   mutate(pvalue = round_pvalue(pvalue, digits = 3)) %>%
