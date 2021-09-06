@@ -1,4 +1,0 @@
-"variable","test","contrast1","contrast2","statistic","pvalue","signif"
-"PC2","nemenyi","coastal","coppice",0.174407145529522,0.991650203792345,""
-"PC2","nemenyi","coastal","mangrove",3.34464896069052,0.0473621851512751,"*"
-"PC2","nemenyi","coppice","mangrove",2.94763451262897,0.0930746745674267,""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  5 SEP 2021 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.27)  6 SEP 2021 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,22 +736,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -816,10 +816,10 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 62.
+loading the todonotes package. on input line 51.
 
 \AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring ON on input line 62.
+Package hyperref Info: Link coloring ON on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -831,107 +831,32 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-7.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 5
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (10.99776pt too wide) in paragraph at lines 67--67
+Overfull \hbox (10.99776pt too wide) in paragraph at lines 56--56
  [][] 
  []
 
 (./sections/abstract.tex) (./sections/introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-) [3] (./sections/methods2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-[6]) [7] (./sections/results2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -951,12 +876,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 11--89
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[8] (./sections/discussion2.tex
+) [3] (./sections/methods.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[6]) [7] (./sections/results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--78
+
+ []
+
+[8] (./sections/discussion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -977,36 +977,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
 ) [10] (./sections/acknowledgments.tex) [11] (./sections/figures.tex
-<figures/Figure1_CMD-01_cropped.png, id=588, 537.6888pt x 180.675pt>
-File: figures/Figure1_CMD-01_cropped.png Graphic file (type png)
-<use figures/Figure1_CMD-01_cropped.png>
-Package pdftex.def Info: figures/Figure1_CMD-01_cropped.png  used on input line
- 3.
+<figures/overview.png, id=588, 537.6888pt x 180.675pt>
+File: figures/overview.png Graphic file (type png)
+<use figures/overview.png>
+Package pdftex.def Info: figures/overview.png  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 143.41814pt.
-<figures/Abaco_2.2.png, id=590, 571.8966pt x 363.759pt>
-File: figures/Abaco_2.2.png Graphic file (type png)
-<use figures/Abaco_2.2.png>
-Package pdftex.def Info: figures/Abaco_2.2.png  used on input line 10.
+<figures/Abaco.png, id=590, 571.8966pt x 363.759pt>
+File: figures/Abaco.png Graphic file (type png)
+<use figures/Abaco.png>
+Package pdftex.def Info: figures/Abaco.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 271.4698pt.
-) [12 <./figures/Figure1_CMD-01_cropped.png> <./figures/Abaco_2.2.png>]
-(./sections/tables.tex (./tables/randomforests.tex) (./tables/mantel.tex)
-(./tables/anova.tex)) [13] [14] (./main.bbl [15] [16] [17] [18] [19]) [20]
-(./sections/appendix.tex
+) [12 <./figures/overview.png> <./figures/Abaco.png>] (./sections/tables.tex
+(./tables/randomforests.tex) (./tables/mantel.tex) (./tables/anova.tex))
+[13] [14] (./main.bbl [15] [16] [17] [18] [19]) [20] (./sections/appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1052,11 +1050,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 ) [22] (./sections/suppfigures.tex
-<figures/island_maps_white_2.0.png, id=712, 424.7067pt x 546.6021pt>
-File: figures/island_maps_white_2.0.png Graphic file (type png)
-<use figures/island_maps_white_2.0.png>
-Package pdftex.def Info: figures/island_maps_white_2.0.png  used on input line 
-3.
+<figures/island_maps.png, id=712, 424.7067pt x 546.6021pt>
+File: figures/island_maps.png Graphic file (type png)
+<use figures/island_maps.png>
+Package pdftex.def Info: figures/island_maps.png  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 549.30305pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
@@ -1070,11 +1067,10 @@ e ignored
                    \relax 
 l.4 ...ored after their respective habitat types.}
                                                   
-<figures/Abaco_supplement_1.0b.png, id=713, 421.0932pt x 397.485pt>
-File: figures/Abaco_supplement_1.0b.png Graphic file (type png)
-<use figures/Abaco_supplement_1.0b.png>
-Package pdftex.def Info: figures/Abaco_supplement_1.0b.png  used on input line 
-10.
+<figures/Abaco_supplement.png, id=713, 421.0932pt x 397.485pt>
+File: figures/Abaco_supplement.png Graphic file (type png)
+<use figures/Abaco_supplement.png>
+Package pdftex.def Info: figures/Abaco_supplement.png  used on input line 10.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
@@ -1087,14 +1083,14 @@ e ignored
 <to be read again> 
                    \relax 
 l.11 ...ed in between-habitat dewlap differences.}
-                                                   [23 <./figures/island_maps_w
-hite_2.0.png>]
+                                                   [23 <./figures/island_maps.p
+ng>]
 <figures/Bimini_supplement.png, id=722, 421.0932pt x 397.485pt>
 File: figures/Bimini_supplement.png Graphic file (type png)
 <use figures/Bimini_supplement.png>
 Package pdftex.def Info: figures/Bimini_supplement.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
- [24 <./figures/Abaco_supplement_1.0b.png>]
+ [24 <./figures/Abaco_supplement.png>]
 <figures/CaymanBrac_supplement.png, id=730, 421.0932pt x 397.485pt>
 File: figures/CaymanBrac_supplement.png Graphic file (type png)
 <use figures/CaymanBrac_supplement.png>
@@ -1143,16 +1139,16 @@ File: figures/SouthAndros_supplement.png Graphic file (type png)
 Package pdftex.def Info: figures/SouthAndros_supplement.png  used on input line
  66.
 (pdftex.def)             Requested size: 426.79135pt x 402.88805pt.
-
-[31 <./figures/RaggedIsland_supplement.png>]
+ [31 <./figures/RaggedIsland_supplement.png>]
 <figures/brightness.png, id=789, 289.08pt x 448.5558pt>
 File: figures/brightness.png Graphic file (type png)
 <use figures/brightness.png>
 Package pdftex.def Info: figures/brightness.png  used on input line 73.
 (pdftex.def)             Requested size: 341.43437pt x 529.81825pt.
-) [32 <./figures/SouthAndros_supplement.png>] [33 <./figures/brightness.png>] (
-./sections/supptables.texpdfTeX warning (ext4): destination with the same ident
-ifier (name{table.1}) has been already used, duplicate ignored
+) [32 <./figures/SouthAndros_supplement.png>]
+[33 <./figures/brightness.png>] (./sections/supptables.texpdfTeX warning (ext4)
+: destination with the same identifier (name{table.1}) has been already used, d
+uplicate ignored
 <to be read again> 
                    \relax 
 l.2 ...ds sampled in each habitat on each island.}
@@ -1183,24 +1179,24 @@ l.16 ... 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
                                                    (./tables/multinorm.tex)
 [34] (./tables/normality.tex) [35] (./tables/sites.tex) [36]
 (./tables/kruskal.tex) (./tables/ksvms.tex) [37] (./tables/ldas.tex)) [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
  19798 strings out of 483183
- 366209 string characters out of 5966291
- 649736 words of memory out of 5000000
+ 365999 string characters out of 5966291
+ 649742 words of memory out of 5000000
  34126 multiletter control sequences out of 15000+600000
  549615 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,11n,83p,2511b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,83p,2512b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
 00pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
 0.600pk> </home/raphael/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
@@ -1223,9 +1219,9 @@ blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (38 pages, 8202110 bytes).
+Output written on main.pdf (38 pages, 8201276 bytes).
 PDF statistics:
- 1302 PDF objects out of 1440 (max. 8388607)
+ 1300 PDF objects out of 1440 (max. 8388607)
  828 compressed objects within 9 object streams
  180 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)

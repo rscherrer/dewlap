@@ -1,49 +1,38 @@
 \documentclass{article}
 
-% General rule for P-values
-% * < 0.05
-% ** < 0.01
-% *** < 0.001
-% Write "< 0.0001" or the value up to the fourth decimal
-
-%% Language and font encodings
+% Language and font encodings
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{verbatim} % multiline comments
 
-%% Sets page size and margins
+% Sets page size and margins
 \usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
-%% Useful packages
+% Useful packages
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{rotating}
 \usepackage{booktabs}
-%\restylefloat{figure} % for force placing figures
-%\floatplacement{figure}{H}
-%\floatplacement{table}{H}
-%\floatplacement{longtable}{H}
-%\usepackage[markers,nolists]{endfloat}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
-%\usepackage{apalike}
 \usepackage[round]{natbib}
 \usepackage[switch]{lineno} % line numbers
 \usepackage{longtable}
 \usepackage{multirow}
-% Supp mat
-\newcommand{\beginsupplement}{%
+
+% Supplementary Materials
+\newcommand{\beginsupplement}{
 	\setcounter{table}{0}
-	\renewcommand{\thetable}{S\arabic{table}}%
+	\renewcommand{\thetable}{S\arabic{table}}
 	\setcounter{figure}{0}
-	\renewcommand{\thefigure}{S\arabic{figure}}%
+	\renewcommand{\thefigure}{S\arabic{figure}}
 }
 
-
-
 \title{Dewlap color variation in \textit{Anolis sagrei} is maintained among habitats within islands of the West Indies}
+
+\date{}
 
 \begin{document}
 	
@@ -65,23 +54,23 @@
 	
 	\section*{Methods}
 	
-	\input{sections/methods2.tex}
+	\input{sections/methods.tex}
 	
 	\pagebreak
 	
 	\section*{Results}
 	
-	\input{sections/results2.tex}
+	\input{sections/results.tex}
 	
 	\pagebreak
 	
 	\section*{Discussion}
 	
-	\input{sections/discussion2.tex}
+	\input{sections/discussion.tex}
 	
 	\pagebreak
 	
-	\subsection*{Acknowledgements}
+	\section*{Acknowledgements}
 	
 	\input{sections/acknowledgments.tex}
 	

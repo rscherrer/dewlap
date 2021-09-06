@@ -1,0 +1,55 @@
+\begin{table}[H]	
+	\caption{Number of lizards sampled in each habitat on each island.}
+	\centering
+	\input{"./tables/counts.tex"}
+	\label{tab:counts}
+\end{table}
+
+\begin{table}[H]
+	\caption{Proportion of variance explained by the first four principal components on each island, as well as in the PCA performed on all islands together (last row).}
+	\centering
+	\input{"./tables/pcavariances.tex"}
+	\label{tab:pcavariances}
+\end{table}
+
+\begin{table}[H]
+	\caption{Henze-Zirkler's test of multivariate normality, performed on global principal components (i.e. fitted on data from all islands together) in each habitat and on each island. The number of outlier points detected based on the Mahalanobis distance is reported. $HZ$, test statistic. *, $P < 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
+	\centering
+	\input{"./tables/multinorm.tex"}
+	\label{tab:multinorm}
+\end{table}
+
+\begin{table}[H]
+	\caption{Shapiro-Wilk's test of univariate normality of the standardized residuals from OLS and GLS-ANOVAs performed on each island where significant differences were detected by random forest classification. $W$, test statistic. *, $P_{adj} < 0.05$; **, $P_{adj} < 0.01$; ***, $P_{adj} < 0.001$.}
+	\centering
+	\input{"./tables/normality.tex"}
+	\label{tab:normality}
+\end{table}
+
+\begin{table}[H]
+	\caption{Locations of the sampling sites across islands, with mean within-island principal component scores per site.}
+	\centering
+	\input{"./tables/sites.tex"}
+	\label{tab:sites}
+\end{table}
+
+\begin{table}[H]
+	\caption{Nonparametric Kruskal-Wallis tests performed on each variable on each island where deviations from normality were detected. *, $P < 0.05$; **, $P < 0.01$; ***, $P < 0.001$.}
+	\centering
+	\input{"./tables/kruskal.tex"}
+	\label{tab:kruskal}
+\end{table}
+
+\begin{table}[H]
+	\caption{Support vector machine classification results. Legend is as per Table \ref{tab:randomforests}.}
+	\centering
+	\input{"./tables/ksvms.tex"}
+	\label{tab:ksvms}
+\end{table}
+
+\begin{table}[H]
+	\caption{Linear discriminant analysis classification results. Legend is as per Table \ref{tab:randomforests}.}
+	\centering
+	\input{"./tables/ldas.tex"}
+	\label{tab:ldas}
+\end{table}
