@@ -1,0 +1,126 @@
+\documentclass{article}
+
+% General rule for P-values
+% * < 0.05
+% ** < 0.01
+% *** < 0.001
+% Write "< 0.0001" or the value up to the fourth decimal
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim} % multiline comments
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{booktabs}
+%\restylefloat{figure} % for force placing figures
+%\floatplacement{figure}{H}
+%\floatplacement{table}{H}
+%\floatplacement{longtable}{H}
+%\usepackage[markers,nolists]{endfloat}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+%\usepackage{apalike}
+\usepackage[round]{natbib}
+\usepackage[switch]{lineno} % line numbers
+\usepackage{longtable}
+\usepackage{multirow}
+% Supp mat
+\newcommand{\beginsupplement}{%
+	\setcounter{table}{0}
+	\renewcommand{\thetable}{S\arabic{table}}%
+	\setcounter{figure}{0}
+	\renewcommand{\thefigure}{S\arabic{figure}}%
+}
+
+
+
+\title{Dewlap color variation in \textit{Anolis sagrei} is maintained among habitats within islands of the West Indies}
+
+\begin{document}
+	
+	\linenumbers
+	
+	\maketitle
+	
+	\begin{abstract}
+		\input{sections/abstract.tex}
+	\end{abstract}
+	
+	\textbf{Keywords} --- reflectance, adaptation, sexual signal, machine learning, polymorphism
+	
+	\section*{Introduction}
+	
+	\input{sections/introduction.tex}
+	
+	\pagebreak
+	
+	\section*{Methods}
+	
+	\input{sections/methods2.tex}
+	
+	\pagebreak
+	
+	\section*{Results}
+	
+	\input{sections/results2.tex}
+	
+	\pagebreak
+	
+	\section*{Discussion}
+	
+	\input{sections/discussion2.tex}
+	
+	\pagebreak
+	
+	\subsection*{Acknowledgements}
+	
+	\input{sections/acknowledgments.tex}
+	
+	\pagebreak
+	
+	\section*{Figures}
+	
+	\input{sections/figures.tex}
+	
+	\pagebreak
+	
+	\section*{Tables}
+	
+	\input{sections/tables.tex}
+	
+	\pagebreak
+	
+	\bibliographystyle{apalike}
+	\bibliography{library.bib}
+	
+	\beginsupplement
+	
+	\pagebreak
+	
+	\section*{Appendix}
+	
+	\input{sections/appendix}
+	
+	\pagebreak
+	
+	\section*{Supplementary Figures}
+	
+	\input{sections/suppfigures}
+	
+	\pagebreak
+	
+	\section*{Supplementary Tables}
+	
+	\input{sections/supptables.tex}
+	
+\end{document}
+
