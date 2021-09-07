@@ -1,9 +1,9 @@
 {
-    "path" : "~/Documents/dewlap/analyses/04-machine-learning",
-    "sortOrder" : [
+    "path": "~/Documents/dewlap/analyses/04-machine-learning",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "ascending": true,
+            "columnIndex": 2
         }
     ]
 }
