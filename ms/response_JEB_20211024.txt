@@ -1,0 +1,31 @@
+EDITOR. One other more minor point is that lack of evidence for spatial autocorrelation is not the same as evidence for a lack of spatial autocorrelation (indeed there is a reasonably strong, albeit not quite "significant" spatial correlation on Eleuthera), so some of the conclusions about a lack of isolation by distance and genetic drift should be toned down slightly.
+
+(R) We changed the whole discussion paragraph on the effect of drift accordingly (new citations were added there), and also a sentence in the results to point out that Eleuthera had almost significant spatial correlation. We also toned down that statement in the abstract. Re-read this paragraph later on (it could benefit from info about the cruising range of an anolis). Note that the citations have been updated, with new ones accompanying the requested changes by the reviewers.
+
+EDITOR. How similar are the habitats between islands or could differences in habitat between islands explain some of the variation between islands?
+
+(R) We do not have these data unfortunately (do we not? ask Colin).
+
+REVIEWER1. Do you know whether such colour variation nicely described by your analyses, is actually detectable by conspecific, congeners and/or predators, the “agents” of selection?  For instance, do you think all dewlaps will be similarly seen under similar light/background conditions? Or whether observers can tell apart dewlaps coming from different habitats? In the first case, it is likely that the non-directional variation that you describe is not under selection, as to observers’ eyes, all dewlap colours look similar. In the second case, the conclusions will be similar to the ones you get with your current approach. This question can be tested applying vision modelling using your reflectance profiles, and an irradiance profile of at least one of the habitats that you studied. Perhaps this has been already done in other studies. If such is the case, you can clearly mention it.
+
+(R) We do not know how detectable the reported differences in coloration are. Indeed, to know this we would need to do some visual modelling, and for this we would also need some habitat irradiance data, which we do not have unfortunately. Visual modelling has been performed in Anolis lizards, but to the best of our knowledge it has not been done on our study populations, and so we do not know if the lizards can detect the differences in coloration of conspecifics from different habitats. Maybe a discussion paragraph about that?
+
+REVIEWER1. Among the differences that can be found on the three studied habitats, authors mostly talk about differences in light incidence. Are there any differences also in background colour? Predator community? Anole community? If so, how will they contribute or not to the obtained results?
+
+(R) Background color definitely varies between habitats, which can be seen with the naked eye from photos, but we did not quantify this precisely (we do not have irradiance profiles for the habitats telling us which wavelengths are different). Anole and predator communities have been shown to vary between islands (at least in density of the main species, which are overall present across all islands), but we do not know whether they also vary between the habitats within islands.
+
+REVIEWER1. How big is the home range of an Anolis? Sorry of I missed it. This information will help understanding the importance of your experimental design
+
+(R) Ambika's paper reports wider territories than previously thought in A. sagrei: 225m2 for males (which is 15 by 15m), and 36m2 for females (6 by 6m), with with evidence for multiple matings in both sexes. These estimates were measured on a campus in Florida and may not represent the real territory size on our study islands, however. Nevertheless, although the species is still classified as territorial, its ability for movement and promiscuity, its continuous distribution at high densities throughout the islands and the polyphyly of individuals from different habitats within islands suggests that long-range gene flow is highly plausible. (Maybe the guys will know something about the cruising range of an anolis...)
+
+REVIEWER1. In line 91, what do you mean by climatic variables? Light incidence?
+
+(R) We have now precised that these climatic variables include precipitations and solar incidence, among others, and those were interpreted as causing differences in types of habitat, with different light environments, among islands.
+
+REVIEWER1. In line 413, perhaps is worth it including a short definition of runaway sexual selection.
+
+(R) This is now clarified.
+
+REVIEWER2. Of course, also the size and use of the dewlap is essential during signalling (see e.g. papers by Lailvaux, Irschick, Vanhooydonck, Driessens, Husak, Baeckens, to name a few). While I understand this is not the goal of the study, I think it’s still important to invest a couple of sentences or a short paragraph on how other characteristics of the dewlap (aside from colouration) are important too, and that those characteristics (possibly interaction with colouration) might vary within- and among-islands as well.
+
+(R) We have modified the second-to-last paragraph to mention those other facets of anole display behavior, and added new references to back them up.
