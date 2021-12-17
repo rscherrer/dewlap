@@ -4,7 +4,7 @@ EDITOR. One other more minor point is that lack of evidence for spatial autocorr
 
 EDITOR. How similar are the habitats between islands or could differences in habitat between islands explain some of the variation between islands?
 
-(R) We do not have these data unfortunately (do we not? ask Colin).
+(R) We do not have these data unfortunately (do we not?).
 
 REVIEWER1. Do you know whether such colour variation nicely described by your analyses, is actually detectable by conspecific, congeners and/or predators, the “agents” of selection?  For instance, do you think all dewlaps will be similarly seen under similar light/background conditions? Or whether observers can tell apart dewlaps coming from different habitats? In the first case, it is likely that the non-directional variation that you describe is not under selection, as to observers’ eyes, all dewlap colours look similar. In the second case, the conclusions will be similar to the ones you get with your current approach. This question can be tested applying vision modelling using your reflectance profiles, and an irradiance profile of at least one of the habitats that you studied. Perhaps this has been already done in other studies. If such is the case, you can clearly mention it.
 
@@ -16,15 +16,15 @@ REVIEWER1. Among the differences that can be found on the three studied habitats
 
 REVIEWER1. How big is the home range of an Anolis? Sorry of I missed it. This information will help understanding the importance of your experimental design
 
-(R) Ambika's paper reports wider territories than previously thought in A. sagrei: 225m2 for males (which is 15 by 15m), and 36m2 for females (6 by 6m), with with evidence for multiple matings in both sexes. These estimates were measured on a campus in Florida and may not represent the real territory size on our study islands, however. Nevertheless, although the species is still classified as territorial, its ability for movement and promiscuity, its continuous distribution at high densities throughout the islands and the polyphyly of individuals from different habitats within islands suggests that long-range gene flow is highly plausible. (Maybe the guys will know something about the cruising range of an anolis...)
+(R) Ambika's paper reports wider territories than previously thought in A. sagrei: 225m2 for males (which is 15 by 15m), and 36m2 for females (6 by 6m), with with evidence for multiple matings in both sexes. These estimates were measured on a campus in Florida and may not represent the real territory size on our study islands, however. Nevertheless, although the species is still classified as territorial, its ability for movement and promiscuity, its continuous distribution at high densities throughout the islands and the polyphyly of individuals from different habitats within islands suggests that long-range gene flow is highly plausible. (Do you guys know something about the cruising range of an anolis...)
 
 REVIEWER1. In line 91, what do you mean by climatic variables? Light incidence?
 
-(R) We have now precised that these climatic variables include precipitations and solar incidence, among others, and those were interpreted as causing differences in types of habitat, with different light environments, among islands.
+(R) We have now added that these climatic variables include precipitations and solar incidence, among others, and those were interpreted as causing differences in types of habitat, with different light environments, among islands.
 
 REVIEWER1. In line 413, perhaps is worth it including a short definition of runaway sexual selection.
 
-(R) This is now clarified.
+(R) This is now done.
 
 REVIEWER2. Of course, also the size and use of the dewlap is essential during signalling (see e.g. papers by Lailvaux, Irschick, Vanhooydonck, Driessens, Husak, Baeckens, to name a few). While I understand this is not the goal of the study, I think it’s still important to invest a couple of sentences or a short paragraph on how other characteristics of the dewlap (aside from colouration) are important too, and that those characteristics (possibly interaction with colouration) might vary within- and among-islands as well.
 
