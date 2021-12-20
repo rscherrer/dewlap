@@ -253,8 +253,20 @@ James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013).
   {\em Springer {{Texts}} in {{Statistics}}}.
 \newblock {Springer New York}, {New York, NY}.
 
-\bibitem[Kamath and Losos, 2018]{Kamath2018}
-Kamath, A. and Losos, J.~B. (2018).
+\bibitem[Kamath and Losos, 2018a]{Kamath2018a}
+Kamath, A. and Losos, J. (2018a).
+\newblock Reconsidering territoriality is necessary for understanding
+  {{Anolis}} mating systems.
+\newblock {\em Behavioral Ecology and Sociobiology}, 72(7):106.
+
+\bibitem[Kamath and Losos, 2017]{Kamath2017}
+Kamath, A. and Losos, J.~B. (2017).
+\newblock Does ecological specialization transcend scale? {{Habitat}}
+  partitioning among individuals and species of {{{\emph{Anolis}}}} lizards.
+\newblock {\em Evolution}, 71(3):541--549.
+
+\bibitem[Kamath and Losos, 2018b]{Kamath2018}
+Kamath, A. and Losos, J.~B. (2018b).
 \newblock Estimating encounter rates as the first step of sexual selection in
   the lizard {{{\emph{Anolis}}}}{\emph{ sagrei}}.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
@@ -568,6 +580,11 @@ Steffen, J.~E., Hill, G.~E., and Guyer, C. (2010).
 \newblock Carotenoid {{Access}}, {{Nutritional Stress}}, and the {{Dewlap
   Color}} of {{Male Brown Anoles}}.
 \newblock {\em Copeia}, 2010(2):239--246.
+
+\bibitem[Steinberg and Leal, 2017]{Steinberg2017}
+Steinberg, D.~S. and Leal, M. (2017).
+\newblock An {{Unexpected Case}} of {{Homing}} in a {{Territorial Lizard}}.
+\newblock {\em Integrative and Comparative Biology}, 57:E418.
 
 \bibitem[Thorpe, 2002]{Thorpe2002a}
 Thorpe, R.~S. (2002).
