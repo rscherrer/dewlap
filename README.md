@@ -5,8 +5,7 @@ This repository accompanies our study on dewlap coloration across habitats and i
 ## Content
 
 * `data`: all the data and metadata used in this study (raw and processed reflectance profiles, specimen identity and provenance, etc.)
-* `maps`
-* `ms`
-* `results`
-* `scripts`
-* `dewlap.Rproj`
+* `maps`: maps of our study area
+* `ms`: everything to compile the manuscript
+* `results`: all the results of our analyses (plots and tables)
+* `scripts`: the code used to process and analyze our data (scripts should be run in the order indicated by their number)
