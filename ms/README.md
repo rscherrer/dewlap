@@ -13,5 +13,6 @@ Here are the files needed to compile the manuscript.
 * `main.tex`: script to compile the full manuscript
 * `main_notitle.tex`: anonymous version (without the title page)
 * `main_title.tex`: title page only
+* `main_cover.tex`: cover letter to JEB
 * `response_jeb.tex` our response letter to the editors
 * `library.bib`: our bibliography
