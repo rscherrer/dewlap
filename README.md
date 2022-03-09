@@ -4,7 +4,7 @@ This repository accompanies our study on dewlap coloration across habitats and i
 
 ## Content
 
-* `data`
+* `data`: all the data and metadata used in this study (raw and processed reflectance profiles, specimen identity and provenance, etc.)
 * `maps`
 * `ms`
 * `results`
