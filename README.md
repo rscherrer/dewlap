@@ -2,11 +2,11 @@
 
 This repository accompanies our study on dewlap coloration across habitats and islands in the Caribbean lizard species *Anolis sagrei*. We provide here our data, scripts, results and manuscript. The manuscript was accepted in Journal of Evolutionary Biology (https://onlinelibrary.wiley.com/journal/14209101) in March 2022.
 
-Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos J. B., Geneva, A. J. (in press). Dewlap color variation in Anolis sagrei is maintained among habitats within islands of the West Indies. _Journal of Evolutionary Biology_.
+Reference: Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos J. B., Geneva, A. J. (in press). Dewlap color variation in Anolis sagrei is maintained among habitats within islands of the West Indies. _Journal of Evolutionary Biology_.
 
 This repository is hosted at github.com/rscherrer/dewlap. A subset (data, metadata and code) is hosted at Dryad (https://datadryad.org).
 
-Contact: Raphael Scherrer 
+Contact: Raphael Scherrer
 E-mail: r.scherrer@rug.nl / raphael.scherrer@evobio.eu / raph.rjfs@hotmail.fr
 
 The data for this project were collected in 2015 in the Bahamas and the Cayman Islands using a reflectance spectrometer (see manuscript). All the data were analyzed in R 3.6.1 (all scripts provided).
