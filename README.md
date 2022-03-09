@@ -4,7 +4,7 @@ This repository accompanies our study on dewlap coloration across habitats and i
 
 Reference: Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos J. B., Geneva, A. J. (in press). Dewlap color variation in Anolis sagrei is maintained among habitats within islands of the West Indies. _Journal of Evolutionary Biology_.
 
-This repository is hosted at github.com/rscherrer/dewlap. A subset (data, metadata and code) is hosted at [Dryad](https://datadryad.org).
+This repository is hosted at [https://github.com/rscherrer/dewlap](https://github.com/rscherrer/dewlap). A subset (data, metadata and code) is hosted at [Dryad](https://datadryad.org).
 
 Contact: Raphael Scherrer, e-mail: r.scherrer@rug.nl / raphael.scherrer@evobio.eu / raph.rjfs@hotmail.fr
 
