@@ -1,0 +1,129 @@
+\documentclass{article}
+
+% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim} % multiline comments
+
+% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[round]{natbib}
+\usepackage[switch]{lineno} % line numbers
+\usepackage{longtable}
+\usepackage{multirow}
+
+% Supplementary Materials
+\newcommand{\beginsupplement}{
+	\setcounter{table}{0}
+    \renewcommand{\thetable}{S\arabic{table}}
+    \setcounter{figure}{0}
+    \renewcommand{\thefigure}{S\arabic{figure}}
+}
+
+\title{Dewlap color variation in \textit{Anolis sagrei} is maintained among habitats within islands of the West Indies}
+
+\author{
+	
+    \textsc{Rapha\"{e}l Scherrer$^{1,3}$ \thanks{Corresponding author: r.scherrer@rug.nl}, Colin M. Donihue$^{1,4}$, }\\
+	\textsc{R. Graham Reynolds$^2$, Jonathan B. Losos$^{1,4}$ and Anthony J. Geneva$^{1,5}$} \\[1ex]
+	
+	\normalsize $^1$ Department of Organismic and Evolutionary Biology and Museum of Comparative Zoology \\ \normalsize Harvard University, Cambridge, MA, USA \\
+	\normalsize $^2$ Department of Biology, University of North Carolina Asheville, Asheville, NC, USA\\ 
+	\normalsize $^3$ Current address: Groningen Institute for Evolutionary Life Sciences,\\
+	\normalsize University of Groningen, Groningen, The Netherlands\\
+	\normalsize $^4$ Current address: Department of Biology, Washington University, St. Louis, MO, USA\\
+	\normalsize $^5$ Current address: Department of Biology, Center for Computational and Integrative Biology,\\ \normalsize Rutgers University--Camden, Camden, NJ, USA
+	
+}
+
+\date{} % Leave empty to omit a date
+
+\begin{document}
+	
+	\linenumbers
+	
+	\maketitle
+
+	\begin{abstract}
+    	\input{sections/abstract.tex}
+	\end{abstract}
+
+	\textbf{Keywords} --- reflectance, adaptation, sexual signal, machine learning, polymorphism
+
+	\section*{Introduction}
+	
+	\input{sections/introduction.tex}
+
+	\pagebreak
+	
+	\section*{Methods}
+
+	\input{sections/methods.tex}
+
+	\pagebreak
+	
+	\section*{Results}
+
+	\input{sections/results.tex}
+
+	\pagebreak
+
+	\section*{Discussion}
+
+	\input{sections/discussion.tex}
+
+	\pagebreak
+	
+	\section*{Acknowledgements}
+
+	\input{sections/acknowledgments.tex}
+	
+	\pagebreak
+
+	\section*{Figures}
+
+	\input{sections/figures.tex}
+
+	\pagebreak
+
+	\section*{Tables}
+
+	\input{sections/tables.tex}
+
+	\pagebreak
+
+	\bibliographystyle{apalike}
+	\bibliography{library.bib}
+	
+	\beginsupplement
+
+	\pagebreak
+
+	\section*{Appendix}
+	
+	\input{sections/appendix}
+	
+	\pagebreak
+	
+	\section*{Supplementary Figures}
+	
+	\input{sections/suppfigures}
+	
+	\pagebreak
+	
+	\section*{Supplementary Tables}
+	
+	\input{sections/supptables.tex}
+
+\end{document}
+

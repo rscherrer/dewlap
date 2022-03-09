@@ -1,16 +1,7 @@
 island,variable,i,j,pvalue
-Abaco,PC2,coastal,coppice,0.6323676323676324
-Abaco,PC2,coastal,mangrove,0.0014985014985014985
-Abaco,PC2,coppice,mangrove,0.0014985014985014985
-Bimini,PC1,coastal,coppice,0.14985014985014986
-Bimini,PC1,coastal,mangrove,0.04795204795204795
-Bimini,PC1,coppice,mangrove,0.5134865134865135
-Cayman Brac,PC3,coastal,coppice,0.022977022977022976
-Cayman Brac,PC3,coastal,mangrove,0.0014985014985014985
-Cayman Brac,PC3,coppice,mangrove,0.0014985014985014985
-Little Cayman,PC3,coastal,coppice,0.004495504495504496
+Bimini,PC1,coastal,coppice,0.06293706293706294
+Bimini,PC1,coastal,mangrove,0.005994005994005994
+Bimini,PC1,coppice,mangrove,0.5284715284715285
+Little Cayman,PC3,coastal,coppice,0.002997002997002997
 Little Cayman,PC3,coastal,mangrove,0.002997002997002997
-Little Cayman,PC3,coppice,mangrove,0.12987012987012986
-Long Island,PC1,coastal,coppice,0.18881118881118883
-Long Island,PC1,coastal,mangrove,0.8601398601398601
-Long Island,PC1,coppice,mangrove,0.1918081918081918
+Little Cayman,PC3,coppice,mangrove,0.13786213786213786

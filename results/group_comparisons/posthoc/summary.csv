@@ -1,55 +1,52 @@
 island,variable,i,j,pvalue,test
-Abaco,PC3,coastal,coppice,0.0024824746317365642,tukey
-Abaco,PC3,coastal,mangrove,2.5985354321633736e-6,tukey
-Abaco,PC3,coppice,mangrove,0.17463192126149663,tukey
-Bimini,PC2,coastal,coppice,0.30440454374496484,tukey
-Bimini,PC2,coastal,mangrove,0.019996616473360596,tukey
-Bimini,PC2,coppice,mangrove,0.567358477660414,tukey
-Cayman Brac,PC2,coastal,coppice,0.24913254391129636,tukey
-Cayman Brac,PC2,coastal,mangrove,0.014034473395063918,tukey
-Cayman Brac,PC2,coppice,mangrove,0.3476393395761709,tukey
-Little Cayman,PC1,coastal,coppice,0.016683223810687875,tukey
-Little Cayman,PC1,coastal,mangrove,0.5389435081117593,tukey
-Little Cayman,PC1,coppice,mangrove,0.1593371596375628,tukey
-Long Island,PC3,coastal,coppice,0.028493906273047598,tukey
-Long Island,PC3,coastal,mangrove,0.012697312126151328,tukey
-Long Island,PC3,coppice,mangrove,0.9408491834231574,tukey
-Long Island,PC4,coastal,coppice,0.9765555971854223,tukey
-Long Island,PC4,coastal,mangrove,0.045420140552490995,tukey
-Long Island,PC4,coppice,mangrove,0.12570405253552142,tukey
-South Andros,PC4,coastal,coppice,5.66579209060003e-4,tukey
-South Andros,PC4,coastal,mangrove,0.009494716868308828,tukey
-South Andros,PC4,coppice,mangrove,0.3749808118262553,tukey
-Bimini,PC3,coastal,coppice,0.006578911254600417,dunnett
-Bimini,PC3,coastal,mangrove,0.9953543794096652,dunnett
-Bimini,PC3,coppice,mangrove,0.016286797183712065,dunnett
-Cayman Brac,PC1,coastal,coppice,0.022621681595453302,dunnett
-Cayman Brac,PC1,coastal,mangrove,0.8436942842154636,dunnett
-Cayman Brac,PC1,coppice,mangrove,0.0031012800993934775,dunnett
-Eleuthera,PC2,coastal,coppice,0.3175123139759416,dunnett
-Eleuthera,PC2,coastal,mangrove,0.004973441818002966,dunnett
-Eleuthera,PC2,coppice,mangrove,0.08034024107744164,dunnett
-Little Cayman,PC2,coastal,coppice,0.7637385511730532,dunnett
-Little Cayman,PC2,coastal,mangrove,0.0013328287893115132,dunnett
-Little Cayman,PC2,coppice,mangrove,3.5920425278668233e-7,dunnett
-South Andros,PC2,coastal,coppice,0.5271106337346909,dunnett
-South Andros,PC2,coastal,mangrove,0.13431875306046426,dunnett
-South Andros,PC2,coppice,mangrove,0.08345375589301707,dunnett
-South Andros,PC3,coastal,coppice,0.03469884865145545,dunnett
-South Andros,PC3,coastal,mangrove,0.9745246515009802,dunnett
-South Andros,PC3,coppice,mangrove,0.1266551076013649,dunnett
-Abaco,PC2,coastal,coppice,0.951075609941442,nemenyi
-Abaco,PC2,coastal,mangrove,1.2815121534393015e-5,nemenyi
-Abaco,PC2,coppice,mangrove,3.224688389602548e-4,nemenyi
-Bimini,PC1,coastal,coppice,0.1523470204193813,nemenyi
-Bimini,PC1,coastal,mangrove,0.04109003543301881,nemenyi
-Bimini,PC1,coppice,mangrove,0.9047593269589934,nemenyi
-Cayman Brac,PC3,coastal,coppice,0.09918633713037162,nemenyi
-Cayman Brac,PC3,coastal,mangrove,7.567948123066159e-6,nemenyi
-Cayman Brac,PC3,coppice,mangrove,0.01401213675371249,nemenyi
-Little Cayman,PC3,coastal,coppice,0.022695511453540207,nemenyi
+Abaco,PC2,coastal,coppice,0.8681482089387866,tukey
+Abaco,PC2,coastal,mangrove,2.7490697784848805e-7,tukey
+Abaco,PC2,coppice,mangrove,1.8776821841592906e-5,tukey
+Abaco,PC3,coastal,coppice,0.00281848521169891,tukey
+Abaco,PC3,coastal,mangrove,2.9615906267377312e-6,tukey
+Abaco,PC3,coppice,mangrove,0.17278749182167596,tukey
+Bimini,PC2,coastal,coppice,0.2376375930025811,tukey
+Bimini,PC2,coastal,mangrove,0.26805527270260876,tukey
+Bimini,PC2,coppice,mangrove,0.01930721803942847,tukey
+Bimini,PC3,coastal,coppice,0.00765898044974899,tukey
+Bimini,PC3,coastal,mangrove,0.6669171182600939,tukey
+Bimini,PC3,coppice,mangrove,0.11669212566125609,tukey
+Cayman Brac,PC2,coastal,coppice,0.24913254391129613,tukey
+Cayman Brac,PC2,coastal,mangrove,0.01403447339506391,tukey
+Cayman Brac,PC2,coppice,mangrove,0.3476393395761723,tukey
+Cayman Brac,PC3,coastal,coppice,0.04666403232192484,tukey
+Cayman Brac,PC3,coastal,mangrove,1.7691445862721975e-6,tukey
+Cayman Brac,PC3,coppice,mangrove,0.00280280454945336,tukey
+Eleuthera,PC4,coastal,coppice,0.7379997991011648,tukey
+Eleuthera,PC4,coastal,mangrove,0.1372841516884059,tukey
+Eleuthera,PC4,coppice,mangrove,0.03544586447515519,tukey
+Little Cayman,PC1,coastal,coppice,0.01668322381068798,tukey
+Little Cayman,PC1,coastal,mangrove,0.538943508111759,tukey
+Little Cayman,PC1,coppice,mangrove,0.15933715963756334,tukey
+Long Island,PC1,coastal,coppice,0.00107711277375543,tukey
+Long Island,PC1,coastal,mangrove,0.8568708617762655,tukey
+Long Island,PC1,coppice,mangrove,0.00105756681790469,tukey
+Long Island,PC3,coastal,coppice,0.5414490962352227,tukey
+Long Island,PC3,coastal,mangrove,0.02566019886443837,tukey
+Long Island,PC3,coppice,mangrove,0.3591661591909302,tukey
+North Andros,PC4,coastal,coppice,4.862455318892511e-4,tukey
+North Andros,PC4,coastal,mangrove,0.00365950275454507,tukey
+North Andros,PC4,coppice,mangrove,0.637683680880147,tukey
+Cayman Brac,PC1,coastal,coppice,0.02243777930692248,dunnett
+Cayman Brac,PC1,coastal,mangrove,0.8436645516279615,dunnett
+Cayman Brac,PC1,coppice,mangrove,0.00324319901283176,dunnett
+Eleuthera,PC2,coastal,coppice,0.2585017942746345,dunnett
+Eleuthera,PC2,coastal,mangrove,0.00262884668264029,dunnett
+Eleuthera,PC2,coppice,mangrove,0.05030751194311445,dunnett
+Little Cayman,PC2,coastal,coppice,0.7637284692516962,dunnett
+Little Cayman,PC2,coastal,mangrove,0.00150420669475892,dunnett
+Little Cayman,PC2,coppice,mangrove,4.360325764896089e-7,dunnett
+North Andros,PC2,coastal,coppice,0.00502045730270628,dunnett
+North Andros,PC2,coastal,mangrove,0.32943413746281125,dunnett
+North Andros,PC2,coppice,mangrove,0.00387107396591102,dunnett
+Bimini,PC1,coastal,coppice,0.07534956329132991,nemenyi
+Bimini,PC1,coastal,mangrove,0.01631391547009397,nemenyi
+Bimini,PC1,coppice,mangrove,0.8929921601259527,nemenyi
+Little Cayman,PC3,coastal,coppice,0.0226955114535402,nemenyi
 Little Cayman,PC3,coastal,mangrove,3.162742233520088e-5,nemenyi
 Little Cayman,PC3,coppice,mangrove,0.33450774470862066,nemenyi
-Long Island,PC1,coastal,coppice,0.006537402154086158,nemenyi
-Long Island,PC1,coastal,mangrove,0.9816489351539298,nemenyi
-Long Island,PC1,coppice,mangrove,0.014840498915520639,nemenyi
