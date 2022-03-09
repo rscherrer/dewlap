@@ -16,8 +16,6 @@
 ##
 ## This script comes with no guarantee whatsoever.
 ##
-## Copyright (c) Raphael Scherrer, 2022
-##
 ## Find me on GitHub at https://github.com/rscherrer
 ##
 ## Email:
