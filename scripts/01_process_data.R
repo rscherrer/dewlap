@@ -2,13 +2,13 @@
 ##
 ## Script name: 01_process_data.R
 ##
-## Purpose of script: This script extracts, curates, processes and assemble
+## Purpose of script: This script extracts, curates, processes and assembles
 ## the raw data (reflectance profiles and associated metadata) into a dataset
 ## ready for analysis with statistical tools. Among other things, some outliers
 ## are removed and the reflectance curves are smoothed using a procedure that
 ## removes some very localized artifacts we have identified, without denaturing
 ## the signal. Plots are also made to show how processing affects the reflectance
-## curves.
+## curves. Follow the comments for details about each step.
 ##
 ## Author: Raphael Scherrer
 ##
@@ -32,7 +32,7 @@ library(pavo)
 library(patchwork)
 
 # Read metadata
-meta <- read_csv("data/raw/master_database.csv")
+meta <- read_csv("data/master_database.csv")
 
 # Read spectral data
 specs <- map(list.dirs("data/raw")[-1], getspec)

@@ -25,7 +25,7 @@ rm(list = ls())
 library(tidyverse)
 library(geosphere)
 
-data <- read_csv("metadata/sites.csv")
+data <- read_csv("data/sites.csv")
 
 data %>%
   group_by(island) %>%

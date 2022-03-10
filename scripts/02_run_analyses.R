@@ -8,7 +8,7 @@
 ## not PCs --- take several hours, we saved the output of the machines in a
 ## file called fitted.rds. Note that nevertheless all analyses involving
 ## random numbers can be repeated from scratch because we set specific seeds
-## every time.
+## every time. Follow the comments for details about each analysis.
 ##
 ## Author: Raphael Scherrer
 ##
