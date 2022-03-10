@@ -37,9 +37,6 @@ meta <- read_csv("data/master_database.csv")
 # Read spectral data
 specs <- map(list.dirs("data/raw")[-1], getspec)
 
-# Or load already saved spectral data to save time
-# specs <- readRDS("data/specs.rds")
-
 # Read specimen tags for each spectrum
 tags <- map(specs, ~ colnames(.x)[-1])
 
