@@ -5,6 +5,8 @@ This repository is hosted at [https://github.com/rscherrer/dewlap](https://githu
 A subset (data, metadata and code) is hosted at [Dryad](https://datadryad.org).
 The data for this project were collected in 2015 in the Bahamas and the Cayman Islands using a reflectance spectrometer (see manuscript). All the data were analyzed in R 3.6.1 (all scripts provided).
 
+![](ms/figures/graphical_abstract/graphical_abstract.png)
+
 ## Content
 
 * `data`: all the data and metadata used in this study (raw and processed reflectance profiles, specimen identity and provenance, etc.)
