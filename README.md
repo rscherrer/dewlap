@@ -12,13 +12,13 @@ The data for this project were collected in 2015 in the Bahamas and the Cayman I
 * `results`: all the results of our analyses (plots and tables)
 * `scripts`: the code used to process and analyze our data
 
-## Reference
-
-Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos, J. B., & Geneva, A. J. (2022). Dewlap colour variation in Anolis sagrei is maintained among habitats within islands of the West Indies. Journal of Evolutionary Biology, 35(5), 680–692. [https://doi.org/10.1111/jeb.14002](https://doi.org/10.1111/jeb.14002)
-
 ## Links
 
 * [dewlap-ms](https://github.com/rscherrer/dewlap-ms): TeX files to compile the manuscript
+
+## Reference
+
+Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos, J. B., & Geneva, A. J. (2022). Dewlap colour variation in Anolis sagrei is maintained among habitats within islands of the West Indies. Journal of Evolutionary Biology, 35(5), 680–692. [https://doi.org/10.1111/jeb.14002](https://doi.org/10.1111/jeb.14002)
 
 ## Contact
 
