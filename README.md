@@ -18,7 +18,7 @@ Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos, J. B., & Geneva, A. J. (20
 
 ## Links
 
-* [dewlap-ms](https://github.com/rscherrer/dewlap-ms): TeX files to compile the manuscript.
+* [dewlap-ms](https://github.com/rscherrer/dewlap-ms): TeX files to compile the manuscript
 
 ## Contact
 
