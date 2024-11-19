@@ -5,19 +5,20 @@ This repository is hosted at [https://github.com/rscherrer/dewlap](https://githu
 A subset (data, metadata and code) is hosted at [Dryad](https://datadryad.org).
 The data for this project were collected in 2015 in the Bahamas and the Cayman Islands using a reflectance spectrometer (see manuscript). All the data were analyzed in R 3.6.1 (all scripts provided).
 
-![](ms/figures/graphical_abstract/graphical_abstract.png)
-
 ## Content
 
 * `data`: all the data and metadata used in this study (raw and processed reflectance profiles, specimen identity and provenance, etc.)
 * `maps`: maps of our study area
-* `ms`: everything to compile the manuscript
 * `results`: all the results of our analyses (plots and tables)
 * `scripts`: the code used to process and analyze our data
 
 ## Reference
 
 Scherrer, R., Donihue, C. M., Reynolds, R. G., Losos, J. B., & Geneva, A. J. (2022). Dewlap colour variation in Anolis sagrei is maintained among habitats within islands of the West Indies. Journal of Evolutionary Biology, 35(5), 680–692. [https://doi.org/10.1111/jeb.14002](https://doi.org/10.1111/jeb.14002)
+
+## Links
+
+* [dewlap-ms](https://github.com/rscherrer/dewlap-ms): TeX files to compile the manuscript.
 
 ## Contact
 
